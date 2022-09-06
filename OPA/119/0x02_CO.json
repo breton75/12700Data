@@ -1,0 +1,16 @@
+{
+  "signals":  [
+    { "name": "BI23_3SS1_DK11_V",	"id":81,	"params": {"sensor":"70",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 3СС1-ДК11 объем в Коридоре №1 20 мг. куб." },
+    { "name": "BI23_3SS1_DK12_V",	"id":148,	"params": {"sensor":"71",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 3СС1-ДК12 объем в Коридоре №2 20 мг. куб." },
+    { "name": "BI23_3SS1_DK13_V",	"id":152,	"params": {"sensor":"97",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 3СС1-ДК13 объем в Тамбуре №2 20 мг. куб." },
+    { "name": "BI24_4SS1_DK12_V",	"id":347,	"params": {"sensor":"129",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 4СС1-ДК12 объем в Пом. ГРЩ №1 20 мг. куб. " },
+    { "name": "BI24_4SS1_DK2_V",	"id":305,	"params": {"sensor":"147",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 4СС1-ДК2 объем в МО 20 мг. куб. " },
+    { "name": "BI24_4SS1_DK9_V",	"id":309,	"params": {"sensor":"154",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 4СС1-ДК9 объем в МО 20 мг. куб. " },
+    { "name": "BI25_5SS1_DK2_V",	"id":385,	"params": {"sensor":"235",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 5СС1-ДК2 объем в ОВМ 20 мг. куб." },
+    { "name": "BI26_6SS1_DK10_V",	"id":482,	"params": {"sensor":"189",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 6СС1-ДК10 объем в Помещении ГРЩ №2 20 мг. куб." },
+    { "name": "BI26_6SS1_DK2_V",	"id":449,	"params": {"sensor":"210",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 6СС1-ДК2 объем в ДГО 20 мг. куб. " },
+    { "name": "BI26_6SS1_DK8_V",	"id":453,	"params": {"sensor":"216",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 6СС1-ДК8 объем в ДГО 20 мг. куб. " },
+    { "name": "BI28_8SS1_DK1_V",	"id":605,	"params": {"sensor":"288",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 8СС1-ДК1 объем в Коридоре №6 20 мг. куб." },
+    { "name": "BI28_8SS1_DK2_V",	"id":627,	"params": {"sensor":"287",	"faktor":"0x5", "reserve_signal_id": "0" },	"description": "Сработка 8СС1-ДК2 объем в Коридоре №7 20 мг. куб." }
+  ]
+}

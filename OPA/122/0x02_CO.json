@@ -1,0 +1,16 @@
+{
+  "signals":  [
+    { "name": "C122_BI23_3SS1_DK11_V",	"id":2717,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"70",	"faktor":"0x5"},	"description": "Сработка 3СС1-ДК11 объем в Коридоре №1 20 мг. куб." },
+    { "name": "C122_BI23_3SS1_DK12_V",	"id":2784,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"71",	"faktor":"0x5"},	"description": "Сработка 3СС1-ДК12 объем в Коридоре №2 20 мг. куб." },
+    { "name": "C122_BI23_3SS1_DK13_V",	"id":2788,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"97",	"faktor":"0x5"},	"description": "Сработка 3СС1-ДК13 объем в Тамбуре №2 20 мг. куб." },
+    { "name": "C122_BI24_4SS1_DK12_V",	"id":2983,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"129",	"faktor":"0x5"},	"description": "Сработка 4СС1-ДК12 объем в Пом. ГРЩ №1 20 мг. куб. " },
+    { "name": "C122_BI24_4SS1_DK2_V",		"id":2941,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"147",	"faktor":"0x5"},	"description": "Сработка 4СС1-ДК2 объем в МО 20 мг. куб. " },
+    { "name": "C122_BI24_4SS1_DK9_V",		"id":2945,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"154",	"faktor":"0x5"},	"description": "Сработка 4СС1-ДК9 объем в МО 20 мг. куб. " },
+    { "name": "C122_BI25_5SS1_DK2_V",		"id":3021,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"235",	"faktor":"0x5"},	"description": "Сработка 5СС1-ДК2 объем в ОВМ 20 мг. куб." },
+    { "name": "C122_BI26_6SS1_DK10_V",	"id":3118,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"189",	"faktor":"0x5"},	"description": "Сработка 6СС1-ДК10 объем в Помещении ГРЩ №2 20 мг. куб." },
+    { "name": "C122_BI26_6SS1_DK2_V",		"id":3085,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"210",	"faktor":"0x5"},	"description": "Сработка 6СС1-ДК2 объем в ДГО 20 мг. куб. " },
+    { "name": "C122_BI26_6SS1_DK8_V",		"id":3089,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"216",	"faktor":"0x5"},	"description": "Сработка 6СС1-ДК8 объем в ДГО 20 мг. куб. " },
+    { "name": "C122_BI28_8SS1_DK1_V",		"id":3241,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"288",	"faktor":"0x5"},	"description": "Сработка 8СС1-ДК1 объем в Коридоре №6 20 мг. куб." },
+    { "name": "C122_BI28_8SS1_DK2_V",		"id":3263,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"287",	"faktor":"0x5"},	"description": "Сработка 8СС1-ДК2 объем в Коридоре №7 20 мг. куб." }
+  ]
+}

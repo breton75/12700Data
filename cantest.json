@@ -1,0 +1,66 @@
+{
+  "comment for devices": "",
+  "control": {
+    "index": "test.html",
+    "path": "/home/user/ProjectData/APAK/html",
+    "port": 8000,
+    "users": [
+      {
+        "name": "user",
+        "password": "Qgh222hjZk7aRt9Klp0",
+        "rights": "r--"
+      },
+      {
+        "name": "admin",
+        "password": "Qgh222hjZk7aRt9Klp0",
+        "rights": "www"
+      }
+    ]
+  },
+  "devices": [
+    {
+      "buffer_size": 1024,
+      "description": "can test",
+      "enable": true,
+      "id": 99,
+      "interface": {
+        "lib": "libcanifc.so",
+        "params": {
+          "bitrate": 125000,
+          "portname": "can0"
+        }
+      },
+      "name": "can test",
+      "protocol": {
+        "lib": "libcan_prtcl.so",
+        "params": {
+          "interval": 1000
+        }
+      }
+    }
+  ],
+  "jobs": [],
+  "libpath": {
+    "interfaces": "lib/interfaces",
+    "jobs": "lib/jobs",
+    "protocols": "lib/protocols",
+    "providers": "lib/providers"
+  },
+  "providers": [],
+  "signals": [
+    {
+      "enable": true,
+      "group": "12700",
+      "signals": [
+        {
+          "enable": true,
+          "file": "signals/CAN.json",
+          "group": "Данные шины CAN",
+          "timeout": 3000
+        }
+      ]
+    }
+  ],
+  "storages": [],
+  "version": "1.0"
+}

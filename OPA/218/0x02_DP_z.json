@@ -1,0 +1,17 @@
+{
+"signals":
+[
+  { "name": "BI82_12SS1_DP10_Z",	"id":1345,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"355",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП10 в Пом. б/з АК-306 " },
+  { "name": "BI82_12SS1_DP11_Z",	"id":1353,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"257",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП11 в Помещение изд. 9К38" },
+  { "name": "BI82_12SS1_DP12_Z",	"id":1354,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"360",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП12 в Помещение изд. 9К38" },
+  { "name": "BI82_12SS1_DP1_Z",	        "id":1308,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"332",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП1 в Погребе мин-трал. б/з " },
+  { "name": "BI82_12SS1_DP2_Z",	        "id":1309,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"335",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП2 в Погребе мин-трал. б/з " },
+  { "name": "BI82_12SS1_DP3_Z",	        "id":1326,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"345",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП3 в Пом. б/з стр. ор. ДП-64" },
+  { "name": "BI82_12SS1_DP4_Z",	        "id":1327,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"342",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП4 в Пом. б/з стр. ор. ДП-64" },
+  { "name": "BI82_12SS1_DP5_Z",	        "id":1317,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"337",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП5 в Пом. стрелк. оружия" },
+  { "name": "BI82_12SS1_DP6_Z",	        "id":1318,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"340",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП6 в Пом. стрелк. оружия" },
+  { "name": "BI82_12SS1_DP7_Z",	        "id":1335,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"347",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП7 в Подбашенном отд." },
+  { "name": "BI82_12SS1_DP8_Z",	        "id":1336,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"350",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП8 в Подбашенном отд." },
+  { "name": "BI82_12SS1_DP9_Z",	        "id":1344,	"device": 4, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"352",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП9 в Пом. б/з АК-306 " }
+]
+}

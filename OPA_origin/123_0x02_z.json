@@ -1,0 +1,14 @@
+{
+  "signals":
+  [
+    { "name": "C123_BI82_12SS1_DTV10_dT_Z",	"id":5314,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"354",	"faktor":"0x3"},	"description": "Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин." },
+    { "name": "C123_BI82_12SS1_DTV9_dT_Z",	"id":5311,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"351",	"faktor":"0x3"},	"description": "Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин." },
+    { "name": "C123_BI82_12SS1_DP10_Z",	"id":5317,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"355",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП10 в Пом. б/з АК-306 " },
+    { "name": "C123_BI82_12SS1_DP9_Z",	"id":5316,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"352",	"faktor":"0x4"},	"description": "Сработка 12СС1-ДП9 в Пом. б/з АК-306 " },
+    { "name": "C123_BI82_12SS1_DTV10_T1_Z",	"id":5312,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"354",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 30 гр.Ц." },
+    { "name": "C123_BI82_12SS1_DTV9_T1_Z",	"id":5309,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"351",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 30 гр.Ц." },
+    { "name": "C123_BI82_12SS1_DTV10_T2_Z",	"id":5313,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"354",	"faktor":"0x87"},	"description": "Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 70 гр.Ц." },
+    { "name": "C123_BI82_12SS1_DTV9_T2_Z",	"id":5310,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"351",	"faktor":"0x87"},	"description": "Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 70 гр.Ц." },
+    { "name": "C123_BI82_12SS1_RV5_Z",	"id":5315,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"353",	"faktor":"0xFF"},	"description": "Сработка 12СС1-РВ5 в Пом. б/з АК-306 " }
+  ]
+}

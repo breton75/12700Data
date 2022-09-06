@@ -1,0 +1,18 @@
+{
+  "signals":  [
+    { "name": "C122_BI22_2SS1_DT7_f1",	"id":2673,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"21",	"faktor":"0xC"},	"description": "Сработка 2СС1-ДТ7 влажность в Помещении щитов №2 98%" },
+    { "name": "C122_BI23_3SS1_DT13_f1",	"id":2794,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"75",	"faktor":"0xC"},	"description": "Сработка 3СС1-ДТ13 влажность в Помещении щитов №1 98%" },
+    { "name": "C122_BI23_3SS1_DT36_f1",	"id":2732,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"50",	"faktor":"0xC"},	"description": "Сработка 3СС1-ДТ36 влажность в Помещении щитов №3 98% " },
+    { "name": "C122_BI24_4SS1_DT15_f1",	"id":2968,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"116",	"faktor":"0xC"},	"description": "Сработка 4СС1-ДТ15 влажность в  Пом. изделия КДС-703 98%" },
+    { "name": "C122_BI24_4SS1_DT16_f1",	"id":2975,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"124",	"faktor":"0xC"},	"description": "Сработка 4СС1-ДТ16 влажность в  Пом. ГРЩ №1 98%" },
+    { "name": "C122_BI24_4SS1_DT17_f1",	"id":2979,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"127",	"faktor":"0xC"},	"description": "Сработка 4СС1-ДТ17 влажность в  Пом. ГРЩ №1 98%" },
+    { "name": "C122_BI26_6SS1_DT18_f1",	"id":3560,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"175",	"faktor":"0xC"},	"description": "Сработка 4СС1-ДТ16 влажность в  Пом. ГРЩ №1 98%" },
+    { "name": "C122_BI26_6SS1_DT19_f1",	"id":3108,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"188",	"faktor":"0xC"},	"description": "Сработка 6СС1-ДТ19 влажность в Помещении ГРЩ №2 98%" },
+    { "name": "C122_BI26_6SS1_DT20_f1",	"id":3112,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"190",	"faktor":"0xC"},	"description": "Сработка 6СС1-ДТ20 влажность в Помещении ГРЩ №2 98%" },
+    { "name": "C122_BI29_9SS1_DT1_f1",	"id":3305,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"297",	"faktor":"0xC"},	"description": "Сработка 9СС1-ДТ1 влажность в Пом. заряд. агрегата 98%" },
+    { "name": "C122_BI29_9SS1_DTV1_f1",	"id":3309,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"300",	"faktor":"0xC"},	"description": "Сработка 9СС1-ДТВ1 влажность в Аккумул. суд. батарей 98%" },
+    { "name": "C122_BI29_9SS1_DTV2_f1",	"id":3313,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"301",	"faktor":"0xC"},	"description": "Сработка 9СС1-ДТВ2 влажность в Аккумул. суд. батарей 98%" },
+    { "name": "C122_BI30_10SS1_DT5_f1",	"id":3354,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"314",	"faktor":"0xC"},	"description": "Сработка 10СС1-ДТ5 влажность в Помещении изделия 67 98%" },
+    { "name": "C122_BI30_10SS1_DT6_f1",	"id":3350,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"317",	"faktor":"0xC"},	"description": "Сработка 10СС1-ДТ6 влажность в Помещении щитов №5 98%" }
+  ]
+}

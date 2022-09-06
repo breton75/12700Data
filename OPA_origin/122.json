@@ -1,0 +1,19 @@
+{
+  "signals":
+  [
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_f1.json",           "enable": true, "count": 131,   "comment": "Дым 1-ый порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_T1.json",           "enable": true, "count": 190,   "comment": "Температура 1-ый порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_dT1.json",          "enable": true, "count": 188,   "comment": "Дифф. температуры 1-ый порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_DP.json",           "enable": true, "count": 30,    "comment": "Пламя"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_CO.json",           "enable": true, "count": 12,    "comment": "CO"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_U1.json",           "enable": true, "count": 12,    "comment": "Температура на повышение (ТТС) 1-ый порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_VLAG1.json",        "enable": true, "count": 14,    "comment": "Влажность 1-ый порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_GOTV1.json",        "enable": true, "count": 6,     "comment": "ГОТВ 1-ый порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_f2.json",           "enable": true, "count": 131,   "comment": "Дым 2-ой порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_T2.json",           "enable": true, "count": 195,   comment": "Температура 2-ой порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_U2.json",           "enable": true, "count": 12,    "comment": "Температура на повышение (ТТС) 2-ой порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_VLAG2.json",        "enable": true, "count": 14,    "comment": "Влажность 2-ой порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_GOTV2.json",        "enable": true, "count": 6,     "comment": "ГОТВ 2-ой порог"}"
+    { "file": "signals\\/home/user/Modus/signals/12700/OPA/122/0x02_HAND.json",         "enable": true, "count": 55,    "comment": "Ручной извещатель"}
+  ]   
+}

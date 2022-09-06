@@ -1,0 +1,14 @@
+{
+"signals":
+  [
+    { "file": "OPA/119.json",       "enable": true },
+    { "file": "OPA/122.json",       "enable": false },
+    { "file": "OPA/218.json",       "enable": true },
+    { "file": "OPA/8_0x02.json",    "enable": false },
+    { "file": "OPA/38_0x02.json",   "enable": false },
+    { "file": "OPA/67_0x02.json",   "enable": false },
+    { "file": "OPA/93_0x02.json",   "enable": false },
+    { "file": "OPA/123_0x02.json",  "enable": false },
+    { "file": "OPA/150_0x02.json",  "enable": false }
+  ]
+}

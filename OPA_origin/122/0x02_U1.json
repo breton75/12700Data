@@ -1,0 +1,16 @@
+{
+  "signals":  [
+    { "name": "C122_BI82_12SS1_DTV10_T1",	"id":3409,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"354",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV11_T1",	"id":3415,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"356",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ11 температура в  Помещение изд. 9К38 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV12_T1",	"id":3418,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"359",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ12 температура в  Помещение изд. 9К38 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV1_T1",	"id":3370,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"331",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ1 температура в Погребе мин-трал. б/з 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV2_T1",	"id":3373,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"334",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ2 температура в Погребе мин-трал. б/з 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV3_T1",	"id":3388,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"344",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ3 температура в  Пом. б/з стр. ор. ДП-64 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV4_T1",	"id":3391,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"341",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ4 температура в  Пом. б/з стр. ор. ДП-64 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV5_T1",	"id":3379,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"336",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ5 температура в Пом. стрелк. оружия 12 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV6_T1",	"id":3382,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"339",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ6 температура в Пом. стрелк. оружия 12 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV7_T1",	"id":3397,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"346",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ7 температура в  Подбашенном отд. 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV8_T1",	"id":3400,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"349",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ8 температура в  Подбашенном отд. 30 гр.Ц." },
+    { "name": "C122_BI82_12SS1_DTV9_T1",	"id":3406,	"device": 3, "storages":[2], "type":"D", "timeout":0,	"tag": "0x02", "params": {"sensor":"351",	"faktor":"0x7"},	"description": "Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 30 гр.Ц." }
+  ]
+}

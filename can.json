@@ -1,0 +1,17 @@
+{
+	"signals":
+	[
+		{ "name": "FI65_F2", "id":12011,	"params": { "canid": 1202, "offset": 1, "len": 32 },	"description": "Частота ДГ2, Гц" },
+		{ "name": "FI65_F1", "id":12021,	"params": { "canid": 1202, "offset": 32, "len": 32 },	"description": "Частота ДГ1, Гц" },
+		{ "name": "FI65_FSG2", "id":12031,	"params": { "canid": 1204, "offset":1, "len": 32 },	"description": "Частота СГ2, Гц" },
+		{ "name": "FI65_IAP1", "id":12041,	"params": { "canid": 1204, "offset":32, "len": 32 },	"description": "Ток IA перемычки 1, А" },
+		{ "name": "FI65_IKAB2", "id":12051,	"params": { "canid": 1206, "offset":32, "len": 32 },	"description": "Ток КАБ2, А" },
+		{ "name": "FI65_IKAB1", "id":12061,	"params": { "canid": 1206, "offset":1, "len": 32 },	"description": "Ток КАБ1, А" },
+		{ "name": "FI65_IA2", "id":12071,	"params": { "canid": 1209, "offset":32, "len": 32 },	"description": "Ток IA ДГ2, А" },
+		{ "name": "FI65_UBC1", "id":12091,	"params": { "canid": 1209, "offset":1, "len": 32 },	"description": "Напряжение UBC ДГ1, В" },
+		{ "name": "FI65_UAB2", "id":12101,	"params": { "canid": 1210, "offset":32, "len": 32 },	"description": "Напряжение UAB ДГ2, В" },
+		{ "name": "FI65_IC2", "id":12111,	"params": { "canid": 1210, "offset":1, "len": 32 },	"description": "Ток IC ДГ2, А" },
+		{ "name": "FI65_IcpDG1", "id":12121,	"params": { "canid": 1212, "offset":1, "len": 32 },	"description": "Напряжение UBC ДГ2, В" },
+		{ "name": "FI65_IcpDG2", "id":12131,	"params": { "canid": 1212, "offset":32, "len": 32 },	"description": "Среднее значение U ДГ1" }
+	]
+}

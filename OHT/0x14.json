@@ -1,0 +1,22 @@
+{
+  "signals": 
+  [
+    { "name": "BI40_NESRAB_MG3_1", "id": 1239, "params": { "byte": "0", "bit": "0" }, "description": "Несработавший СДГ МГ3.1" },
+    { "name": "BI40_NESRAB_MG1_1", "id": 1240, "params": { "byte": "0", "bit": "1" }, "description": "Несработавший СДГ МГ1.1" },
+    { "name": "BI40_NESRAB_UR1_4", "id": 1241, "params": { "byte": "0", "bit": "2" }, "description": "Несработавший СДГ УР1.4" },
+    { "name": "BI40_NESRAB_UR1_5", "id": 1242, "params": { "byte": "0", "bit": "3" }, "description": "Несработавший СДГ УР1.5" },
+    { "name": "BI40_NESRAB_MG1_2", "id": 1243, "params": { "byte": "0", "bit": "4" }, "description": "Несработавший СДГ МГ1.2" },
+    { "name": "BI40_NESRAB_UR1_2", "id": 1244, "params": { "byte": "0", "bit": "5" }, "description": "Несработавший СДГ УР1.2" },
+    { "name": "BI40_NESRAB_MG1_3", "id": 1245, "params": { "byte": "0", "bit": "6" }, "description": "Несработавший СДГ МГ1.3" },
+    { "name": "BI40_NESRAB_UR1_1", "id": 1246, "params": { "byte": "0", "bit": "7" }, "description": "Несработавший СДГ УР1.1" },
+    { "name": "BI40_NESRAB_UR1_3", "id": 1247, "params": { "byte": "1", "bit": "0" }, "description": "Несработавший СДГ УР1.3" },
+    { "name": "BI40_NESRAB_MG2_1", "id": 1248, "params": { "byte": "1", "bit": "1" }, "description": "Несработавший СДГ МГ2.1" },
+    { "name": "BI40_NESRAB_UR2_4", "id": 1249, "params": { "byte": "1", "bit": "2" }, "description": "Несработавший СДГ УР2.4" },
+    { "name": "BI40_NESRAB_UR2_5", "id": 1250, "params": { "byte": "1", "bit": "3" }, "description": "Несработавший СДГ УР2.5" },
+    { "name": "BI40_NESRAB_MG2_2", "id": 1251, "params": { "byte": "1", "bit": "4" }, "description": "Несработавший СДГ МГ2.2" },
+    { "name": "BI40_NESRAB_UR2_2", "id": 1252, "params": { "byte": "1", "bit": "5" }, "description": "Несработавший СДГ УР2.2" },
+    { "name": "BI40_NESRAB_MG2_3", "id": 1253, "params": { "byte": "1", "bit": "6" }, "description": "Несработавший СДГ МГ2.3" },
+    { "name": "BI40_NESRAB_UR2_1", "id": 1254, "params": { "byte": "1", "bit": "7" }, "description": "Несработавший СДГ УР2.1" },
+    { "name": "BI40_NESRAB_UR2_3", "id": 1255, "params": { "byte": "2", "bit": "0" }, "description": "Несработавший СДГ УР2.3" }
+  ]
+}

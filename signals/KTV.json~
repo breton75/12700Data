@@ -1,0 +1,153 @@
+{
+	"signals":
+	[
+		{ "group": "99", "enable": true,
+		  "signals":
+		 [
+			{"id": 1144,	"name": "FI150_DV1T",	"description": "Текущее значение температуры. Погреб минно-трального б/з. СС3-ДВ1",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1145,	"name": "FI150_DV2T",	"description": "Текущее значение температуры. Погреб минно-трального б/з. СС3-ДВ2",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1146,	"name": "FI150_DV3T",	"description": "Текущее значение температуры. Пом. стрелкового оружия СС3-ДВ3",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1147,	"name": "FI150_DV4T",	"description": "Текущее значение температуры. Пом. стрелкового оружия СС3-ДВ4",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1148,	"name": "FI150_DV5T",	"description": "Текущее значение температуры. Пом. стрелк. оружия и ДП-64. СС3-ДВ5",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1149,	"name": "FI150_DV6T",	"description": "Текущее значение температуры. Пом. стрелк. оружия и ДП-64. СС3-ДВ6",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1150,	"name": "FI150_DV7T",	"description": "Текущее значение температуры. Помещение б/з АК-306. СС3-ДВ7",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1151,	"name": "FI150_DV8T",	"description": "Текущее значение температуры. Помещение б/з АК-306. СС3-ДВ8",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1152,	"name": "FI150_DV9T",	"description": "Текущее значение температуры. Подбашенное отделение. СС3-ДВ9",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1153,	"name": "FI150_DV10T",	"description": "Текущее значение температуры. Подбашенное отделение. СС3-ДВ10",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1154,	"name": "FI150_DV11T",	"description": "Текущее значение температуры. Пом. изд. 9К38. СС3-ДВ11",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1155,	"name": "FI150_DV12T",	"description": "Текущее значение температуры. Пом. изд. 9К38. СС3-ДВ12",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1156,	"name": "FI150_DV1F",	"description": "Текущее значение влажности. Погреб минно-трального б/з. СС3-ДВ1",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1157,	"name": "FI150_DV2F",	"description": "Текущее значение влажности. Погреб минно-трального б/з. СС3-ДВ2",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1158,	"name": "FI150_DV3F",	"description": "Текущее значение влажности. Пом. стрелкового оружия СС3-ДВ3",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1159,	"name": "FI150_DV4F",	"description": "Текущее значение влажности. Пом. стрелкового оружия СС3-ДВ4",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1160,	"name": "FI150_DV5F",	"description": "Текущее значение влажности. Пом. стрелк. оружия и ДП-64. СС3-ДВ5",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1161,	"name": "FI150_DV6F",	"description": "Текущее значение влажности. Пом. стрелк. оружия и ДП-64. СС3-ДВ6",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1162,	"name": "FI150_DV7F",	"description": "Текущее значение влажности. Помещение б/з АК-306. СС3-ДВ7",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1163,	"name": "FI150_DV8F",	"description": "Текущее значение влажности. Помещение б/з АК-306. СС3-ДВ8",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1164,	"name": "FI150_DV9F",	"description": "Текущее значение влажности. Подбашенное отделение. СС3-ДВ9",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1165,	"name": "FI150_DV10F",	"description": "Текущее значение влажности. Подбашенное отделение. СС3-ДВ10",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1166,	"name": "FI150_DV11F",	"description": "Текущее значение влажности. Пом. изд. 9К38. СС3-ДВ11",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1167,	"name": "FI150_DV12F",	"description": "Текущее значение влажности. Пом. изд. 9К38. СС3-ДВ12",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,}}]},
+
+			{"id": 1168,	"name": "BI150_DV1_PDT",	"description": "Предельно-допустимая температура. Погреб минно-трального б/з. СС3-ДВ1",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 0, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1169,	"name": "BI150_DV2_PDT",	"description": "Предельно-допустимая температура. Погреб минно-трального б/з. СС3-ДВ2",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 1, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1170,	"name": "BI150_DV3_PDT",	"description": "Предельно-допустимая температура. Пом. стрелкового оружия СС3-ДВ3",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 2, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1171,	"name": "BI150_DV4_PDT",	"description": "Предельно-допустимая температура. Пом. стрелкового оружия СС3-ДВ4",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 3, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1172,	"name": "BI150_DV5_PDT",	"description": "Предельно-допустимая температура. Пом. стрелк. оружия и ДП-64. СС3-ДВ5",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 4, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1173,	"name": "BI150_DV6_PDT",	"description": "Предельно-допустимая температура. Пом. стрелк. оружия и ДП-64. СС3-ДВ6",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 5, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1174,	"name": "BI150_DV7_PDT",	"description": "Предельно-допустимая температура. Помещение б/з АК-306. СС3-ДВ7",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 6, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1175,	"name": "BI150_DV8_PDT",	"description": "Предельно-допустимая температура. Помещение б/з АК-306. СС3-ДВ8",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 7, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1176,	"name": "BI150_DV9_PDT",	"description": "Предельно-допустимая температура. Подбашенное отделение. СС3-ДВ9",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 8, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1177,	"name": "BI150_DV10_PDT",	"description": "Предельно-допустимая температура. Подбашенное отделение. СС3-ДВ10",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 9, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1178,	"name": "BI150_DV11_PDT",	"description": "Предельно-допустимая температура. Пом. изд. 9К38. СС3-ДВ11",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 10, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1179,	"name": "BI150_DV12_PDT",	"description": "Предельно-допустимая температура. Пом. изд. 9К38. СС3-ДВ12",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 11, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1180,	"name": "BI150_DV1_PDV",	"description": "Предельно-допустимая влажность. Погреб минно-трального б/з. СС3-ДВ1",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 12, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1181,	"name": "BI150_DV2_PDV",	"description": "Предельно-допустимая влажность. Погреб минно-трального б/з. СС3-ДВ2",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 13, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1182,	"name": "BI150_DV3_PDV",	"description": "Предельно-допустимая влажность. Пом. стрелкового оружия СС3-ДВ3",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 14, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1183,	"name": "BI150_DV4_PDV",	"description": "Предельно-допустимая влажность. Пом. стрелкового оружия СС3-ДВ4",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 62, "soeg_offset": 15, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1184,	"name": "BI150_DV5_PDV",	"description": "Предельно-допустимая влажность. Пом. стрелк. оружия и ДП-64. СС3-ДВ5",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 0, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1185,	"name": "BI150_DV6_PDV",	"description": "Предельно-допустимая влажность. Пом. стрелк. оружия и ДП-64. СС3-ДВ6",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 1, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1186,	"name": "BI150_DV7_PDV",	"description": "Предельно-допустимая влажность. Помещение б/з АК-306. СС3-ДВ7",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 2, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1187,	"name": "BI150_DV8_PDV",	"description": "Предельно-допустимая влажность. Помещение б/з АК-306. СС3-ДВ8",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 3, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1188,	"name": "BI150_DV9_PDV",	"description": "Предельно-допустимая влажность. Подбашенное отделение. СС3-ДВ9",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 4, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1189,	"name": "BI150_DV10_PDV",	"description": "Предельно-допустимая влажность. Подбашенное отделение. СС3-ДВ10",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 5, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1190,	"name": "BI150_DV11_PDV",	"description": "Предельно-допустимая влажность. Пом. изд. 9К38. СС3-ДВ11",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 6, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
+
+			{"id": 1191,	"name": "BI150_DV12_PDV",	"description": "Предельно-допустимая влажность. Пом. изд. 9К38. СС3-ДВ12",
+			 "bindings": [{"device": 99,	"params": {"timeout": 5000, "timeout_value": -1,"soeg_register": 63, "soeg_offset": 7, "soeg_data_length": 1, "soeg_data_type": "b"}}]}
+		 ]
+		}
+	]
+}
