@@ -22,19 +22,19 @@
       "buffer_size": 1024,
       "description": "can test",
       "enable": true,
-      "id": 99,
+      "id": 1,
       "interface": {
-        "lib": "libcanifc.so",
+        "lib": "libudp.so",
         "params": {
-          "bitrate": 125000,
-          "portname": "can0"
+          "recv_port": 10003,
+          "host": "192.168.0.100"
         }
       },
       "name": "can test",
       "protocol": {
-        "lib": "libcan_prtcl.so",
+        "lib": "libksuts_can_prtcl.so",
         "params": {
-          "interval": 1000
+          "interval": 1000, "fmt": "ascii"
         }
       }
     }
@@ -55,8 +55,14 @@
         {
           "enable": true,
           "file": "signals/CAN.json",
-          "group": "Данные шины CAN",
+          "group": "Данные шины CAN. Входящие сигналы",
           "timeout": 3000
+        },
+        {
+          "enable": true,
+          "file": "signals/CAN_OUT.json",
+          "group": "Исходящие сигналы",
+          "timeout": 0
         }
       ]
     }
