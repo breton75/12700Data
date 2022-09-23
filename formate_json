@@ -1,0 +1,20 @@
+﻿/* камеры
+SELECT ('{"' || signal_name || '", '), ('"    { \"id\":' || signal_index || ', \"name\": \"' || signal_name || '\", \"description\":\"' || description || '\",\n     \"master\": { \"device\": ' || device_index || ', \"params\": { \"vin\": %1, \"factor\": %2 }}, '), 
+(
+(case soeg_register is null when false then '\n     \"bindings\": [ { \"device\": 100, \"params\": { \"soeg_register\": ' || soeg_register || ', \"soeg_offset\": '|| soeg_offset || ', \"soeg_data_length\": ' || soeg_data_length || ', \"soeg_data_type\": \"' || soeg_data_type || '\" }}]}"},'
+else '\n    }"},' end)
+)
+  FROM signals
+  where device_index = 39 and signal_name like '%TK%'
+  order by signal_index asc
+  */
+
+/* крышки и двери */
+SELECT ('{"' || signal_name || '", '), ('"    { \"id\":' || signal_index || ', \"name\": \"' || signal_name || '\", \"description\":\"' || description || '\",\n     \"master\": { \"device\": ' || device_index || ', \"params\": { \"byte\": %1, \"bit\": %2 }}, '), 
+(
+(case soeg_register is null when false then '\n     \"bindings\": [ \n        { \"device\": 100, \"params\": { \"soeg_register\": ' || soeg_register || ', \"soeg_offset\": '|| soeg_offset || ', \"soeg_data_length\": ' || soeg_data_length || ', \"soeg_data_type\": \"' || soeg_data_type || '\" }}\n        ]}"},'
+else '\n    }"},' end)
+)
+  FROM signals
+  where device_index = 39 and signal_name like '%VD%'
+  order by signal_index asc
