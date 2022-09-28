@@ -24,9 +24,9 @@
       "enable": true,
       "id": 1,
       "interface": {
-        "lib": "libudp.so",
+        "lib": "libtcp_client.so",
         "params": {
-          "recv_port": 10003,
+          "port": 10003,
           "host": "192.168.0.100"
         }
       },
