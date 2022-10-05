@@ -17,53 +17,47 @@
       }
     ]
   },
-  "devices": [
-    {
-      "buffer_size": 1024,
-      "description": "can test",
-      "enable": true,
-      "id": 1,
-      "interface": {
-        "lib": "libtcp_client.so",
-        "params": {
-          "port": 10003,
-          "host": "192.168.0.100"
-        }
-      },
-      "name": "can test",
-      "protocol": {
-        "lib": "libksuts_can_prtcl.so",
-        "params": {
-          "interval": 1000, "fmt": "ascii"
-        }
-      }
-    }
-  ],
-  "jobs": [],
+
   "libpath": {
     "interfaces": "lib/interfaces",
     "jobs": "lib/jobs",
     "protocols": "lib/protocols",
     "providers": "lib/providers"
   },
+
+  "devices": [
+    {
+      "id": 1, "name": "can test", "enable": true, "description": "can test", "buffer_size": 1024, 
+      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.0.100" }},
+      "protocol": { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
+    },
+
+    {
+      "id": 100, "name": "soeg test", "enable": true, "description": "soeg test", "buffer_size": 1024,
+      "interface": { "lib": "libtcp_server.so", "params": { "port": 502 }},
+      "protocol": { "lib": "libksuts_soeg.so", "params": { "interval": 1000, "fmt": "hex" }}
+    }
+  ],
+
+  "jobs": [],
+
   "providers": [],
+
   "signals": [
     {
-      "enable": true,
-      "group": "12700",
+      "group": "12700", "enable": true,
       "signals": [
         {
-          "enable": true,
-          "file": "signals/CAN.json",
-          "group": "Данные шины CAN. Входящие сигналы",
-          "timeout": 3000
+          "group": "Данные шины CAN. Входящие сигналы", "enable": true, "file": "signals/CAN.json", "timeout": 3000
         },
+
         {
-          "enable": true,
-          "file": "signals/CAN_OUT.json",
-          "group": "Исходящие сигналы",
-          "timeout": 0
-        }
+          "group": "CAN. Исходящие сигналы", "enable": true, "file": "signals/CAN_OUT.json", "timeout": 0
+        },
+
+        {
+          "group": "SKM", "enable": true, "file": "signals/SKM.json", "timeout": 3000
+        }         
       ]
     }
   ],
