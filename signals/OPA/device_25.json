@@ -1,0 +1,76 @@
+{
+	"signals":
+	[
+		{"group": "type_0x02", "enable":true,
+		  "signals":
+		 [
+			{"group": "Пламя", "enable":true,
+			 "signals":
+				[
+					{"id": 5298, "name":	"C67_BI82_12SS1_DP3_Z",	"description":	"Сработка 12СС1-ДП3 в Пом. б/з стр. ор. ДП-64",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 345, "factor": "0x04"}}
+					},
+					{"id": 5299, "name":	"C67_BI82_12SS1_DP4_Z",	"description":	"Сработка 12СС1-ДП4 в Пом. б/з стр. ор. ДП-64",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 342, "factor": "0x04"}}
+					}
+				]
+			},
+			{"group": "Температура на повышение (ТТС)", "enable":true,
+			 "signals":
+				[
+					{"id": 5291, "name":	"C67_BI82_12SS1_DTV3_T1_Z",	"description":	"Сработка 12СС1-ДТВ3 температура в  Пом. б/з стр. ор. ДП-64 30 гр.Ц.",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 344, "factor": "0x07"}}
+					},
+					{"id": 5292, "name":	"C67_BI82_12SS1_DTV3_T2_Z",	"description":	"Сработка 12СС1-ДТВ3 температура в  Пом. б/з стр. ор. ДП-64 70 гр.Ц.",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 344, "factor": "0x87"}}
+					},
+					{"id": 5294, "name":	"C67_BI82_12SS1_DTV4_T1_Z",	"description":	"Сработка 12СС1-ДТВ4 температура в  Пом. б/з стр. ор. ДП-64 30 гр.Ц.",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 341, "factor": "0x07"}}
+					},
+					{"id": 5295, "name":	"C67_BI82_12SS1_DTV4_T2_Z",	"description":	"Сработка 12СС1-ДТВ4 температура в  Пом. б/з стр. ор. ДП-64 70 гр.Ц.",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 341, "factor": "0x87"}}
+					}
+				]
+			},
+			{"group": "Ручной извещатель", "enable":true,
+			 "signals":
+				[
+					{"id": 5297, "name":	"C67_BI82_12SS1_RV2_Z",	"description":	"Сработка 12СС1-РВ2 в Пом. б/з стр. ор. ДП-64",
+					 "master": {"device": 25,	"params": {"type": "0x02", "sensor_number": 343, "factor": "0xFF"}}
+					}
+				]
+			}
+		 ]
+		},
+		{"group": "type_0x03", "enable":true,
+		  "signals":
+		 [
+			{"id": 5329, "name":	"C67_FI20_POM_BZ_STR_DP64_124_Z",	"description":	"Пожарная опасность в Пом. б/з стр. ор. ДП-64",
+			 "master": {"device": 25,	"params": {"type": "0x03", "room": "0x90"}}
+			}
+		 ]
+		},
+		{"group": "type_unknown", "enable":false,
+		  "signals":
+		 [
+			{"id": 920, "name":	"FI82_12SS1_67",	"description":	"Информация о неисправности на линии связи 12СС1-67",
+			 "master": {"device": 25,	"params": {"factor": "0x00"}}
+			},
+			{"id": 2424, "name":	"POMP_SS1_67_STATUS",	"description":	"Состояние лини передачи данных 12СС1-67",
+			 "master": {"device": 25,	"params": {"factor": "0x00"}}
+			}
+		 ]
+		},
+		{"group": "type_only_one_factor", "enable":false,
+		  "signals":
+		 [
+			{"id": 5293, "name":	"C67_BI82_12SS1_DTV3_dT_Z",	"description":	"Сработка 12СС1-ДТВ3 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
+			 "master": {"device": 25,	"params": {"factor": "0x03"}}
+			},
+			{"id": 5296, "name":	"C67_BI82_12SS1_DTV4_dT_Z",	"description":	"Сработка 12СС1-ДТВ4 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
+			 "master": {"device": 25,	"params": {"factor": "0x03"}}
+			}
+		 ]
+		}
+	]
+}
