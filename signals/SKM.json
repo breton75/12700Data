@@ -809,7 +809,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 0 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -817,7 +818,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 1 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -825,7 +827,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 2 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -833,7 +836,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 3 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -841,7 +845,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 4 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -849,7 +854,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 5 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -857,7 +863,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 6 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -869,7 +876,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 1 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -877,7 +885,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 2 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]  
         },
 
@@ -885,7 +894,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 3 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -893,7 +903,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 4 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -901,7 +912,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 5 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -909,7 +921,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 6 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -917,7 +930,8 @@
           "master": { "device": 39, "params": { "byte": 0, "bit": 7 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -925,7 +939,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 0 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -933,7 +948,8 @@
           "master": { "device": 39, "params": { "byte": 1, "bit": 7 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -941,7 +957,8 @@
           "master": { "device": 39, "params": { "byte": 2, "bit": 0 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         },
 
@@ -949,7 +966,8 @@
           "master": { "device": 39, "params": { "byte": 2, "bit": 1 }}, 
           "bindings": 
           [ 
-            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }}
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
           ]
         }
       ]
