@@ -5,77 +5,81 @@
 		  "signals":
 		 [
 			{"id": 1144,	"name": "FI150_DV1T",	"description": "Текущее значение температуры. Погреб минно-трального б/з. СС3-ДВ1",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 1, "byte": 3 }}},
 
 			{"id": 1145,	"name": "FI150_DV2T",	"description": "Текущее значение температуры. Погреб минно-трального б/з. СС3-ДВ2",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 2, "byte": 3 }}},
 
 			{"id": 1146,	"name": "FI150_DV3T",	"description": "Текущее значение температуры. Пом. стрелкового оружия СС3-ДВ3",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 3, "byte": 3 }}},
 
 			{"id": 1147,	"name": "FI150_DV4T",	"description": "Текущее значение температуры. Пом. стрелкового оружия СС3-ДВ4",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 4, "byte": 3 }}},
 
 			{"id": 1148,	"name": "FI150_DV5T",	"description": "Текущее значение температуры. Пом. стрелк. оружия и ДП-64. СС3-ДВ5",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 5, "byte": 3 }}},
 
 			{"id": 1149,	"name": "FI150_DV6T",	"description": "Текущее значение температуры. Пом. стрелк. оружия и ДП-64. СС3-ДВ6",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 6, "byte": 3 }}},
 
 			{"id": 1150,	"name": "FI150_DV7T",	"description": "Текущее значение температуры. Помещение б/з АК-306. СС3-ДВ7",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 7, "byte": 3 }}},
 
 			{"id": 1151,	"name": "FI150_DV8T",	"description": "Текущее значение температуры. Помещение б/з АК-306. СС3-ДВ8",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 8, "byte": 3 }}},
 
 			{"id": 1152,	"name": "FI150_DV9T",	"description": "Текущее значение температуры. Подбашенное отделение. СС3-ДВ9",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 9, "byte": 3 }}},
 
 			{"id": 1153,	"name": "FI150_DV10T",	"description": "Текущее значение температуры. Подбашенное отделение. СС3-ДВ10",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 10, "byte": 3 }}},
 
 			{"id": 1154,	"name": "FI150_DV11T",	"description": "Текущее значение температуры. Пом. изд. 9К38. СС3-ДВ11",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 11, "byte": 3 }}},
 
 			{"id": 1155,	"name": "FI150_DV12T",	"description": "Текущее значение температуры. Пом. изд. 9К38. СС3-ДВ12",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 12, "byte": 3 }}},
 
 			{"id": 1156,	"name": "FI150_DV1F",	"description": "Текущее значение влажности. Погреб минно-трального б/з. СС3-ДВ1",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 1, "byte": 4 }}},
 
 			{"id": 1157,	"name": "FI150_DV2F",	"description": "Текущее значение влажности. Погреб минно-трального б/з. СС3-ДВ2",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 2, "byte": 4 }}},
 
 			{"id": 1158,	"name": "FI150_DV3F",	"description": "Текущее значение влажности. Пом. стрелкового оружия СС3-ДВ3",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 3, "byte": 4 }}},
 
 			{"id": 1159,	"name": "FI150_DV4F",	"description": "Текущее значение влажности. Пом. стрелкового оружия СС3-ДВ4",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 4, "byte": 4 }}},
 
 			{"id": 1160,	"name": "FI150_DV5F",	"description": "Текущее значение влажности. Пом. стрелк. оружия и ДП-64. СС3-ДВ5",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 5, "byte": 4 }}},
 
 			{"id": 1161,	"name": "FI150_DV6F",	"description": "Текущее значение влажности. Пом. стрелк. оружия и ДП-64. СС3-ДВ6",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 6, "byte": 4 }}},
 
 			{"id": 1162,	"name": "FI150_DV7F",	"description": "Текущее значение влажности. Помещение б/з АК-306. СС3-ДВ7",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 7, "byte": 4 }}},
 
 			{"id": 1163,	"name": "FI150_DV8F",	"description": "Текущее значение влажности. Помещение б/з АК-306. СС3-ДВ8",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 8, "byte": 4 }}},
 
 			{"id": 1164,	"name": "FI150_DV9F",	"description": "Текущее значение влажности. Подбашенное отделение. СС3-ДВ9",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 9, "byte": 4 }}},
 
 			{"id": 1165,	"name": "FI150_DV10F",	"description": "Текущее значение влажности. Подбашенное отделение. СС3-ДВ10",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 10, "byte": 4 }}},
 
 			{"id": 1166,	"name": "FI150_DV11F",	"description": "Текущее значение влажности. Пом. изд. 9К38. СС3-ДВ11",
-			 "master": {"device": 99,	"params": {}}},
+			 "master": {"device": 99,	"params": {"room": 11, "byte": 4 }}},
 
 			{"id": 1167,	"name": "FI150_DV12F",	"description": "Текущее значение влажности. Пом. изд. 9К38. СС3-ДВ12",
-			 "master": {"device": 99,	"params": {}}},
-
+			 "master": {"device": 99,	"params": {"room": 12, "byte": 4 }}}
+		]},
+		
+		{ "group": "99unknown", "enable": false,
+		  "signals":
+		 [
 			{"id": 1168,	"name": "BI150_DV1_PDT",	"description": "Предельно-допустимая температура. Погреб минно-трального б/з. СС3-ДВ1",
 			 "master": {"device": 99,	"params": {"soeg_register": 62, "soeg_offset": 0, "soeg_data_length": 1, "soeg_data_type": "b"}}},
 

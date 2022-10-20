@@ -8,10 +8,10 @@
 			 "signals":
 				[
 					{"id": 5307, "name":	"C93_BI82_12SS1_DP7_Z",	"description":	"Сработка 12СС1-ДП7 в Подбашенном отд.",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 347, "factor": "0x04"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 347, "factor": "0x04"}}
 					},
 					{"id": 5308, "name":	"C93_BI82_12SS1_DP8_Z",	"description":	"Сработка 12СС1-ДП8 в Подбашенном отд.",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 350, "factor": "0x04"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 350, "factor": "0x04"}}
 					}
 				]
 			},
@@ -19,16 +19,16 @@
 			 "signals":
 				[
 					{"id": 5300, "name":	"C93_BI82_12SS1_DTV7_T1_Z",	"description":	"Сработка 12СС1-ДТВ7 температура в  Подбашенном отд. 30 гр.Ц.",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 346, "factor": "0x07"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 346, "factor": "0x07"}}
 					},
 					{"id": 5301, "name":	"C93_BI82_12SS1_DTV7_T2_Z",	"description":	"Сработка 12СС1-ДТВ7 температура в  Подбашенном отд. 70 гр.Ц.",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 346, "factor": "0x87"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 346, "factor": "0x87"}}
 					},
 					{"id": 5303, "name":	"C93_BI82_12SS1_DTV8_T1_Z",	"description":	"Сработка 12СС1-ДТВ8 температура в  Подбашенном отд. 30 гр.Ц.",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 349, "factor": "0x07"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 349, "factor": "0x07"}}
 					},
 					{"id": 5304, "name":	"C93_BI82_12SS1_DTV8_T2_Z",	"description":	"Сработка 12СС1-ДТВ8 температура в  Подбашенном отд. 70 гр.Ц.",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 349, "factor": "0x87"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 349, "factor": "0x87"}}
 					}
 				]
 			},
@@ -36,7 +36,7 @@
 			 "signals":
 				[
 					{"id": 5306, "name":	"C93_BI82_12SS1_RV4_Z",	"description":	"Сработка 12СС1-РВ4 в Подбашенном отд. ",
-					 "master": {"device": 26,	"params": {"type": "0x02", "sensor_number": 348, "factor": "0xFF"}}
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 348, "factor": "0xFF"}}
 					}
 				]
 			}
@@ -46,7 +46,7 @@
 		  "signals":
 		 [
 			{"id": 5330, "name":	"C93_FI20_PODBASH_OTD_125_Z",	"description":	"Пожарная опасность в Подбашенном отд.",
-			 "master": {"device": 26,	"params": {"type": "0x03", "room": "0x92"}}
+			 "master": {"device": 26,	"params": {"data_type": "0x03", "room": 146}}
 			}
 		 ]
 		},
@@ -54,10 +54,10 @@
 		  "signals":
 		 [
 			{"id": 921, "name":	"FI82_12SS1_93",	"description":	"Информация о неисправности на линии связи 12СС1-93",
-			 "master": {"device": 26,	"params": {"factor": "0x00"}}
+			 "master": {"device": 26,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
 			},
 			{"id": 2425, "name":	"POMP_SS1_93_STATUS",	"description":	"Состояние лини передачи данных 12СС1-93",
-			 "master": {"device": 26,	"params": {"factor": "0x00"}}
+			 "master": {"device": 26,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
 			}
 		 ]
 		},
@@ -65,10 +65,10 @@
 		  "signals":
 		 [
 			{"id": 5302, "name":	"C93_BI82_12SS1_DTV7_dT_Z",	"description":	"Сработка 12СС1-ДТВ7 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
-			 "master": {"device": 26,	"params": {"factor": "0x03"}}
+			 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 346,"factor": "0x03"}}
 			},
 			{"id": 5305, "name":	"C93_BI82_12SS1_DTV8_dT_Z",	"description":	"Сработка 12СС1-ДТВ8 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
-			 "master": {"device": 26,	"params": {"factor": "0x03"}}
+			 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 349,"factor": "0x03"}}
 			}
 		 ]
 		}

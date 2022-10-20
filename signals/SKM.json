@@ -806,7 +806,7 @@
       "signals":
       [
         { "id": 928, "name": "BI83_SS4_VD1", "description": "Задраивание крышки в тамбур №10. Машинное отделение",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 0 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 0 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -815,7 +815,7 @@
         },
 
         { "id": 937, "name": "BI83_SS4_VD10", "description": "Задраивание двери. КПЕЖ",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 1 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 1 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -824,7 +824,7 @@
         },
 
         { "id": 938, "name": "BI83_SS4_VD11", "description": "Задраивание двери в душевую команды. Прачечная (ПСО)",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 2 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 2 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -833,7 +833,7 @@
         },
 
         { "id": 939, "name": "BI83_SS4_VD12", "description": "Задраивание двери коридор №5 (Пост аварийной партии)",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 3 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 3 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -842,7 +842,7 @@
         },
 
         { "id": 940, "name": "BI83_SS4_VD13", "description": "Задраивание крышки в помещение ГКП-ХКП. Коридор №7",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 4 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 4 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -851,7 +851,7 @@
         },
 
         { "id": 941, "name": "BI83_SS4_VD14", "description": "Задраивание двери. Коридор №7",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 5 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 5 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -860,7 +860,7 @@
         },
 
         { "id": 942, "name": "BI83_SS4_VD15", "description": "Задраивание крышки на переборке. СПС",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 6 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 6 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -869,11 +869,11 @@
         },
 
         { "id": 2410, "name": "BI83_SS4_VD16", "description": "Задраивание крышки румпельное отделение",
-          "master": { "device": 39, "params": { "byte": 2, "bit": 2 }} 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 2, "bit": 2 }} 
         },
 
         { "id": 929, "name": "BI83_SS4_VD2", "description": "Задраивание крышки в тамбур №11. Машинное отделение",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 1 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 1 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -882,7 +882,7 @@
         },
 
         { "id": 930, "name": "BI83_SS4_VD3", "description": "Задраивание крышки в тамбур №13. ОВМ",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 2 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 2 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -891,7 +891,7 @@
         },
 
         { "id": 931, "name": "BI83_SS4_VD4", "description": "Задраивание крышки в тамбур №13. ОВМ",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 3 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 3 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -900,7 +900,7 @@
         },
 
         { "id": 932, "name": "BI83_SS4_VD5", "description": "Задраивание крышки в тамбур №14. ДГО",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 4 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 4 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -909,7 +909,7 @@
         },
 
         { "id": 933, "name": "BI83_SS4_VD6", "description": "Задраивание крышки в тамбур №16. Помещение ГРЩ №2",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 5 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 5 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -918,7 +918,7 @@
         },
 
         { "id": 934, "name": "BI83_SS4_VD7", "description": "Задраивание двери в коридор №3. Коридор №3",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 6 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 6 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -927,7 +927,7 @@
         },
 
         { "id": 935, "name": "BI83_SS4_VD8", "description": "Задраивание крышки в камбузе. Камзуб",
-          "master": { "device": 39, "params": { "byte": 0, "bit": 7 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 0, "bit": 7 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -936,7 +936,7 @@
         },
 
         { "id": 936, "name": "BI83_SS4_VD9", "description": "Задраивание двери. Помещение ГРЩ №1",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 0 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 0 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -945,7 +945,7 @@
         },
 
         { "id": 943, "name": "BI83_SS4_VDV1", "description": "Задраивание двери. Погреб минно-трального б/з",
-          "master": { "device": 39, "params": { "byte": 1, "bit": 7 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 1, "bit": 7 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -954,7 +954,7 @@
         },
 
         { "id": 944, "name": "BI83_SS4_VDV2", "description": "Задраивание двери. Помещение стрелкового оружия",
-          "master": { "device": 39, "params": { "byte": 2, "bit": 0 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 2, "bit": 0 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }},
@@ -963,7 +963,7 @@
         },
 
         { "id": 945, "name": "BI83_SS4_VDV3", "description": "Задраивание двери. Пом. б/з ручного стрелкового оружия и ДП-64",
-          "master": { "device": 39, "params": { "byte": 2, "bit": 1 }}, 
+          "master": { "device": 39, "params": { "data_type": "0x02", "byte": 2, "bit": 1 }}, 
           "bindings": 
           [ 
             { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }},

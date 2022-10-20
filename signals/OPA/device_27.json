@@ -8,10 +8,10 @@
 			 "signals":
 				[
 					{"id": 5316, "name":	"C123_BI82_12SS1_DP9_Z",	"description":	"Сработка 12СС1-ДП9 в Пом. б/з АК-306 ",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 352, "factor": "0x04"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 352, "factor": "0x04"}}
 					},
 					{"id": 5317, "name":	"C123_BI82_12SS1_DP10_Z",	"description":	"Сработка 12СС1-ДП10 в Пом. б/з АК-306 ",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 355, "factor": "0x04"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 355, "factor": "0x04"}}
 					}
 				]
 			},
@@ -19,16 +19,16 @@
 			 "signals":
 				[
 					{"id": 5309, "name":	"C123_BI82_12SS1_DTV9_T1_Z",	"description":	"Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 30 гр.Ц.",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 351, "factor": "0x07"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 351, "factor": "0x07"}}
 					},
 					{"id": 5310, "name":	"C123_BI82_12SS1_DTV9_T2_Z",	"description":	"Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 70 гр.Ц.",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 351, "factor": "0x87"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 351, "factor": "0x87"}}
 					},
 					{"id": 5312, "name":	"C123_BI82_12SS1_DTV10_T1_Z",	"description":	"Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 30 гр.Ц.",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 354, "factor": "0x07"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 354, "factor": "0x07"}}
 					},
 					{"id": 5313, "name":	"C123_BI82_12SS1_DTV10_T2_Z",	"description":	"Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 70 гр.Ц.",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 354, "factor": "0x87"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 354, "factor": "0x87"}}
 					}
 				]
 			},
@@ -36,7 +36,7 @@
 			 "signals":
 				[
 					{"id": 5315, "name":	"C123_BI82_12SS1_RV5_Z",	"description":	"Сработка 12СС1-РВ5 в Пом. б/з АК-306 ",
-					 "master": {"device": 27,	"params": {"type": "0x02", "sensor_number": 353, "factor": "0xFF"}}
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 353, "factor": "0xFF"}}
 					}
 				]
 			}
@@ -46,7 +46,7 @@
 		  "signals":
 		 [
 			{"id": 5331, "name":	"C123_FI20_POM_BZ_AK306_126_Z",	"description":	"Пожарная опасность в Пом. б/з АК-306",
-			 "master": {"device": 27,	"params": {"type": "0x03", "room": "0x94"}}
+			 "master": {"device": 27,	"params": {"data_type": "0x03", "room": 148}}
 			}
 		 ]
 		},
@@ -54,10 +54,10 @@
 		  "signals":
 		 [
 			{"id": 922, "name":	"FI82_12SS1_123",	"description":	"Информация о неисправности на линии связи 12СС1-123",
-			 "master": {"device": 27,	"params": {"factor": "0x00"}}
+			 "master": {"device": 27,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
 			},
 			{"id": 2428, "name":	"POMP_SS1_123_STATUS",	"description":	"Состояние лини передачи данных 12СС1-123",
-			 "master": {"device": 27,	"params": {"factor": "0x00"}}
+			 "master": {"device": 27,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
 			}
 		 ]
 		},
@@ -65,10 +65,10 @@
 		  "signals":
 		 [
 			{"id": 5311, "name":	"C123_BI82_12SS1_DTV9_dT_Z",	"description":	"Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
-			 "master": {"device": 27,	"params": {"factor": "0x03"}}
+			 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 351,"factor": "0x03"}}
 			},
 			{"id": 5314, "name":	"C123_BI82_12SS1_DTV10_dT_Z",	"description":	"Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
-			 "master": {"device": 27,	"params": {"factor": "0x03"}}
+			 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 354,"factor": "0x03"}}
 			}
 		 ]
 		}

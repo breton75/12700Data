@@ -1,660 +1,976 @@
 {
-	"signals":
-	[
-		{ "group": "39", "enable": true,
-		  "signals":
-		 [
-			{"id": 928,	"name": "BI83_SS4_VD1",	"description": "Задраивание крышки в тамбур №10. Машинное отделение",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 6, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 929,	"name": "BI83_SS4_VD2",	"description": "Задраивание крышки в тамбур №11. Машинное отделение",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 7, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 930,	"name": "BI83_SS4_VD3",	"description": "Задраивание крышки в тамбур №13. ОВМ",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 8, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 931,	"name": "BI83_SS4_VD4",	"description": "Задраивание крышки в тамбур №13. ОВМ",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 9, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 932,	"name": "BI83_SS4_VD5",	"description": "Задраивание крышки в тамбур №14. ДГО",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 10, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 933,	"name": "BI83_SS4_VD6",	"description": "Задраивание крышки в тамбур №16. Помещение ГРЩ №2",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 11, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 934,	"name": "BI83_SS4_VD7",	"description": "Задраивание двери в коридор №3. Коридор №3",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 12, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 935,	"name": "BI83_SS4_VD8",	"description": "Задраивание крышки в камбузе. Камзуб",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 13, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 936,	"name": "BI83_SS4_VD9",	"description": "Задраивание двери. Помещение ГРЩ №1",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 14, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 937,	"name": "BI83_SS4_VD10",	"description": "Задраивание двери. КПЕЖ",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 240, "soeg_offset": 15, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 938,	"name": "BI83_SS4_VD11",	"description": "Задраивание двери в душевую команды. Прачечная (ПСО)",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 0, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 939,	"name": "BI83_SS4_VD12",	"description": "Задраивание двери коридор №5 (Пост аварийной партии)",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 1, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 940,	"name": "BI83_SS4_VD13",	"description": "Задраивание крышки в помещение ГКП-ХКП. Коридор №7",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 2, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 941,	"name": "BI83_SS4_VD14",	"description": "Задраивание двери. Коридор №7",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 3, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 942,	"name": "BI83_SS4_VD15",	"description": "Задраивание крышки на переборке. СПС",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 4, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 943,	"name": "BI83_SS4_VDV1",	"description": "Задраивание двери. Погреб минно-трального б/з",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 5, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 944,	"name": "BI83_SS4_VDV2",	"description": "Задраивание двери. Помещение стрелкового оружия",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 6, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 945,	"name": "BI83_SS4_VDV3",	"description": "Задраивание двери. Пом. б/з ручного стрелкового оружия и ДП-64",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 241, "soeg_offset": 7, "soeg_data_length": 1, "soeg_data_type": "b"}}]},
-
-			{"id": 946,	"name": "BI39_SS2_TK19_1",	"description": "Камера Коридор №2. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 947,	"name": "BI39_SS2_TK19_2",	"description": "Камера Коридор №2. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 948,	"name": "BI39_SS2_TK19_3",	"description": "Камера Коридор №2. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 949,	"name": "BI39_SS2_TK19_4",	"description": "Камера Коридор №2. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 950,	"name": "BI39_SS2_TK19_5",	"description": "Камера Коридор №2. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 951,	"name": "BI39_SS2_TK19_6",	"description": "Камера Коридор №2. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 952,	"name": "BI39_SS2_TK1_1",	"description": "Камера Помещение механизмов ПУ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 953,	"name": "BI39_SS2_TK1_2",	"description": "Камера Помещение механизмов ПУ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 954,	"name": "BI39_SS2_TK1_3",	"description": "Камера Помещение механизмов ПУ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 955,	"name": "BI39_SS2_TK1_4",	"description": "Камера Помещение механизмов ПУ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 956,	"name": "BI39_SS2_TK1_5",	"description": "Камера Помещение механизмов ПУ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 957,	"name": "BI39_SS2_TK1_6",	"description": "Камера Помещение механизмов ПУ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 958,	"name": "BI39_SS2_TK2_1",	"description": "Камера Помещение механизмов ПУ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 959,	"name": "BI39_SS2_TK2_2",	"description": "Камера Помещение механизмов ПУ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 960,	"name": "BI39_SS2_TK2_3",	"description": "Камера Помещение механизмов ПУ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 961,	"name": "BI39_SS2_TK2_4",	"description": "Камера Помещение механизмов ПУ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 962,	"name": "BI39_SS2_TK2_5",	"description": "Камера Помещение механизмов ПУ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 963,	"name": "BI39_SS2_TK2_6",	"description": "Камера Помещение механизмов ПУ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 964,	"name": "BI39_SS2_TK3_1",	"description": "Камера Машинное отделение. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 965,	"name": "BI39_SS2_TK3_2",	"description": "Камера Машинное отделение. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 966,	"name": "BI39_SS2_TK3_3",	"description": "Камера Машинное отделение. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 967,	"name": "BI39_SS2_TK3_4",	"description": "Камера Машинное отделение. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 968,	"name": "BI39_SS2_TK3_5",	"description": "Камера Машинное отделение. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 969,	"name": "BI39_SS2_TK3_6",	"description": "Камера Машинное отделение. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 970,	"name": "BI39_SS2_TK4_1",	"description": "Камера Машинное отделение. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 971,	"name": "BI39_SS2_TK4_2",	"description": "Камера Машинное отделение. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 972,	"name": "BI39_SS2_TK4_3",	"description": "Камера Машинное отделение. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 973,	"name": "BI39_SS2_TK4_4",	"description": "Камера Машинное отделение. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 974,	"name": "BI39_SS2_TK4_5",	"description": "Камера Машинное отделение. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 975,	"name": "BI39_SS2_TK4_6",	"description": "Камера Машинное отделение. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 976,	"name": "BI39_SS2_TK5_1",	"description": "Камера Машинное отделение. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 977,	"name": "BI39_SS2_TK5_2",	"description": "Камера Машинное отделение. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 978,	"name": "BI39_SS2_TK5_3",	"description": "Камера Машинное отделение. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 979,	"name": "BI39_SS2_TK5_4",	"description": "Камера Машинное отделение. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 980,	"name": "BI39_SS2_TK5_5",	"description": "Камера Машинное отделение. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 981,	"name": "BI39_SS2_TK5_6",	"description": "Камера Машинное отделение. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 982,	"name": "BI39_SS2_TK6_1",	"description": "Камера Машинное отделение. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 983,	"name": "BI39_SS2_TK6_2",	"description": "Камера Машинное отделение. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 984,	"name": "BI39_SS2_TK6_3",	"description": "Камера Машинное отделение. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 985,	"name": "BI39_SS2_TK6_4",	"description": "Камера Машинное отделение. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 986,	"name": "BI39_SS2_TK6_5",	"description": "Камера Машинное отделение. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 987,	"name": "BI39_SS2_TK6_6",	"description": "Камера Машинное отделение. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 988,	"name": "BI39_SS2_TK9_1",	"description": "Камера ДГО. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 989,	"name": "BI39_SS2_TK9_2",	"description": "Камера ДГО. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 990,	"name": "BI39_SS2_TK9_3",	"description": "Камера ДГО. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 991,	"name": "BI39_SS2_TK9_4",	"description": "Камера ДГО. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 992,	"name": "BI39_SS2_TK9_5",	"description": "Камера ДГО. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 993,	"name": "BI39_SS2_TK9_6",	"description": "Камера ДГО. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 994,	"name": "BI39_SS2_TK10_1",	"description": "Камера ДГО. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 995,	"name": "BI39_SS2_TK10_2",	"description": "Камера ДГО. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 996,	"name": "BI39_SS2_TK10_3",	"description": "Камера ДГО. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 997,	"name": "BI39_SS2_TK10_4",	"description": "Камера ДГО. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 998,	"name": "BI39_SS2_TK10_5",	"description": "Камера ДГО. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 999,	"name": "BI39_SS2_TK10_6",	"description": "Камера ДГО. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1000,	"name": "BI39_SS2_TK11_1",	"description": "Камера ДГО. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1, "soeg_register": 1, "soeg_offset": 0, "soeg_data_length": 32, "soeg_data_type": "w"}}]},
-
-			{"id": 1001,	"name": "BI39_SS2_TK11_2",	"description": "Камера ДГО. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1002,	"name": "BI39_SS2_TK11_3",	"description": "Камера ДГО. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1003,	"name": "BI39_SS2_TK11_4",	"description": "Камера ДГО. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1004,	"name": "BI39_SS2_TK11_5",	"description": "Камера ДГО. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1005,	"name": "BI39_SS2_TK11_6",	"description": "Камера ДГО. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1006,	"name": "BI39_SS2_TK12_1",	"description": "Камера ДГО. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1007,	"name": "BI39_SS2_TK12_2",	"description": "Камера ДГО. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1008,	"name": "BI39_SS2_TK12_3",	"description": "Камера ДГО. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1009,	"name": "BI39_SS2_TK12_4",	"description": "Камера ДГО. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1010,	"name": "BI39_SS2_TK12_5",	"description": "Камера ДГО. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1011,	"name": "BI39_SS2_TK12_6",	"description": "Камера ДГО. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1012,	"name": "BI39_SS2_TK15_1",	"description": "Камера Помещение гидроагрегатов. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1013,	"name": "BI39_SS2_TK15_2",	"description": "Камера Помещение гидроагрегатов. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1014,	"name": "BI39_SS2_TK15_3",	"description": "Камера Помещение гидроагрегатов. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1015,	"name": "BI39_SS2_TK15_4",	"description": "Камера Помещение гидроагрегатов. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1016,	"name": "BI39_SS2_TK15_5",	"description": "Камера Помещение гидроагрегатов. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1017,	"name": "BI39_SS2_TK15_6",	"description": "Камера Помещение гидроагрегатов. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1018,	"name": "BI39_SS2_TK13_1",	"description": "Камера Помещение ГРЩ2. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1019,	"name": "BI39_SS2_TK13_2",	"description": "Камера Помещение ГРЩ2. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1020,	"name": "BI39_SS2_TK13_3",	"description": "Камера Помещение ГРЩ2. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1021,	"name": "BI39_SS2_TK13_4",	"description": "Камера Помещение ГРЩ2. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1022,	"name": "BI39_SS2_TK13_5",	"description": "Камера Помещение ГРЩ2. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1023,	"name": "BI39_SS2_TK13_6",	"description": "Камера Помещение ГРЩ2. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1024,	"name": "BI39_SS2_TK14_1",	"description": "Камера Помещение ГРЩ2. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1025,	"name": "BI39_SS2_TK14_2",	"description": "Камера Помещение ГРЩ2. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1026,	"name": "BI39_SS2_TK14_3",	"description": "Камера Помещение ГРЩ2. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1027,	"name": "BI39_SS2_TK14_4",	"description": "Камера Помещение ГРЩ2. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1028,	"name": "BI39_SS2_TK14_5",	"description": "Камера Помещение ГРЩ2. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1029,	"name": "BI39_SS2_TK14_6",	"description": "Камера Помещение ГРЩ2. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1030,	"name": "BI39_SS2_TK17_1",	"description": "Камера Румпельное отделение. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1031,	"name": "BI39_SS2_TK17_2",	"description": "Камера Румпельное отделение. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1032,	"name": "BI39_SS2_TK17_3",	"description": "Камера Румпельное отделение. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1033,	"name": "BI39_SS2_TK17_4",	"description": "Камера Румпельное отделение. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1034,	"name": "BI39_SS2_TK17_5",	"description": "Камера Румпельное отделение. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1035,	"name": "BI39_SS2_TK17_6",	"description": "Камера Румпельное отделение. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1036,	"name": "BI39_SS2_TK18_1",	"description": "Камера Румпельное отделение. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1037,	"name": "BI39_SS2_TK18_2",	"description": "Камера Румпельное отделение. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1038,	"name": "BI39_SS2_TK18_3",	"description": "Камера Румпельное отделение. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1039,	"name": "BI39_SS2_TK18_4",	"description": "Камера Румпельное отделение. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1040,	"name": "BI39_SS2_TK18_5",	"description": "Камера Румпельное отделение. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1041,	"name": "BI39_SS2_TK18_6",	"description": "Камера Румпельное отделение. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1042,	"name": "BI39_SS2_TK16_1",	"description": "Камера Погреб МТБЗ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1043,	"name": "BI39_SS2_TK16_2",	"description": "Камера Погреб МТБЗ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1044,	"name": "BI39_SS2_TK16_3",	"description": "Камера Погреб МТБЗ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1045,	"name": "BI39_SS2_TK16_4",	"description": "Камера Погреб МТБЗ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1046,	"name": "BI39_SS2_TK16_5",	"description": "Камера Погреб МТБЗ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1047,	"name": "BI39_SS2_TK16_6",	"description": "Камера Погреб МТБЗ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1048,	"name": "BI39_SS2_TK24_1",	"description": "Камера Коридор №5. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1049,	"name": "BI39_SS2_TK24_2",	"description": "Камера Коридор №5. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1050,	"name": "BI39_SS2_TK24_3",	"description": "Камера Коридор №5. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1051,	"name": "BI39_SS2_TK24_4",	"description": "Камера Коридор №5. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1052,	"name": "BI39_SS2_TK24_5",	"description": "Камера Коридор №5. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1053,	"name": "BI39_SS2_TK24_6",	"description": "Камера Коридор №5. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1054,	"name": "BI39_SS2_TK20_1",	"description": "Камера Помещение ГРЩ1. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1055,	"name": "BI39_SS2_TK20_2",	"description": "Камера Помещение ГРЩ1. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1056,	"name": "BI39_SS2_TK20_3",	"description": "Камера Помещение ГРЩ1. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1057,	"name": "BI39_SS2_TK20_4",	"description": "Камера Помещение ГРЩ1. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1058,	"name": "BI39_SS2_TK20_5",	"description": "Камера Помещение ГРЩ1. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1059,	"name": "BI39_SS2_TK20_6",	"description": "Камера Помещение ГРЩ1. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1060,	"name": "BI39_SS2_TK21_1",	"description": "Камера Помещение ГРЩ1. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1061,	"name": "BI39_SS2_TK21_2",	"description": "Камера Помещение ГРЩ1. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1062,	"name": "BI39_SS2_TK21_3",	"description": "Камера Помещение ГРЩ1. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1063,	"name": "BI39_SS2_TK21_4",	"description": "Камера Помещение ГРЩ1. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1064,	"name": "BI39_SS2_TK21_5",	"description": "Камера Помещение ГРЩ1. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1065,	"name": "BI39_SS2_TK21_6",	"description": "Камера Помещение ГРЩ1. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1066,	"name": "BI39_SS2_TK29_1",	"description": "Камера Погреб б/з АК-306. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1067,	"name": "BI39_SS2_TK29_2",	"description": "Камера Погреб б/з АК-306. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1068,	"name": "BI39_SS2_TK29_3",	"description": "Камера Погреб б/з АК-306. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1069,	"name": "BI39_SS2_TK29_4",	"description": "Камера Погреб б/з АК-306. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1070,	"name": "BI39_SS2_TK29_5",	"description": "Камера Погреб б/з АК-306. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1071,	"name": "BI39_SS2_TK29_6",	"description": "Камера Погреб б/з АК-306. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1072,	"name": "BI39_SS2_TK25_1",	"description": "Камера Эллинг СПА. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1073,	"name": "BI39_SS2_TK25_2",	"description": "Камера Эллинг СПА. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1074,	"name": "BI39_SS2_TK25_3",	"description": "Камера Эллинг СПА. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1075,	"name": "BI39_SS2_TK25_4",	"description": "Камера Эллинг СПА. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1076,	"name": "BI39_SS2_TK25_5",	"description": "Камера Эллинг СПА. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1077,	"name": "BI39_SS2_TK25_6",	"description": "Камера Эллинг СПА. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1078,	"name": "BI39_SS2_TK26_1",	"description": "Камера Эллинг СПА. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1079,	"name": "BI39_SS2_TK26_2",	"description": "Камера Эллинг СПА. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1080,	"name": "BI39_SS2_TK26_3",	"description": "Камера Эллинг СПА. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1081,	"name": "BI39_SS2_TK26_4",	"description": "Камера Эллинг СПА. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1082,	"name": "BI39_SS2_TK26_5",	"description": "Камера Эллинг СПА. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1083,	"name": "BI39_SS2_TK26_6",	"description": "Камера Эллинг СПА. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1084,	"name": "BI39_SS2_TK27_1",	"description": "Камера Эллинг БТ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1085,	"name": "BI39_SS2_TK27_2",	"description": "Камера Эллинг БТ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1086,	"name": "BI39_SS2_TK27_3",	"description": "Камера Эллинг БТ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1087,	"name": "BI39_SS2_TK27_4",	"description": "Камера Эллинг БТ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1088,	"name": "BI39_SS2_TK27_5",	"description": "Камера Эллинг БТ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1089,	"name": "BI39_SS2_TK27_6",	"description": "Камера Эллинг БТ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1090,	"name": "BI39_SS2_TK28_1",	"description": "Камера Эллинг БТ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1091,	"name": "BI39_SS2_TK28_2",	"description": "Камера Эллинг БТ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1092,	"name": "BI39_SS2_TK28_3",	"description": "Камера Эллинг БТ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1093,	"name": "BI39_SS2_TK28_4",	"description": "Камера Эллинг БТ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1094,	"name": "BI39_SS2_TK28_5",	"description": "Камера Эллинг БТ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1095,	"name": "BI39_SS2_TK28_6",	"description": "Камера Эллинг БТ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1096,	"name": "BI39_SS2_TK23_1",	"description": "Камера Помещение стрелкового оружия. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1097,	"name": "BI39_SS2_TK23_2",	"description": "Камера Помещение стрелкового оружия. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1098,	"name": "BI39_SS2_TK23_3",	"description": "Камера Помещение стрелкового оружия. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1099,	"name": "BI39_SS2_TK23_4",	"description": "Камера Помещение стрелкового оружия. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1100,	"name": "BI39_SS2_TK23_5",	"description": "Камера Помещение стрелкового оружия. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1101,	"name": "BI39_SS2_TK23_6",	"description": "Камера Помещение стрелкового оружия. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1102,	"name": "BI39_SS2_TK22_1",	"description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1103,	"name": "BI39_SS2_TK22_2",	"description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1104,	"name": "BI39_SS2_TK22_3",	"description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1105,	"name": "BI39_SS2_TK22_4",	"description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1106,	"name": "BI39_SS2_TK22_5",	"description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1107,	"name": "BI39_SS2_TK22_6",	"description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1108,	"name": "BI39_SS2_TK7_1",	"description": "Камера ОВМ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1109,	"name": "BI39_SS2_TK7_2",	"description": "Камера ОВМ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1110,	"name": "BI39_SS2_TK7_3",	"description": "Камера ОВМ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1111,	"name": "BI39_SS2_TK7_4",	"description": "Камера ОВМ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1112,	"name": "BI39_SS2_TK7_5",	"description": "Камера ОВМ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1113,	"name": "BI39_SS2_TK7_6",	"description": "Камера ОВМ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1114,	"name": "BI39_SS2_TK8_1",	"description": "Камера ОВМ. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1115,	"name": "BI39_SS2_TK8_2",	"description": "Камера ОВМ. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1116,	"name": "BI39_SS2_TK8_3",	"description": "Камера ОВМ. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1117,	"name": "BI39_SS2_TK8_4",	"description": "Камера ОВМ. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1118,	"name": "BI39_SS2_TK8_5",	"description": "Камера ОВМ. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1119,	"name": "BI39_SS2_TK8_6",	"description": "Камера ОВМ. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1120,	"name": "BI39_SS2_TK31_1",	"description": "Камера Коридор №7. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1121,	"name": "BI39_SS2_TK31_2",	"description": "Камера Коридор №7. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1122,	"name": "BI39_SS2_TK31_3",	"description": "Камера Коридор №7. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1123,	"name": "BI39_SS2_TK31_4",	"description": "Камера Коридор №7. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1124,	"name": "BI39_SS2_TK31_5",	"description": "Камера Коридор №7. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1125,	"name": "BI39_SS2_TK31_6",	"description": "Камера Коридор №7. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1126,	"name": "BI39_SS2_TK32_1",	"description": "Камера Коридор №8. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1127,	"name": "BI39_SS2_TK32_2",	"description": "Камера Коридор №8. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1128,	"name": "BI39_SS2_TK32_3",	"description": "Камера Коридор №8. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1129,	"name": "BI39_SS2_TK32_4",	"description": "Камера Коридор №8. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1130,	"name": "BI39_SS2_TK32_5",	"description": "Камера Коридор №8. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1131,	"name": "BI39_SS2_TK32_6",	"description": "Камера Коридор №8. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1132,	"name": "BI39_SS2_TK30_1",	"description": "Камера Коридор №6. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1133,	"name": "BI39_SS2_TK30_2",	"description": "Камера Коридор №6. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1134,	"name": "BI39_SS2_TK30_3",	"description": "Камера Коридор №6. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1135,	"name": "BI39_SS2_TK30_4",	"description": "Камера Коридор №6. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1136,	"name": "BI39_SS2_TK30_5",	"description": "Камера Коридор №6. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1137,	"name": "BI39_SS2_TK30_6",	"description": "Камера Коридор №6. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1138,	"name": "BI39_SS2_TK33_1",	"description": "Камера Помещение изд. 9К38. Сработка детектора огня",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1139,	"name": "BI39_SS2_TK33_2",	"description": "Камера Помещение изд. 9К38. Сработка детектора движения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1140,	"name": "BI39_SS2_TK33_3",	"description": "Камера Помещение изд. 9К38. Сработка детектора дыма",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1141,	"name": "BI39_SS2_TK33_4",	"description": "Камера Помещение изд. 9К38. Сработка детектора задымления",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1142,	"name": "BI39_SS2_TK33_5",	"description": "Камера Помещение изд. 9К38. Сработка детектора смещения",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 1143,	"name": "BI39_SS2_TK33_6",	"description": "Камера Помещение изд. 9К38. Сработка детектора перегрева",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]},
-
-			{"id": 2410,	"name": "BI83_SS4_VD16",	"description": "Задраивание крышки румпельное отделение",
-			 "bindings": [{"device": 39,	"params": {"timeout": 5000, "timeout_value": -1}}]}
-		 ]
-		}
-	]
+  "signals":
+  [
+   { "group": "Камеры", "enable": true,
+     "signals":
+     [
+        { "id": 952, "name": "BI39_SS2_TK1_1", "description": "Камера Помещение механизмов ПУ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 1, "factor": 1 }} 
+        },
+    
+        { "id": 953, "name": "BI39_SS2_TK1_2", "description": "Камера Помещение механизмов ПУ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 1, "factor": 2 }} 
+        },
+    
+        { "id": 954, "name": "BI39_SS2_TK1_3", "description": "Камера Помещение механизмов ПУ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 1, "factor": 3 }} 
+        },
+    
+        { "id": 955, "name": "BI39_SS2_TK1_4", "description": "Камера Помещение механизмов ПУ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 1, "factor": 4 }} 
+        },
+    
+        { "id": 956, "name": "BI39_SS2_TK1_5", "description": "Камера Помещение механизмов ПУ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 1, "factor": 5 }} 
+        },
+    
+        { "id": 957, "name": "BI39_SS2_TK1_6", "description": "Камера Помещение механизмов ПУ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 1, "factor": 6 }} 
+        },
+    
+        { "id": 958, "name": "BI39_SS2_TK2_1", "description": "Камера Помещение механизмов ПУ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 2, "factor": 1 }} 
+        },
+    
+        { "id": 959, "name": "BI39_SS2_TK2_2", "description": "Камера Помещение механизмов ПУ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 2, "factor": 2 }} 
+        },
+    
+        { "id": 960, "name": "BI39_SS2_TK2_3", "description": "Камера Помещение механизмов ПУ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 2, "factor": 3 }} 
+        },
+    
+        { "id": 961, "name": "BI39_SS2_TK2_4", "description": "Камера Помещение механизмов ПУ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 2, "factor": 4 }} 
+        },
+    
+        { "id": 962, "name": "BI39_SS2_TK2_5", "description": "Камера Помещение механизмов ПУ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 2, "factor": 5 }} 
+        },
+    
+        { "id": 963, "name": "BI39_SS2_TK2_6", "description": "Камера Помещение механизмов ПУ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 2, "factor": 6 }} 
+        },
+    
+        { "id": 964, "name": "BI39_SS2_TK3_1", "description": "Камера Машинное отделение. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 3, "factor": 1 }} 
+        },
+    
+        { "id": 965, "name": "BI39_SS2_TK3_2", "description": "Камера Машинное отделение. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 3, "factor": 2 }} 
+        },
+    
+        { "id": 966, "name": "BI39_SS2_TK3_3", "description": "Камера Машинное отделение. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 3, "factor": 3 }} 
+        },
+    
+        { "id": 967, "name": "BI39_SS2_TK3_4", "description": "Камера Машинное отделение. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 3, "factor": 4 }} 
+        },
+    
+        { "id": 968, "name": "BI39_SS2_TK3_5", "description": "Камера Машинное отделение. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 3, "factor": 5 }} 
+        },
+    
+        { "id": 969, "name": "BI39_SS2_TK3_6", "description": "Камера Машинное отделение. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 3, "factor": 6 }} 
+        },
+    
+        { "id": 970, "name": "BI39_SS2_TK4_1", "description": "Камера Машинное отделение. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 4, "factor": 1 }} 
+        },
+    
+        { "id": 971, "name": "BI39_SS2_TK4_2", "description": "Камера Машинное отделение. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 4, "factor": 2 }} 
+        },
+    
+        { "id": 972, "name": "BI39_SS2_TK4_3", "description": "Камера Машинное отделение. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 4, "factor": 3 }} 
+        },
+    
+        { "id": 973, "name": "BI39_SS2_TK4_4", "description": "Камера Машинное отделение. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 4, "factor": 4 }} 
+        },
+    
+        { "id": 974, "name": "BI39_SS2_TK4_5", "description": "Камера Машинное отделение. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 4, "factor": 5 }} 
+        },
+    
+        { "id": 975, "name": "BI39_SS2_TK4_6", "description": "Камера Машинное отделение. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 4, "factor": 6 }} 
+        },
+    
+        { "id": 976, "name": "BI39_SS2_TK5_1", "description": "Камера Машинное отделение. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 5, "factor": 1 }} 
+        },
+    
+        { "id": 977, "name": "BI39_SS2_TK5_2", "description": "Камера Машинное отделение. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 5, "factor": 2 }} 
+        },
+    
+        { "id": 978, "name": "BI39_SS2_TK5_3", "description": "Камера Машинное отделение. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 5, "factor": 3 }} 
+        },
+    
+        { "id": 979, "name": "BI39_SS2_TK5_4", "description": "Камера Машинное отделение. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 5, "factor": 4 }} 
+        },
+    
+        { "id": 980, "name": "BI39_SS2_TK5_5", "description": "Камера Машинное отделение. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 5, "factor": 5 }} 
+        },
+    
+        { "id": 981, "name": "BI39_SS2_TK5_6", "description": "Камера Машинное отделение. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 5, "factor": 6 }} 
+        },
+    
+        { "id": 982, "name": "BI39_SS2_TK6_1", "description": "Камера Машинное отделение. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 6, "factor": 1 }} 
+        },
+    
+        { "id": 983, "name": "BI39_SS2_TK6_2", "description": "Камера Машинное отделение. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 6, "factor": 2 }} 
+        },
+    
+        { "id": 984, "name": "BI39_SS2_TK6_3", "description": "Камера Машинное отделение. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 6, "factor": 3 }} 
+        },
+    
+        { "id": 985, "name": "BI39_SS2_TK6_4", "description": "Камера Машинное отделение. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 6, "factor": 4 }} 
+        },
+    
+        { "id": 986, "name": "BI39_SS2_TK6_5", "description": "Камера Машинное отделение. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 6, "factor": 5 }} 
+        },
+    
+        { "id": 987, "name": "BI39_SS2_TK6_6", "description": "Камера Машинное отделение. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 6, "factor": 6 }} 
+        },
+    
+        { "id": 1108, "name": "BI39_SS2_TK7_1", "description": "Камера ОВМ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 7, "factor": 1 }} 
+        },
+    
+        { "id": 1109, "name": "BI39_SS2_TK7_2", "description": "Камера ОВМ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 7, "factor": 2 }} 
+        },
+    
+        { "id": 1110, "name": "BI39_SS2_TK7_3", "description": "Камера ОВМ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 7, "factor": 3 }} 
+        },
+    
+        { "id": 1111, "name": "BI39_SS2_TK7_4", "description": "Камера ОВМ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 7, "factor": 4 }} 
+        },
+    
+        { "id": 1112, "name": "BI39_SS2_TK7_5", "description": "Камера ОВМ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 7, "factor": 5 }} 
+        },
+    
+        { "id": 1113, "name": "BI39_SS2_TK7_6", "description": "Камера ОВМ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 7, "factor": 6 }} 
+        },
+    
+        { "id": 1114, "name": "BI39_SS2_TK8_1", "description": "Камера ОВМ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 8, "factor": 1 }} 
+        },
+    
+        { "id": 1115, "name": "BI39_SS2_TK8_2", "description": "Камера ОВМ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 8, "factor": 2 }} 
+        },
+    
+        { "id": 1116, "name": "BI39_SS2_TK8_3", "description": "Камера ОВМ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 8, "factor": 3 }} 
+        },
+    
+        { "id": 1117, "name": "BI39_SS2_TK8_4", "description": "Камера ОВМ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 8, "factor": 4 }} 
+        },
+    
+        { "id": 1118, "name": "BI39_SS2_TK8_5", "description": "Камера ОВМ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 8, "factor": 5 }} 
+        },
+    
+        { "id": 1119, "name": "BI39_SS2_TK8_6", "description": "Камера ОВМ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 8, "factor": 6 }} 
+        },
+    
+        { "id": 988, "name": "BI39_SS2_TK9_1", "description": "Камера ДГО. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 9, "factor": 1 }} 
+        },
+    
+        { "id": 989, "name": "BI39_SS2_TK9_2", "description": "Камера ДГО. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 9, "factor": 2 }} 
+        },
+    
+        { "id": 990, "name": "BI39_SS2_TK9_3", "description": "Камера ДГО. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 9, "factor": 3 }} 
+        },
+    
+        { "id": 991, "name": "BI39_SS2_TK9_4", "description": "Камера ДГО. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 9, "factor": 4 }} 
+        },
+    
+        { "id": 992, "name": "BI39_SS2_TK9_5", "description": "Камера ДГО. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 9, "factor": 5 }} 
+        },
+    
+        { "id": 993, "name": "BI39_SS2_TK9_6", "description": "Камера ДГО. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 9, "factor": 6 }} 
+        },
+    
+        { "id": 994, "name": "BI39_SS2_TK10_1", "description": "Камера ДГО. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 10, "factor": 1 }} 
+        },
+    
+        { "id": 995, "name": "BI39_SS2_TK10_2", "description": "Камера ДГО. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 10, "factor": 2 }} 
+        },
+    
+        { "id": 996, "name": "BI39_SS2_TK10_3", "description": "Камера ДГО. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 10, "factor": 3 }} 
+        },
+    
+        { "id": 997, "name": "BI39_SS2_TK10_4", "description": "Камера ДГО. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 10, "factor": 4 }} 
+        },
+    
+        { "id": 998, "name": "BI39_SS2_TK10_5", "description": "Камера ДГО. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 10, "factor": 5 }} 
+        },
+    
+        { "id": 999, "name": "BI39_SS2_TK10_6", "description": "Камера ДГО. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 10, "factor": 6 }} 
+        },
+    
+        { "id": 1000, "name": "BI39_SS2_TK11_1", "description": "Камера ДГО. Сработка детектора огня",
+          "master": { "device": 39, "params": { "data_type": "0x01", "vin": 11, "factor": 1 }}, 
+          "bindings": 
+          [ 
+             { "device": 100, "params": { "data_type": "0x01", "soeg_register": 1, "soeg_offset": 0, "soeg_data_len": 32, "soeg_data_type": "w" }}
+          ]
+        },
+    
+        { "id": 1001, "name": "BI39_SS2_TK11_2", "description": "Камера ДГО. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 11, "factor": 2 }} 
+        },
+    
+        { "id": 1002, "name": "BI39_SS2_TK11_3", "description": "Камера ДГО. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 11, "factor": 3 }} 
+        },
+    
+        { "id": 1003, "name": "BI39_SS2_TK11_4", "description": "Камера ДГО. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 11, "factor": 4 }} 
+        },
+    
+        { "id": 1004, "name": "BI39_SS2_TK11_5", "description": "Камера ДГО. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 11, "factor": 5 }} 
+        },
+    
+        { "id": 1005, "name": "BI39_SS2_TK11_6", "description": "Камера ДГО. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 11, "factor": 6 }} 
+        },
+    
+        { "id": 1006, "name": "BI39_SS2_TK12_1", "description": "Камера ДГО. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 12, "factor": 1 }} 
+        },
+    
+        { "id": 1007, "name": "BI39_SS2_TK12_2", "description": "Камера ДГО. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 12, "factor": 2 }} 
+        },
+    
+        { "id": 1008, "name": "BI39_SS2_TK12_3", "description": "Камера ДГО. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 12, "factor": 3 }} 
+        },
+    
+        { "id": 1009, "name": "BI39_SS2_TK12_4", "description": "Камера ДГО. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 12, "factor": 4 }} 
+        },
+    
+        { "id": 1010, "name": "BI39_SS2_TK12_5", "description": "Камера ДГО. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 12, "factor": 5 }} 
+        },
+    
+        { "id": 1011, "name": "BI39_SS2_TK12_6", "description": "Камера ДГО. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 12, "factor": 6 }} 
+        },
+    
+        { "id": 1018, "name": "BI39_SS2_TK13_1", "description": "Камера Помещение ГРЩ2. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 13, "factor": 1 }} 
+        },
+    
+        { "id": 1019, "name": "BI39_SS2_TK13_2", "description": "Камера Помещение ГРЩ2. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 13, "factor": 2 }} 
+        },
+    
+        { "id": 1020, "name": "BI39_SS2_TK13_3", "description": "Камера Помещение ГРЩ2. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 13, "factor": 3 }} 
+        },
+    
+        { "id": 1021, "name": "BI39_SS2_TK13_4", "description": "Камера Помещение ГРЩ2. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 13, "factor": 4 }} 
+        },
+    
+        { "id": 1022, "name": "BI39_SS2_TK13_5", "description": "Камера Помещение ГРЩ2. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 13, "factor": 5 }} 
+        },
+    
+        { "id": 1023, "name": "BI39_SS2_TK13_6", "description": "Камера Помещение ГРЩ2. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 13, "factor": 6 }} 
+        },
+    
+        { "id": 1024, "name": "BI39_SS2_TK14_1", "description": "Камера Помещение ГРЩ2. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 14, "factor": 1 }} 
+        },
+    
+        { "id": 1025, "name": "BI39_SS2_TK14_2", "description": "Камера Помещение ГРЩ2. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 14, "factor": 2 }} 
+        },
+    
+        { "id": 1026, "name": "BI39_SS2_TK14_3", "description": "Камера Помещение ГРЩ2. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 14, "factor": 3 }} 
+        },
+    
+        { "id": 1027, "name": "BI39_SS2_TK14_4", "description": "Камера Помещение ГРЩ2. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 14, "factor": 4 }} 
+        },
+    
+        { "id": 1028, "name": "BI39_SS2_TK14_5", "description": "Камера Помещение ГРЩ2. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 14, "factor": 5 }} 
+        },
+    
+        { "id": 1029, "name": "BI39_SS2_TK14_6", "description": "Камера Помещение ГРЩ2. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 14, "factor": 6 }} 
+        },
+    
+        { "id": 1012, "name": "BI39_SS2_TK15_1", "description": "Камера Помещение гидроагрегатов. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 15, "factor": 1 }} 
+        },
+    
+        { "id": 1013, "name": "BI39_SS2_TK15_2", "description": "Камера Помещение гидроагрегатов. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 15, "factor": 2 }} 
+        },
+    
+        { "id": 1014, "name": "BI39_SS2_TK15_3", "description": "Камера Помещение гидроагрегатов. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 15, "factor": 3 }} 
+        },
+    
+        { "id": 1015, "name": "BI39_SS2_TK15_4", "description": "Камера Помещение гидроагрегатов. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 15, "factor": 4 }} 
+        },
+    
+        { "id": 1016, "name": "BI39_SS2_TK15_5", "description": "Камера Помещение гидроагрегатов. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 15, "factor": 5 }} 
+        },
+    
+        { "id": 1017, "name": "BI39_SS2_TK15_6", "description": "Камера Помещение гидроагрегатов. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 15, "factor": 6 }} 
+        },
+    
+        { "id": 1042, "name": "BI39_SS2_TK16_1", "description": "Камера Погреб МТБЗ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 16, "factor": 1 }} 
+        },
+    
+        { "id": 1043, "name": "BI39_SS2_TK16_2", "description": "Камера Погреб МТБЗ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 16, "factor": 2 }} 
+        },
+    
+        { "id": 1044, "name": "BI39_SS2_TK16_3", "description": "Камера Погреб МТБЗ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 16, "factor": 3 }} 
+        },
+    
+        { "id": 1045, "name": "BI39_SS2_TK16_4", "description": "Камера Погреб МТБЗ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 16, "factor": 4 }} 
+        },
+    
+        { "id": 1046, "name": "BI39_SS2_TK16_5", "description": "Камера Погреб МТБЗ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 16, "factor": 5 }} 
+        },
+    
+        { "id": 1047, "name": "BI39_SS2_TK16_6", "description": "Камера Погреб МТБЗ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 16, "factor": 6 }} 
+        },
+    
+        { "id": 1030, "name": "BI39_SS2_TK17_1", "description": "Камера Румпельное отделение. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 17, "factor": 1 }} 
+        },
+    
+        { "id": 1031, "name": "BI39_SS2_TK17_2", "description": "Камера Румпельное отделение. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 17, "factor": 2 }} 
+        },
+    
+        { "id": 1032, "name": "BI39_SS2_TK17_3", "description": "Камера Румпельное отделение. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 17, "factor": 3 }} 
+        },
+    
+        { "id": 1033, "name": "BI39_SS2_TK17_4", "description": "Камера Румпельное отделение. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 17, "factor": 4 }} 
+        },
+    
+        { "id": 1034, "name": "BI39_SS2_TK17_5", "description": "Камера Румпельное отделение. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 17, "factor": 5 }} 
+        },
+    
+        { "id": 1035, "name": "BI39_SS2_TK17_6", "description": "Камера Румпельное отделение. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 17, "factor": 6 }} 
+        },
+    
+        { "id": 1036, "name": "BI39_SS2_TK18_1", "description": "Камера Румпельное отделение. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 18, "factor": 1 }} 
+        },
+    
+        { "id": 1037, "name": "BI39_SS2_TK18_2", "description": "Камера Румпельное отделение. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 18, "factor": 2 }} 
+        },
+    
+        { "id": 1038, "name": "BI39_SS2_TK18_3", "description": "Камера Румпельное отделение. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 18, "factor": 3 }} 
+        },
+    
+        { "id": 1039, "name": "BI39_SS2_TK18_4", "description": "Камера Румпельное отделение. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 18, "factor": 4 }} 
+        },
+    
+        { "id": 1040, "name": "BI39_SS2_TK18_5", "description": "Камера Румпельное отделение. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 18, "factor": 5 }} 
+        },
+    
+        { "id": 1041, "name": "BI39_SS2_TK18_6", "description": "Камера Румпельное отделение. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 18, "factor": 6 }} 
+        },
+    
+        { "id": 946, "name": "BI39_SS2_TK19_1", "description": "Камера Коридор №2. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 19, "factor": 1 }} 
+        },
+    
+        { "id": 947, "name": "BI39_SS2_TK19_2", "description": "Камера Коридор №2. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 19, "factor": 2 }} 
+        },
+    
+        { "id": 948, "name": "BI39_SS2_TK19_3", "description": "Камера Коридор №2. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 19, "factor": 3 }} 
+        },
+    
+        { "id": 949, "name": "BI39_SS2_TK19_4", "description": "Камера Коридор №2. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 19, "factor": 4 }} 
+        },
+    
+        { "id": 950, "name": "BI39_SS2_TK19_5", "description": "Камера Коридор №2. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 19, "factor": 5 }} 
+        },
+    
+        { "id": 951, "name": "BI39_SS2_TK19_6", "description": "Камера Коридор №2. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 19, "factor": 6 }} 
+        },
+    
+        { "id": 1054, "name": "BI39_SS2_TK20_1", "description": "Камера Помещение ГРЩ1. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 20, "factor": 1 }} 
+        },
+    
+        { "id": 1055, "name": "BI39_SS2_TK20_2", "description": "Камера Помещение ГРЩ1. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 20, "factor": 2 }} 
+        },
+    
+        { "id": 1056, "name": "BI39_SS2_TK20_3", "description": "Камера Помещение ГРЩ1. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 20, "factor": 3 }} 
+        },
+    
+        { "id": 1057, "name": "BI39_SS2_TK20_4", "description": "Камера Помещение ГРЩ1. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 20, "factor": 4 }} 
+        },
+    
+        { "id": 1058, "name": "BI39_SS2_TK20_5", "description": "Камера Помещение ГРЩ1. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 20, "factor": 5 }} 
+        },
+    
+        { "id": 1059, "name": "BI39_SS2_TK20_6", "description": "Камера Помещение ГРЩ1. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 20, "factor": 6 }} 
+        },
+    
+        { "id": 1060, "name": "BI39_SS2_TK21_1", "description": "Камера Помещение ГРЩ1. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 21, "factor": 1 }} 
+        },
+    
+        { "id": 1061, "name": "BI39_SS2_TK21_2", "description": "Камера Помещение ГРЩ1. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 21, "factor": 2 }} 
+        },
+    
+        { "id": 1062, "name": "BI39_SS2_TK21_3", "description": "Камера Помещение ГРЩ1. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 21, "factor": 3 }} 
+        },
+    
+        { "id": 1063, "name": "BI39_SS2_TK21_4", "description": "Камера Помещение ГРЩ1. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 21, "factor": 4 }} 
+        },
+    
+        { "id": 1064, "name": "BI39_SS2_TK21_5", "description": "Камера Помещение ГРЩ1. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 21, "factor": 5 }} 
+        },
+    
+        { "id": 1065, "name": "BI39_SS2_TK21_6", "description": "Камера Помещение ГРЩ1. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 21, "factor": 6 }} 
+        },
+    
+        { "id": 1102, "name": "BI39_SS2_TK22_1", "description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 22, "factor": 1 }} 
+        },
+    
+        { "id": 1103, "name": "BI39_SS2_TK22_2", "description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 22, "factor": 2 }} 
+        },
+    
+        { "id": 1104, "name": "BI39_SS2_TK22_3", "description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 22, "factor": 3 }} 
+        },
+    
+        { "id": 1105, "name": "BI39_SS2_TK22_4", "description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 22, "factor": 4 }} 
+        },
+    
+        { "id": 1106, "name": "BI39_SS2_TK22_5", "description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 22, "factor": 5 }} 
+        },
+    
+        { "id": 1107, "name": "BI39_SS2_TK22_6", "description": "Камера Помещение б/з РСО и ДП-64. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 22, "factor": 6 }} 
+        },
+    
+        { "id": 1096, "name": "BI39_SS2_TK23_1", "description": "Камера Помещение стрелкового оружия. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 23, "factor": 1 }} 
+        },
+    
+        { "id": 1097, "name": "BI39_SS2_TK23_2", "description": "Камера Помещение стрелкового оружия. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 23, "factor": 2 }} 
+        },
+    
+        { "id": 1098, "name": "BI39_SS2_TK23_3", "description": "Камера Помещение стрелкового оружия. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 23, "factor": 3 }} 
+        },
+    
+        { "id": 1099, "name": "BI39_SS2_TK23_4", "description": "Камера Помещение стрелкового оружия. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 23, "factor": 4 }} 
+        },
+    
+        { "id": 1100, "name": "BI39_SS2_TK23_5", "description": "Камера Помещение стрелкового оружия. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 23, "factor": 5 }} 
+        },
+    
+        { "id": 1101, "name": "BI39_SS2_TK23_6", "description": "Камера Помещение стрелкового оружия. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 23, "factor": 6 }} 
+        },
+    
+        { "id": 1048, "name": "BI39_SS2_TK24_1", "description": "Камера Коридор №5. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 24, "factor": 1 }} 
+        },
+    
+        { "id": 1049, "name": "BI39_SS2_TK24_2", "description": "Камера Коридор №5. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 24, "factor": 2 }} 
+        },
+    
+        { "id": 1050, "name": "BI39_SS2_TK24_3", "description": "Камера Коридор №5. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 24, "factor": 3 }} 
+        },
+    
+        { "id": 1051, "name": "BI39_SS2_TK24_4", "description": "Камера Коридор №5. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 24, "factor": 4 }} 
+        },
+    
+        { "id": 1052, "name": "BI39_SS2_TK24_5", "description": "Камера Коридор №5. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 24, "factor": 5 }} 
+        },
+    
+        { "id": 1053, "name": "BI39_SS2_TK24_6", "description": "Камера Коридор №5. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 24, "factor": 6 }} 
+        },
+    
+        { "id": 1072, "name": "BI39_SS2_TK25_1", "description": "Камера Эллинг СПА. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 25, "factor": 1 }} 
+        },
+    
+        { "id": 1073, "name": "BI39_SS2_TK25_2", "description": "Камера Эллинг СПА. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 25, "factor": 2 }} 
+        },
+    
+        { "id": 1074, "name": "BI39_SS2_TK25_3", "description": "Камера Эллинг СПА. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 25, "factor": 3 }} 
+        },
+    
+        { "id": 1075, "name": "BI39_SS2_TK25_4", "description": "Камера Эллинг СПА. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 25, "factor": 4 }} 
+        },
+    
+        { "id": 1076, "name": "BI39_SS2_TK25_5", "description": "Камера Эллинг СПА. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 25, "factor": 5 }} 
+        },
+    
+        { "id": 1077, "name": "BI39_SS2_TK25_6", "description": "Камера Эллинг СПА. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 25, "factor": 6 }} 
+        },
+    
+        { "id": 1078, "name": "BI39_SS2_TK26_1", "description": "Камера Эллинг СПА. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 26, "factor": 1 }} 
+        },
+    
+        { "id": 1079, "name": "BI39_SS2_TK26_2", "description": "Камера Эллинг СПА. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 26, "factor": 2 }} 
+        },
+    
+        { "id": 1080, "name": "BI39_SS2_TK26_3", "description": "Камера Эллинг СПА. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 26, "factor": 3 }} 
+        },
+    
+        { "id": 1081, "name": "BI39_SS2_TK26_4", "description": "Камера Эллинг СПА. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 26, "factor": 4 }} 
+        },
+    
+        { "id": 1082, "name": "BI39_SS2_TK26_5", "description": "Камера Эллинг СПА. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 26, "factor": 5 }} 
+        },
+    
+        { "id": 1083, "name": "BI39_SS2_TK26_6", "description": "Камера Эллинг СПА. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 26, "factor": 6 }} 
+        },
+    
+        { "id": 1084, "name": "BI39_SS2_TK27_1", "description": "Камера Эллинг БТ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 27, "factor": 1 }} 
+        },
+    
+        { "id": 1085, "name": "BI39_SS2_TK27_2", "description": "Камера Эллинг БТ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 27, "factor": 2 }} 
+        },
+    
+        { "id": 1086, "name": "BI39_SS2_TK27_3", "description": "Камера Эллинг БТ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 27, "factor": 3 }} 
+        },
+    
+        { "id": 1087, "name": "BI39_SS2_TK27_4", "description": "Камера Эллинг БТ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 27, "factor": 4 }} 
+        },
+    
+        { "id": 1088, "name": "BI39_SS2_TK27_5", "description": "Камера Эллинг БТ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 27, "factor": 5 }} 
+        },
+    
+        { "id": 1089, "name": "BI39_SS2_TK27_6", "description": "Камера Эллинг БТ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 27, "factor": 6 }} 
+        },
+    
+        { "id": 1090, "name": "BI39_SS2_TK28_1", "description": "Камера Эллинг БТ. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 28, "factor": 1 }} 
+        },
+    
+        { "id": 1091, "name": "BI39_SS2_TK28_2", "description": "Камера Эллинг БТ. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 28, "factor": 2 }} 
+        },
+    
+        { "id": 1092, "name": "BI39_SS2_TK28_3", "description": "Камера Эллинг БТ. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 28, "factor": 3 }} 
+        },
+    
+        { "id": 1093, "name": "BI39_SS2_TK28_4", "description": "Камера Эллинг БТ. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 28, "factor": 4 }} 
+        },
+    
+        { "id": 1094, "name": "BI39_SS2_TK28_5", "description": "Камера Эллинг БТ. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 28, "factor": 5 }} 
+        },
+    
+        { "id": 1095, "name": "BI39_SS2_TK28_6", "description": "Камера Эллинг БТ. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 28, "factor": 6 }} 
+        },
+    
+        { "id": 1066, "name": "BI39_SS2_TK29_1", "description": "Камера Погреб б/з АК-306. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 29, "factor": 1 }} 
+        },
+    
+        { "id": 1067, "name": "BI39_SS2_TK29_2", "description": "Камера Погреб б/з АК-306. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 29, "factor": 2 }} 
+        },
+    
+        { "id": 1068, "name": "BI39_SS2_TK29_3", "description": "Камера Погреб б/з АК-306. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 29, "factor": 3 }} 
+        },
+    
+        { "id": 1069, "name": "BI39_SS2_TK29_4", "description": "Камера Погреб б/з АК-306. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 29, "factor": 4 }} 
+        },
+    
+        { "id": 1070, "name": "BI39_SS2_TK29_5", "description": "Камера Погреб б/з АК-306. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 29, "factor": 5 }} 
+        },
+    
+        { "id": 1071, "name": "BI39_SS2_TK29_6", "description": "Камера Погреб б/з АК-306. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 29, "factor": 6 }} 
+        },
+    
+        { "id": 1132, "name": "BI39_SS2_TK30_1", "description": "Камера Коридор №6. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 30, "factor": 1 }} 
+        },
+    
+        { "id": 1133, "name": "BI39_SS2_TK30_2", "description": "Камера Коридор №6. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 30, "factor": 2 }} 
+        },
+    
+        { "id": 1134, "name": "BI39_SS2_TK30_3", "description": "Камера Коридор №6. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 30, "factor": 3 }} 
+        },
+    
+        { "id": 1135, "name": "BI39_SS2_TK30_4", "description": "Камера Коридор №6. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 30, "factor": 4 }} 
+        },
+    
+        { "id": 1136, "name": "BI39_SS2_TK30_5", "description": "Камера Коридор №6. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 30, "factor": 5 }} 
+        },
+    
+        { "id": 1137, "name": "BI39_SS2_TK30_6", "description": "Камера Коридор №6. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 30, "factor": 6 }} 
+        },
+    
+        { "id": 1120, "name": "BI39_SS2_TK31_1", "description": "Камера Коридор №7. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 31, "factor": 1 }} 
+        },
+    
+        { "id": 1121, "name": "BI39_SS2_TK31_2", "description": "Камера Коридор №7. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 31, "factor": 2 }} 
+        },
+    
+        { "id": 1122, "name": "BI39_SS2_TK31_3", "description": "Камера Коридор №7. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 31, "factor": 3 }} 
+        },
+    
+        { "id": 1123, "name": "BI39_SS2_TK31_4", "description": "Камера Коридор №7. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 31, "factor": 4 }} 
+        },
+    
+        { "id": 1124, "name": "BI39_SS2_TK31_5", "description": "Камера Коридор №7. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 31, "factor": 5 }} 
+        },
+    
+        { "id": 1125, "name": "BI39_SS2_TK31_6", "description": "Камера Коридор №7. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 31, "factor": 6 }} 
+        },
+    
+        { "id": 1126, "name": "BI39_SS2_TK32_1", "description": "Камера Коридор №8. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 32, "factor": 1 }} 
+        },
+    
+        { "id": 1127, "name": "BI39_SS2_TK32_2", "description": "Камера Коридор №8. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 32, "factor": 2 }} 
+        },
+    
+        { "id": 1128, "name": "BI39_SS2_TK32_3", "description": "Камера Коридор №8. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 32, "factor": 3 }} 
+        },
+    
+        { "id": 1129, "name": "BI39_SS2_TK32_4", "description": "Камера Коридор №8. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 32, "factor": 4 }} 
+        },
+    
+        { "id": 1130, "name": "BI39_SS2_TK32_5", "description": "Камера Коридор №8. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 32, "factor": 5 }} 
+        },
+    
+        { "id": 1131, "name": "BI39_SS2_TK32_6", "description": "Камера Коридор №8. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 32, "factor": 6 }} 
+        },
+    
+        { "id": 1138, "name": "BI39_SS2_TK33_1", "description": "Камера Помещение изд. 9К38. Сработка детектора огня",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 33, "factor": 1 }} 
+        },
+    
+        { "id": 1139, "name": "BI39_SS2_TK33_2", "description": "Камера Помещение изд. 9К38. Сработка детектора движения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 33, "factor": 2 }} 
+        },
+    
+        { "id": 1140, "name": "BI39_SS2_TK33_3", "description": "Камера Помещение изд. 9К38. Сработка детектора дыма",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 33, "factor": 3 }} 
+        },
+    
+        { "id": 1141, "name": "BI39_SS2_TK33_4", "description": "Камера Помещение изд. 9К38. Сработка детектора задымления",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 33, "factor": 4 }} 
+        },
+    
+        { "id": 1142, "name": "BI39_SS2_TK33_5", "description": "Камера Помещение изд. 9К38. Сработка детектора смещения",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 33, "factor": 5 }} 
+        },
+    
+        { "id": 1143, "name": "BI39_SS2_TK33_6", "description": "Камера Помещение изд. 9К38. Сработка детектора перегрева",
+         "master": { "device": 39, "params": { "data_type": "0x01", "vin": 33, "factor": 6 }} 
+        }
+      ]
+    },
+
+    { "group": "Крышки и двери", "enable": true,
+      "signals":
+      [
+        { "id": 928, "name": "BI83_SS4_VD1", "description": "Задраивание крышки в тамбур №10. Машинное отделение",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 0 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 937, "name": "BI83_SS4_VD10", "description": "Задраивание двери. КПЕЖ",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 1 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 938, "name": "BI83_SS4_VD11", "description": "Задраивание двери в душевую команды. Прачечная (ПСО)",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 2 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 939, "name": "BI83_SS4_VD12", "description": "Задраивание двери коридор №5 (Пост аварийной партии)",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 3 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 940, "name": "BI83_SS4_VD13", "description": "Задраивание крышки в помещение ГКП-ХКП. Коридор №7",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 4 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 941, "name": "BI83_SS4_VD14", "description": "Задраивание двери. Коридор №7",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 5 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 942, "name": "BI83_SS4_VD15", "description": "Задраивание крышки на переборке. СПС",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 6 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 2410, "name": "BI83_SS4_VD16", "description": "Задраивание крышки румпельное отделение",
+          "master": { "device": 39, "params": { "byte": 2, "bit": 2 }} 
+        },
+
+        { "id": 929, "name": "BI83_SS4_VD2", "description": "Задраивание крышки в тамбур №11. Машинное отделение",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 1 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 930, "name": "BI83_SS4_VD3", "description": "Задраивание крышки в тамбур №13. ОВМ",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 2 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]  
+        },
+
+        { "id": 931, "name": "BI83_SS4_VD4", "description": "Задраивание крышки в тамбур №13. ОВМ",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 3 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 932, "name": "BI83_SS4_VD5", "description": "Задраивание крышки в тамбур №14. ДГО",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 4 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 933, "name": "BI83_SS4_VD6", "description": "Задраивание крышки в тамбур №16. Помещение ГРЩ №2",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 5 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 934, "name": "BI83_SS4_VD7", "description": "Задраивание двери в коридор №3. Коридор №3",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 6 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 935, "name": "BI83_SS4_VD8", "description": "Задраивание крышки в камбузе. Камзуб",
+          "master": { "device": 39, "params": { "byte": 0, "bit": 7 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 936, "name": "BI83_SS4_VD9", "description": "Задраивание двери. Помещение ГРЩ №1",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 0 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 240, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 943, "name": "BI83_SS4_VDV1", "description": "Задраивание двери. Погреб минно-трального б/з",
+          "master": { "device": 39, "params": { "byte": 1, "bit": 7 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 944, "name": "BI83_SS4_VDV2", "description": "Задраивание двери. Помещение стрелкового оружия",
+          "master": { "device": 39, "params": { "byte": 2, "bit": 0 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        },
+
+        { "id": 945, "name": "BI83_SS4_VDV3", "description": "Задраивание двери. Пом. б/з ручного стрелкового оружия и ДП-64",
+          "master": { "device": 39, "params": { "byte": 2, "bit": 1 }}, 
+          "bindings": 
+          [ 
+            { "device": 100, "params": { "soeg_register": 241, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b" }},
+            {"storage": 1}
+          ]
+        }
+      ]
+    }
+  ]
 }

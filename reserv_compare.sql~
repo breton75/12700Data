@@ -1,0 +1,14 @@
+with s218 as (
+SELECT signal_index i218, signal_name n218, timeout_signal_index t218 from signals where device_index = 22
+),
+s122 as (
+SELECT signal_index i122, signal_name n122, timeout_signal_index t122, s218.i218 i218, s218.n218 n218
+from signals 
+left join s218 on s218.i218 = timeout_signal_index
+where device_index = 21
+)
+SELECT signal_index i119, signal_name n119, timeout_signal_index t119, s122.i122, s122.n122, s122.t122, s122.i218, s122.n218
+FROM signals
+left join s122 on timeout_signal_index = s122.i122
+--left join s218 on s122.t122 = s218.i218
+where device_index = 20
