@@ -51,7 +51,12 @@
     }
   ],
 
-  "jobs": [],
+  "jobs": [
+    {
+      "id": 1, "name": "OPA signal reserve", "enable": true, "description": "OPA signal reserve",
+      "lib": "libksuts_opa_reserv.so", "params": { "interval": 1000 }
+    }
+  ],
 
   "providers": [],
 

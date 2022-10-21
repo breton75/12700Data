@@ -4,6 +4,17 @@
 		{"group": "type_0x02", "enable":true,
 		  "signals":
 		 [
+			{"group": "Дифф. температуры", "enable":true,
+			 "signals":
+				[
+					{"id": 5320, "name":	"C150_BI82_12SS1_DTV11_dT_Z",	"description":	"Сработка 12СС1-ДТВ11 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
+					 "master": {"device": 28,	"params": {"data_type": "0x02", "sensor_number": 356, "factor": "0x03"}}
+					},
+					{"id": 5323, "name":	"C150_BI82_12SS1_DTV12_dT_Z",	"description":	"Сработка 12СС1-ДТВ12 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
+					 "master": {"device": 28,	"params": {"data_type": "0x02", "sensor_number": 359, "factor": "0x03"}}
+					}
+				]
+			},
 			{"group": "Пламя", "enable":true,
 			 "signals":
 				[
@@ -58,17 +69,6 @@
 			},
 			{"id": 2429, "name":	"POMP_SS1_150_STATUS",	"description":	"Состояние лини передачи данных 12СС1-150",
 			 "master": {"device": 28,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
-			}
-		 ]
-		},
-		{"group": "type_only_one_factor", "enable":false,
-		  "signals":
-		 [
-			{"id": 5320, "name":	"C150_BI82_12SS1_DTV11_dT_Z",	"description":	"Сработка 12СС1-ДТВ11 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
-			 "master": {"device": 28,	"params": {"data_type": "0x02", "sensor_number": 356,"factor": "0x03"}}
-			},
-			{"id": 5323, "name":	"C150_BI82_12SS1_DTV12_dT_Z",	"description":	"Сработка 12СС1-ДТВ12 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
-			 "master": {"device": 28,	"params": {"data_type": "0x02", "sensor_number": 359,"factor": "0x03"}}
 			}
 		 ]
 		}

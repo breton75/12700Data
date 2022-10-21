@@ -4,6 +4,17 @@
 		{"group": "type_0x02", "enable":true,
 		  "signals":
 		 [
+			{"group": "Дифф. температуры", "enable":true,
+			 "signals":
+				[
+					{"id": 5284, "name":	"C38_BI82_12SS1_DTV5_dT_Z",	"description":	"Сработка 12СС1-ДТВ5 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
+					 "master": {"device": 24,	"params": {"data_type": "0x02", "sensor_number": 336, "factor": "0x03"}}
+					},
+					{"id": 5287, "name":	"C38_BI82_12SS1_DTV6_dT_Z",	"description":	"Сработка 12СС1-ДТВ6 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
+					 "master": {"device": 24,	"params": {"data_type": "0x02", "sensor_number": 339, "factor": "0x03"}}
+					}
+				]
+			},
 			{"group": "Пламя", "enable":true,
 			 "signals":
 				[
@@ -58,17 +69,6 @@
 			},
 			{"id": 2423, "name":	"POMP_SS1_38_STATUS",	"description":	"Состояние лини передачи данных 12СС1-38",
 			 "master": {"device": 24,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
-			}
-		 ]
-		},
-		{"group": "type_only_one_factor", "enable":false,
-		  "signals":
-		 [
-			{"id": 5284, "name":	"C38_BI82_12SS1_DTV5_dT_Z",	"description":	"Сработка 12СС1-ДТВ5 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
-			 "master": {"device": 24,	"params": {"data_type": "0x02", "sensor_number": 336,"factor": "0x03"}}
-			},
-			{"id": 5287, "name":	"C38_BI82_12SS1_DTV6_dT_Z",	"description":	"Сработка 12СС1-ДТВ6 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
-			 "master": {"device": 24,	"params": {"data_type": "0x02", "sensor_number": 339,"factor": "0x03"}}
 			}
 		 ]
 		}

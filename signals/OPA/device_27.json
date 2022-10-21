@@ -4,6 +4,17 @@
 		{"group": "type_0x02", "enable":true,
 		  "signals":
 		 [
+			{"group": "Дифф. температуры", "enable":true,
+			 "signals":
+				[
+					{"id": 5311, "name":	"C123_BI82_12SS1_DTV9_dT_Z",	"description":	"Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 351, "factor": "0x03"}}
+					},
+					{"id": 5314, "name":	"C123_BI82_12SS1_DTV10_dT_Z",	"description":	"Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
+					 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 354, "factor": "0x03"}}
+					}
+				]
+			},
 			{"group": "Пламя", "enable":true,
 			 "signals":
 				[
@@ -58,17 +69,6 @@
 			},
 			{"id": 2428, "name":	"POMP_SS1_123_STATUS",	"description":	"Состояние лини передачи данных 12СС1-123",
 			 "master": {"device": 27,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
-			}
-		 ]
-		},
-		{"group": "type_only_one_factor", "enable":false,
-		  "signals":
-		 [
-			{"id": 5311, "name":	"C123_BI82_12SS1_DTV9_dT_Z",	"description":	"Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
-			 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 351,"factor": "0x03"}}
-			},
-			{"id": 5314, "name":	"C123_BI82_12SS1_DTV10_dT_Z",	"description":	"Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
-			 "master": {"device": 27,	"params": {"data_type": "0x02", "sensor_number": 354,"factor": "0x03"}}
 			}
 		 ]
 		}

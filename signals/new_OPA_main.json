@@ -4115,6 +4115,1515 @@
 					}
 				]
 			},
+			{"group": "Дифф. температуры", "enable":true,
+			 "signals":
+				[
+					{"id": 2, "name":	"BI21_1SS1_DK3_dT",	"description":	"Сработка 1СС1-ДК3 изменение температуры в Шкиперской кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DK3_dT, C122_BI21_1SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 63, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 5, "name":	"BI21_1SS1_DK2_dT",	"description":	"Сработка 1СС1-ДК2 изменение температуры в Такелажной кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DK2_dT, C122_BI21_1SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 63, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 9, "name":	"BI21_1SS1_DT1_dT",	"description":	"Сработка 1СС1-ДТ1 изменение температуры в Такелажной кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DT1_dT, C122_BI21_1SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 11, "name":	"BI21_1SS1_DK1_dT",	"description":	"Сработка 1СС1-ДК1 изменение температуры в Форпике 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DK1_dT, C122_BI21_1SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 14, "name":	"BI21_1SS1_DTV1_dT",	"description":	"Сработка 1СС1-ДТВ1 изменение температуры в Молярной кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DTV1_dT, C122_BI21_1SS1_DTV1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 16, "name":	"BI21_1SS1_DTV2_dT",	"description":	"Сработка 1СС1-ДТВ2 изменение температуры в Молярной кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DTV2_dT, C122_BI21_1SS1_DTV2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 26, "name":	"BI22_2SS1_DT9_dT",	"description":	"Сработка 2СС1-ДТ9 изменение температуры в Клад. сух. прод. и хлеба 10 гр.Ц. в мин.  ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT9_dT, C122_BI22_2SS1_DT9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 65, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 29, "name":	"BI22_2SS1_DT10_dT",	"description":	"Сработка 2СС1-ДТ10 изменение температуры в Клад. сух. прод. и хлеба 10 гр.Ц. в мин.  ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT10_dT, C122_BI22_2SS1_DT10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 65, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 33, "name":	"BI22_2SS1_DT13_dT",	"description":	"Сработка 2СС1-ДТ13 изменение температуры в Посту ПМО №2 10 гр.Ц. в мин. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT13_dT, C122_BI22_2SS1_DT13_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 65, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 44, "name":	"BI22_2SS1_DT12_dT",	"description":	"Сработка 2СС1-ДТ12 изменение температуры в Помещении мороз. кафов 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT12_dT, C122_BI22_2SS1_DT12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 46, "name":	"BI22_2SS1_DK2_dT",	"description":	"Сработка 2СС1-ДК2 изменение температуры в Помещении холод. шкафов 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DK2_dT, C122_BI22_2SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 50, "name":	"BI22_2SS1_DT11_dT",	"description":	"Сработка 2СС1-ДТ11 изменение температуры в Помещении холод. шкафов 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT11_dT, C122_BI22_2SS1_DT11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 55, "name":	"BI22_2SS1_DT4_dT",	"description":	"Сработка 2СС1-ДТ4 изменение температуры в Помещении мех. ПУ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT4_dT, C122_BI22_2SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 58, "name":	"BI22_2SS1_DT5_dT",	"description":	"Сработка 2СС1-ДТ5 изменение температуры в Помещении мех. ПУ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT5_dT, C122_BI22_2SS1_DT5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 61, "name":	"BI22_2SS1_DT6_dT",	"description":	"Сработка 2СС1-ДТ6 изменение температуры в Помещении мех. ПУ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT6_dT, C122_BI22_2SS1_DT6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 63, "name":	"BI22_2SS1_DK1_dT",	"description":	"Сработка 2СС1-ДК1 изменение температуры в Кладовой ЗИП №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DK1_dT, C122_BI22_2SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 67, "name":	"BI22_2SS1_DT1_dT",	"description":	"Сработка 2СС1-ДТ1 изменение температуры в Пом. тр. ПУ и сточ. ц. №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT1_dT, C122_BI22_2SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 70, "name":	"BI22_2SS1_DT2_dT",	"description":	"Сработка 2СС1-ДТ2 изменение температуры в Пом. тр. ПУ и сточ. ц. №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT2_dT, C122_BI22_2SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 73, "name":	"BI22_2SS1_DT3_dT",	"description":	"Сработка 2СС1-ДТ3 изменение температуры в Пом. тр. ПУ и сточ. ц. №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT3_dT, C122_BI22_2SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 77, "name":	"BI22_2SS1_DT8_dT",	"description":	"Сработка 2СС1-ДТ8 изменение температуры в Агрегатной ПУС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT8_dT, C122_BI22_2SS1_DT8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 83, "name":	"BI23_3SS1_DK11_dT",	"description":	"Сработка 3СС1-ДК11 изменение температуры в Коридоре №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK11_dT, C122_BI23_3SS1_DK11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 89, "name":	"BI23_3SS1_DT26_dT",	"description":	"Сработка 3СС1-ДТ26 изменение температуры в Гальюне мичманов 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT26_dT, C122_BI23_3SS1_DT26_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 69, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 95, "name":	"BI23_3SS1_DT35_dT",	"description":	"Сработка 3СС1-ДТ35 изменение температуры в Трансляционном посту 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT35_dT, C122_BI23_3SS1_DT35_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 69, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 101, "name":	"BI23_3SS1_DK9_dT",	"description":	"Сработка 3СС1-ДК9 изменение температуры в Помещении щитов №3 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK9_dT, C122_BI23_3SS1_DK9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 69, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 105, "name":	"BI23_3SS1_DT37_dT",	"description":	"Сработка 3СС1-ДТ37 изменение температуры в Каюте мичманов №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT37_dT, C122_BI23_3SS1_DT37_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 108, "name":	"BI23_3SS1_DT38_dT",	"description":	"Сработка 3СС1-ДТ38 изменение температуры в Каюте мичманов №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT38_dT, C122_BI23_3SS1_DT38_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 111, "name":	"BI23_3SS1_DT28_dT",	"description":	"Сработка 3СС1-ДТ28 изменение температуры в Рубке гидроакустики 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT28_dT, C122_BI23_3SS1_DT28_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 114, "name":	"BI23_3SS1_DT29_dT",	"description":	"Сработка 3СС1-ДТ29 изменение температуры в Рубке гидроакустики 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT29_dT, C122_BI23_3SS1_DT29_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 116, "name":	"BI23_3SS1_DK10_dT",	"description":	"Сработка 3СС1-ДК10 изменение температуры в Аппаратной АСУ Диез 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK10_dT, C122_BI23_3SS1_DK10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 122, "name":	"BI23_3SS1_DT27_dT",	"description":	"Сработка 3СС1-ДТ27 изменение температуры в Спец. архиве 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT27_dT, C122_BI23_3SS1_DT27_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 126, "name":	"BI23_3SS1_DT39_dT",	"description":	"Сработка 3СС1-ДТ39 изменение температуры в Каюте мичманов №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT39_dT, C122_BI23_3SS1_DT39_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 129, "name":	"BI23_3SS1_DT40_dT",	"description":	"Сработка 3СС1-ДТ40 изменение температуры в Каюте мичманов №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT40_dT, C122_BI23_3SS1_DT40_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 132, "name":	"BI23_3SS1_DT30_dT",	"description":	"Сработка 3СС1-ДТ30 изменение температуры в Посудомоечной 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT30_dT, C122_BI23_3SS1_DT30_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 136, "name":	"BI23_3SS1_DK8_dT",	"description":	"Сработка 3СС1-ДК8 изменение температуры в Столовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK8_dT, C122_BI23_3SS1_DK8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 140, "name":	"BI23_3SS1_DT33_dT",	"description":	"Сработка 3СС1-ДТ33 изменение температуры в Столовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT33_dT, C122_BI23_3SS1_DT33_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 143, "name":	"BI23_3SS1_DT34_dT",	"description":	"Сработка 3СС1-ДТ34 изменение температуры в Столовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT34_dT, C122_BI23_3SS1_DT34_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 150, "name":	"BI23_3SS1_DK12_dT",	"description":	"Сработка 3СС1-ДК12 изменение температуры в Коридоре №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK12_dT, C122_BI23_3SS1_DK12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 154, "name":	"BI23_3SS1_DK13_dT",	"description":	"Сработка 3СС1-ДК13 изменение температуры в Тамбуре №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK13_dT, C122_BI23_3SS1_DK13_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 73, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 163, "name":	"BI23_3SS1_DK7_dT",	"description":	"Сработка 3СС1-ДК7 изменение температуры в Помещении щитов №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK7_dT, C122_BI23_3SS1_DK7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 73, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 166, "name":	"BI23_3SS1_DK5_dT",	"description":	"Сработка 3СС1-ДК5 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK5_dT, C122_BI23_3SS1_DK5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 73, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 169, "name":	"BI23_3SS1_DK6_dT",	"description":	"Сработка 3СС1-ДК6 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK6_dT, C122_BI23_3SS1_DK6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 172, "name":	"BI23_3SS1_DK15_dT",	"description":	"Сработка 3СС1-ДК15 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK15_dT, C122_BI23_3SS1_DK15_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 176, "name":	"BI23_3SS1_DT20_dT",	"description":	"Сработка 3СС1-ДТ20 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT20_dT, C122_BI23_3SS1_DT20_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 179, "name":	"BI23_3SS1_DT21_dT",	"description":	"Сработка 3СС1-ДТ21 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT21_dT, C122_BI23_3SS1_DT21_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 182, "name":	"BI23_3SS1_DT22_dT",	"description":	"Сработка 3СС1-ДТ22 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT22_dT, C122_BI23_3SS1_DT22_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 185, "name":	"BI23_3SS1_DT23_dT",	"description":	"Сработка 3СС1-ДТ23 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT23_dT, C122_BI23_3SS1_DT23_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 188, "name":	"BI23_3SS1_DT24_dT",	"description":	"Сработка 3СС1-ДТ24 изменение температуры в Санузле №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT24_dT, C122_BI23_3SS1_DT24_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 191, "name":	"BI23_3SS1_DT25_dT",	"description":	"Сработка 3СС1-ДТ24 изменение температуры в Санузле №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT25_dT, C122_BI23_3SS1_DT25_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 193, "name":	"BI23_3SS1_DK2_dT",	"description":	"Сработка 3СС1-ДК2 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK2_dT, C122_BI23_3SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 196, "name":	"BI23_3SS1_DK3_dT",	"description":	"Сработка 3СС1-ДК3 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK3_dT, C122_BI23_3SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 199, "name":	"BI23_3SS1_DK4_dT",	"description":	"Сработка 3СС1-ДК4 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK4_dT, C122_BI23_3SS1_DK4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 202, "name":	"BI23_3SS1_DK14_dT",	"description":	"Сработка 3СС1-ДК14 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK14_dT, C122_BI23_3SS1_DK14_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 206, "name":	"BI23_3SS1_DT14_dT",	"description":	"Сработка 3СС1-ДТ14 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT14_dT, C122_BI23_3SS1_DT14_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 209, "name":	"BI23_3SS1_DT15_dT",	"description":	"Сработка 3СС1-ДТ15 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT15_dT, C122_BI23_3SS1_DT15_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 212, "name":	"BI23_3SS1_DT16_dT",	"description":	"Сработка 3СС1-ДТ16 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT16_dT, C122_BI23_3SS1_DT16_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 215, "name":	"BI23_3SS1_DT17_dT",	"description":	"Сработка 3СС1-ДТ17 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT17_dT, C122_BI23_3SS1_DT17_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 218, "name":	"BI23_3SS1_DT18_dT",	"description":	"Сработка 3СС1-ДТ18 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT18_dT, C122_BI23_3SS1_DT18_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 221, "name":	"BI23_3SS1_DT19_dT",	"description":	"Сработка 3СС1-ДТ19 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT19_dT, C122_BI23_3SS1_DT19_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 224, "name":	"BI23_3SS1_DT12_dT",	"description":	"Сработка 3СС1-ДТ12 изменение температуры в Санузле №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT12_dT, C122_BI23_3SS1_DT12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 228, "name":	"BI23_3SS1_DT6_dT",	"description":	"Сработка 3СС1-ДТ6 изменение температуры в Пом. обор. сис. прес. воды 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT6_dT, C122_BI23_3SS1_DT6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 231, "name":	"BI23_3SS1_DT7_dT",	"description":	"Сработка 3СС1-ДТ7 изменение температуры в Пом. обор. сис. прес. воды 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT7_dT, C122_BI23_3SS1_DT7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 234, "name":	"BI23_3SS1_DT8_dT",	"description":	"Сработка 3СС1-ДТ8 изменение температуры в Пом. обор. сис. прес. воды 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT8_dT, C122_BI23_3SS1_DT8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 239, "name":	"BI23_3SS1_DT3_dT",	"description":	"Сработка 3СС1-ДТ3 изменение температуры в Аппаратной гидроакус. 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT3_dT, C122_BI23_3SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 242, "name":	"BI23_3SS1_DT4_dT",	"description":	"Сработка 3СС1-ДТ4 изменение температуры в Аппаратной гидроакус. 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT4_dT, C122_BI23_3SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 245, "name":	"BI23_3SS1_DT1_dT",	"description":	"Сработка 3СС1-ДТ1 изменение температуры в Агрегатная ПОУ ГАС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT1_dT, C122_BI23_3SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 247, "name":	"BI23_3SS1_DK1_dT",	"description":	"Сработка 3СС1-ДК1 изменение температуры в Химической кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK1_dT, C122_BI23_3SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 251, "name":	"BI23_3SS1_DT9_dT",	"description":	"Сработка 3СС1-ДТ9 изменение температуры в Гиропосту 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT9_dT, C122_BI23_3SS1_DT9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 254, "name":	"BI23_3SS1_DT10_dT",	"description":	"Сработка 3СС1-ДТ10 изменение температуры в Гиропосту 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT10_dT, C122_BI23_3SS1_DT10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 258, "name":	"BI23_3SS1_DT11_dT",	"description":	"Сработка 3СС1-ДТ11 изменение температуры в Помещении сбора стоков 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT11_dT, C122_BI23_3SS1_DT11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 261, "name":	"BI24_4SS1_DT1_dT",	"description":	"Сработка 4СС1-ДТ1 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT1_dT, C122_BI24_4SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 264, "name":	"BI24_4SS1_DT2_dT",	"description":	"Сработка 4СС1-ДТ2 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT2_dT, C122_BI24_4SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 267, "name":	"BI24_4SS1_DT3_dT",	"description":	"Сработка 4СС1-ДТ3 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT3_dT, C122_BI24_4SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 270, "name":	"BI24_4SS1_DT4_dT",	"description":	"Сработка 4СС1-ДТ4 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT4_dT, C122_BI24_4SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 273, "name":	"BI24_4SS1_DT5_dT",	"description":	"Сработка 4СС1-ДТ5 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT5_dT, C122_BI24_4SS1_DT5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 276, "name":	"BI24_4SS1_DT6_dT",	"description":	"Сработка 4СС1-ДТ6 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT6_dT, C122_BI24_4SS1_DT6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 279, "name":	"BI24_4SS1_DT7_dT",	"description":	"Сработка 4СС1-ДТ7 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT7_dT, C122_BI24_4SS1_DT7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 282, "name":	"BI24_4SS1_DT8_dT",	"description":	"Сработка 4СС1-ДТ8 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT8_dT, C122_BI24_4SS1_DT8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 285, "name":	"BI24_4SS1_DT9_dT",	"description":	"Сработка 4СС1-ДТ9 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT9_dT, C122_BI24_4SS1_DT9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 287, "name":	"BI24_4SS1_DK3_dT",	"description":	"Сработка 4СС1-ДК3 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK3_dT, C122_BI24_4SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 290, "name":	"BI24_4SS1_DK4_dT",	"description":	"Сработка 4СС1-ДК4 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK4_dT, C122_BI24_4SS1_DK4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 293, "name":	"BI24_4SS1_DK5_dT",	"description":	"Сработка 4СС1-ДК5 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK5_dT, C122_BI24_4SS1_DK5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 296, "name":	"BI24_4SS1_DK6_dT",	"description":	"Сработка 4СС1-ДК6 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK6_dT, C122_BI24_4SS1_DK6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 299, "name":	"BI24_4SS1_DK7_dT",	"description":	"Сработка 4СС1-ДК7 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK7_dT, C122_BI24_4SS1_DK7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 307, "name":	"BI24_4SS1_DK2_dT",	"description":	"Сработка 4СС1-ДК2 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK2_dT, C122_BI24_4SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 311, "name":	"BI24_4SS1_DK9_dT",	"description":	"Сработка 4СС1-ДК9 изменение температуры в МО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK9_dT, C122_BI24_4SS1_DK9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 325, "name":	"BI24_4SS1_DT11_dT",	"description":	"Сработка 4СС1-ДТ11 изменение температуры в Камбузе 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT11_dT, C122_BI24_4SS1_DT11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 83, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 330, "name":	"BI24_4SS1_DK10_dT",	"description":	"Сработка 4СС1-ДК10 изменение температуры в Пом. изделия КДС-703 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK10_dT, C122_BI24_4SS1_DK10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 84, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 338, "name":	"BI24_4SS1_DT10_dT",	"description":	"Сработка 4СС1-ДТ10 изменение температуры в  Расх. клад. камбуза 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT10_dT, C122_BI24_4SS1_DT10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 84, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 349, "name":	"BI24_4SS1_DK12_dT",	"description":	"Сработка 4СС1-ДК12 изменение температуры в Пом. ГРЩ №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK12_dT, C122_BI24_4SS1_DK12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 356, "name":	"BI24_4SS1_DK11_dT",	"description":	"Сработка 4СС1-ДК11 изменение  температуры в КПЭЖ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK11_dT, C122_BI24_4SS1_DK11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 360, "name":	"BI24_4SS1_DT12_dT",	"description":	"Сработка 4СС1-ДТ12 изменение  температуры в КПЭЖ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT12_dT, C122_BI24_4SS1_DT12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 364, "name":	"BI24_4SS1_DK13_dT",	"description":	"Сработка 4СС1-ДК13 изменение температуры в Кладовой ЗИП №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK13_dT, C122_BI24_4SS1_DK13_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 369, "name":	"BI25_5SS1_DT1_dT",	"description":	"Сработка 5СС1-ДТ1 изменение температуры в Помещении ППР 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT1_dT, C122_BI25_5SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 372, "name":	"BI25_5SS1_DT4_dT",	"description":	"Сработка 5СС1-ДТ4 изменение температуры в Пом. обор. сточ. сист. 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT4_dT, C122_BI25_5SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 378, "name":	"BI25_5SS1_DT2_dT",	"description":	"Сработка 5СС1-ДТ2 изменение температуры в ОВМ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT2_dT, C122_BI25_5SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 381, "name":	"BI25_5SS1_DT3_dT",	"description":	"Сработка 5СС1-ДТ3 изменение температуры в ОВМ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT3_dT, C122_BI25_5SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 387, "name":	"BI25_5SS1_DK2_dT",	"description":	"Сработка 5СС1-ДК2 изменение температуры в ОВМ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DK2_dT, C122_BI25_5SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 392, "name":	"BI25_5SS1_DK3_dT",	"description":	"Сработка 5СС1-ДК3 изменение температуры в Помещении БП РХР 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DK3_dT, C122_BI25_5SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 401, "name":	"BI25_5SS1_DT5_dT",	"description":	"Сработка 5СС1-ДТ5 изменение температуры в Санузле №3 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT5_dT, C122_BI25_5SS1_DT5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 88, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 408, "name":	"BI26_6SS1_DT1_dT",	"description":	"Сработка 6СС1-ДТ1 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT1_dT, C122_BI26_6SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 88, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 411, "name":	"BI26_6SS1_DT2_dT",	"description":	"Сработка 6СС1-ДТ2 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT2_dT, C122_BI26_6SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 414, "name":	"BI26_6SS1_DT3_dT",	"description":	"Сработка 6СС1-ДТ3 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT3_dT, C122_BI26_6SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 417, "name":	"BI26_6SS1_DT4_dT",	"description":	"Сработка 6СС1-ДТ4 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT4_dT, C122_BI26_6SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 420, "name":	"BI26_6SS1_DT5_dT",	"description":	"Сработка 6СС1-ДТ5 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT5_dT, C122_BI26_6SS1_DT5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 423, "name":	"BI26_6SS1_DT6_dT",	"description":	"Сработка 6СС1-ДТ6 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT6_dT, C122_BI26_6SS1_DT6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 426, "name":	"BI26_6SS1_DT7_dT",	"description":	"Сработка 6СС1-ДТ7 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT7_dT, C122_BI26_6SS1_DT7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 429, "name":	"BI26_6SS1_DT8_dT",	"description":	"Сработка 6СС1-ДТ8 изменение температура в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT8_dT, C122_BI26_6SS1_DT8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 435, "name":	"BI26_6SS1_DK3_dT",	"description":	"Сработка 6СС1-ДК3 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK3_dT, C122_BI26_6SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 438, "name":	"BI26_6SS1_DK4_dT",	"description":	"Сработка 6СС1-ДК4 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK4_dT, C122_BI26_6SS1_DK4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 441, "name":	"BI26_6SS1_DK5_dT",	"description":	"Сработка 6СС1-ДК5 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK5_dT, C122_BI26_6SS1_DK5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 444, "name":	"BI26_6SS1_DK6_dT",	"description":	"Сработка 6СС1-ДК6 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK6_dT, C122_BI26_6SS1_DK6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 447, "name":	"BI26_6SS1_DK7_dT",	"description":	"Сработка 6СС1-ДК7 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK7_dT, C122_BI26_6SS1_DK7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 451, "name":	"BI26_6SS1_DK2_dT",	"description":	"Сработка 6СС1-ДК2 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK2_dT, C122_BI26_6SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 455, "name":	"BI26_6SS1_DK8_dT",	"description":	"Сработка 6СС1-ДК8 изменение температуры в ДГО 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK8_dT, C122_BI26_6SS1_DK8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 464, "name":	"BI26_6SS1_DT9_dT",	"description":	"Сработка 6СС1-ДТ9 изменение температуры в Пом. насос. агрегата СПА 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT9_dT, C122_BI26_6SS1_DT9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 92, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 467, "name":	"BI26_6SS1_DK9_dT",	"description":	"Сработка 6СС1-ДК9 изменение температуры в Водолазной клад. №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK9_dT, C122_BI26_6SS1_DK9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 92, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 484, "name":	"BI26_6SS1_DK10_dT",	"description":	"Сработка 6СС1-ДК10 изменение температуры в Помещении ГРЩ №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK10_dT, C122_BI26_6SS1_DK10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 93, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 494, "name":	"BI26_6SS1_DK12_dT",	"description":	"Сработка 6СС1-ДК12 изменение температуры в Эллинге СПА 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK12_dT, C122_BI26_6SS1_DK12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 94, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 501, "name":	"BI26_6SS1_DT15_dT",	"description":	"Сработка 6СС1-ДТ15 изменение температуры в Помещении дежурного 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT15_dT, C122_BI26_6SS1_DT15_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 94, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 504, "name":	"BI26_6SS1_DT16_dT",	"description":	"Сработка 6СС1-ДТ16 изменение температуры в Помещении дежурного 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT16_dT, C122_BI26_6SS1_DT16_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 94, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 508, "name":	"BI26_6SS1_DT12_dT",	"description":	"Сработка 6СС1-ДТ12 изменение температуры в Прачечной (ПСО) 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT12_dT, C122_BI26_6SS1_DT12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 511, "name":	"BI26_6SS1_DT13_dT",	"description":	"Сработка 6СС1-ДТ13 изменение температуры в Прачечной (ПСО) 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT13_dT, C122_BI26_6SS1_DT13_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 514, "name":	"BI26_6SS1_DK14_dT",	"description":	"Сработка 6СС1-ДК14 изменение температуры в Эллинге БТ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK14_dT, C122_BI26_6SS1_DK14_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 519, "name":	"BI26_6SS1_DK13_dT",	"description":	"Сработка 6СС1-ДК13 изменение температуры в Сушильной 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK13_dT, C122_BI26_6SS1_DK13_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 525, "name":	"BI26_6SS1_DT17_dT",	"description":	"Сработка 6СС1-ДТ17 изменение температуры в Станции ОХТ №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT17_dT, C122_BI26_6SS1_DT17_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 529, "name":	"BI26_6SS1_DK15_dT",	"description":	"Сработка 6СС1-ДК15 изменение температуры в Агрегатной ПМО №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK15_dT, C122_BI26_6SS1_DK15_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 532, "name":	"BI26_6SS1_DK16_dT",	"description":	"Сработка 6СС1-ДК16 изменение температуры в Посту ПМО №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK16_dT, C122_BI26_6SS1_DK16_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 536, "name":	"BI27_7SS1_DK4_dT",	"description":	"Сработка 7СС1-ДК4 изменение температуры в Тральной кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK4_dT, C122_BI27_7SS1_DK4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 539, "name":	"BI27_7SS1_DK5_dT",	"description":	"Сработка 7СС1-ДК5 изменение температуры в Тральной кладовой 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK5_dT, C122_BI27_7SS1_DK5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 542, "name":	"BI27_7SS1_DK1_dT",	"description":	"Сработка 7СС1-ДК1 изменение температуры в Агрегатной ПМО №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK1_dT, C122_BI27_7SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 546, "name":	"BI27_7SS1_DK2_dT",	"description":	"Сработка 7СС1-ДК2 изменение температуры в Пом. гидроагрегатов 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK2_dT, C122_BI27_7SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 549, "name":	"BI27_7SS1_DK3_dT",	"description":	"Сработка 7СС1-ДК3 изменение температуры в Пом. гидроагрегатов 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK3_dT, C122_BI27_7SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 553, "name":	"BI27_7SS1_DK6_dT",	"description":	"Сработка 7СС1-ДК6 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK6_dT, C122_BI27_7SS1_DK6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 556, "name":	"BI27_7SS1_DK7_dT",	"description":	"Сработка 7СС1-ДК7 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK7_dT, C122_BI27_7SS1_DK7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 559, "name":	"BI27_7SS1_DK8_dT",	"description":	"Сработка 7СС1-ДК8 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK8_dT, C122_BI27_7SS1_DK8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 562, "name":	"BI27_7SS1_DK9_dT",	"description":	"Сработка 7СС1-ДК9 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK9_dT, C122_BI27_7SS1_DK9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 565, "name":	"BI27_7SS1_DK10_dT",	"description":	"Сработка 7СС1-ДК10 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK10_dT, C122_BI27_7SS1_DK10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 569, "name":	"BI27_7SS1_DT1_dT",	"description":	"Сработка 7СС1-ДТ1 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT1_dT, C122_BI27_7SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 572, "name":	"BI27_7SS1_DT2_dT",	"description":	"Сработка 7СС1-ДТ2 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT2_dT, C122_BI27_7SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 575, "name":	"BI27_7SS1_DT3_dT",	"description":	"Сработка 7СС1-ДТ3 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT3_dT, C122_BI27_7SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 578, "name":	"BI27_7SS1_DT4_dT",	"description":	"Сработка 7СС1-ДТ4 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT4_dT, C122_BI27_7SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 581, "name":	"BI27_7SS1_DT5_dT",	"description":	"Сработка 7СС1-ДТ5 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT5_dT, C122_BI27_7SS1_DT5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 584, "name":	"BI27_7SS1_DT6_dT",	"description":	"Сработка 7СС1-ДТ6 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT6_dT, C122_BI27_7SS1_DT6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 587, "name":	"BI28_8SS1_DT2_dT",	"description":	"Сработка 8СС1-ДТ2 изменение температуры в Каюте командира 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT2_dT, C122_BI28_8SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 590, "name":	"BI28_8SS1_DT3_dT",	"description":	"Сработка 8СС1-ДТ3 изменение температуры в Каюте командира 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT3_dT, C122_BI28_8SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 593, "name":	"BI28_8SS1_DT1_dT",	"description":	"Сработка 8СС1-ДТ3 изменение температуры в Санузле командира 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT1_dT, C122_BI28_8SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 596, "name":	"BI28_8SS1_DT4_dT",	"description":	"Сработка 8СС1-ДТ4 изменение температуры в Каюте офицеров №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT4_dT, C122_BI28_8SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 599, "name":	"BI28_8SS1_DT5_dT",	"description":	"Сработка 8СС1-ДТ5 изменение температуры в Каюте офицеров №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT5_dT, C122_BI28_8SS1_DT5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 602, "name":	"BI28_8SS1_DT6_dT",	"description":	"Сработка 8СС1-ДТ6 изменение температуры в Станции ОХТ №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT6_dT, C122_BI28_8SS1_DT6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 607, "name":	"BI28_8SS1_DK1_dT",	"description":	"Сработка 8СС1-ДК1 изменение температуры в Коридоре №6 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK1_dT, C122_BI28_8SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 615, "name":	"BI28_8SS1_DT7_dT",	"description":	"Сработка 8СС1-ДТ7 изменение температуры в Каюте офицеров №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT7_dT, C122_BI28_8SS1_DT7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 618, "name":	"BI28_8SS1_DT8_dT",	"description":	"Сработка 8СС1-ДТ8 изменение температуры в Каюте офицеров №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT8_dT, C122_BI28_8SS1_DT8_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 621, "name":	"BI28_8SS1_DT9_dT",	"description":	"Сработка 8СС1-ДТ9 изменение температуры в Каюте офицеров №3 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT9_dT, C122_BI28_8SS1_DT9_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 624, "name":	"BI28_8SS1_DT10_dT",	"description":	"Сработка 8СС1-ДТ10 изменение температуры в Каюте офицеров №3 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT10_dT, C122_BI28_8SS1_DT10_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 629, "name":	"BI28_8SS1_DK2_dT",	"description":	"Сработка 8СС1-ДК2 изменение температуры в Коридоре №7 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK2_dT, C122_BI28_8SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 635, "name":	"BI28_8SS1_DT13_dT",	"description":	"Сработка 8СС1-ДТ13 изменение температуры в Кают-компании 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT13_dT, C122_BI28_8SS1_DT13_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 638, "name":	"BI28_8SS1_DT14_dT",	"description":	"Сработка 8СС1-ДТ14 изменение температуры в Кают-компании 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT14_dT, C122_BI28_8SS1_DT14_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 641, "name":	"BI28_8SS1_DT11_dT",	"description":	"Сработка 8СС1-ДТ11 изменение температуры в Радиорубке 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT11_dT, C122_BI28_8SS1_DT11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 644, "name":	"BI28_8SS1_DT12_dT",	"description":	"Сработка 8СС1-ДТ12 изменение температуры в Радиорубке 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT12_dT, C122_BI28_8SS1_DT12_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 646, "name":	"BI29_9SS1_DK1_dT",	"description":	"Сработка 9СС1-ДК1 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK1_dT, C122_BI29_9SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 649, "name":	"BI29_9SS1_DK2_dT",	"description":	"Сработка 9СС1-ДК2 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK2_dT, C122_BI29_9SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 652, "name":	"BI29_9SS1_DK3_dT",	"description":	"Сработка 9СС1-ДК3 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK3_dT, C122_BI29_9SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 655, "name":	"BI29_9SS1_DK4_dT",	"description":	"Сработка 9СС1-ДК4 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK4_dT, C122_BI29_9SS1_DK4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 661, "name":	"BI29_9SS1_DK7_dT",	"description":	"Сработка 9СС1-ДК7 изменение температуры в Клад. сигн. средств №1 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK7_dT, C122_BI29_9SS1_DK7_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 664, "name":	"BI29_9SS1_DK5_dT",	"description":	"Сработка 9СС1-ДК5 изменение температуры в Штурманском посту 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK5_dT, C122_BI29_9SS1_DK5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 667, "name":	"BI29_9SS1_DK6_dT",	"description":	"Сработка 9СС1-ДК6 изменение температуры в Пом. заряд. агрегата 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK6_dT, C122_BI29_9SS1_DK6_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 105, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 685, "name":	"BI30_10SS1_DT3_dT",	"description":	"Сработка 10СС1-ДТ3 изменение температуры в Буфетной 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT3_dT, C122_BI30_10SS1_DT3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 106, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 687, "name":	"BI30_10SS1_DK2_dT",	"description":	"Сработка 10СС1-ДК2 изменение температуры в Пом. кондиционеров и ФВУ 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK2_dT, C122_BI30_10SS1_DK2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 106, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 695, "name":	"BI30_10SS1_DT1_dT",	"description":	"Сработка 10СС1-ДТ1 изменение температуры в СПС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT1_dT, C122_BI30_10SS1_DT1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 106, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 698, "name":	"BI30_10SS1_DT2_dT",	"description":	"Сработка 10СС1-ДТ2 изменение температуры в СПС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT2_dT, C122_BI30_10SS1_DT2_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 700, "name":	"BI30_10SS1_DK1_dT",	"description":	"Сработка 10СС1-ДК1 изменение температуры в СПС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK1_dT, C122_BI30_10SS1_DK1_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 704, "name":	"BI30_10SS1_DT4_dT",	"description":	"Сработка 10СС1-ДТ4 изменение температуры в Агрегатной РТС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT4_dT, C122_BI30_10SS1_DT4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 706, "name":	"BI30_10SS1_DK3_dT",	"description":	"Сработка 10СС1-ДК3 изменение температуры в Агрегатной РТС 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK3_dT, C122_BI30_10SS1_DK3_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 712, "name":	"BI30_10SS1_DK4_dT",	"description":	"Сработка 10СС1-ДК4 изменение температуры в Помещении щитов №5 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK4_dT, C122_BI30_10SS1_DK4_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 728, "name":	"BI30_10SS1_DK5_dT",	"description":	"Сработка 10СС1-ДК5 изменение температуры в Кладовой сигн. средств №2 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK5_dT, C122_BI30_10SS1_DK5_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 108, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 736, "name":	"BI82_12SS1_DTV1_dT",	"description":	"Сработка 12СС1-ДТВ1 изменение температура в Погребе мин-трал. б/з 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV1_dT, C122_BI82_12SS1_DTV1_dT, C218_BI82_12SS1_DTV1_dT_Z, C8_BI82_12SS1_DTV1_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 109, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 739, "name":	"BI82_12SS1_DTV2_dT",	"description":	"Сработка 12СС1-ДТВ2 изменение температура в Погребе мин-трал. б/з 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV2_dT, C122_BI82_12SS1_DTV2_dT, C218_BI82_12SS1_DTV2_dT_Z, C8_BI82_12SS1_DTV2_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 109, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 745, "name":	"BI82_12SS1_DTV5_dT",	"description":	"Сработка 12СС1-ДТВ5 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV5_dT, C122_BI82_12SS1_DTV5_dT, C218_BI82_12SS1_DTV5_dT_Z, C38_BI82_12SS1_DTV5_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 748, "name":	"BI82_12SS1_DTV6_dT",	"description":	"Сработка 12СС1-ДТВ6 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV6_dT, C122_BI82_12SS1_DTV6_dT, C218_BI82_12SS1_DTV6_dT_Z, C38_BI82_12SS1_DTV6_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 754, "name":	"BI82_12SS1_DTV3_dT",	"description":	"Сработка 12СС1-ДТВ3 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV3_dT, C122_BI82_12SS1_DTV3_dT, C218_BI82_12SS1_DTV3_dT_Z, C67_BI82_12SS1_DTV3_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 757, "name":	"BI82_12SS1_DTV4_dT",	"description":	"Сработка 12СС1-ДТВ4 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV4_dT, C122_BI82_12SS1_DTV4_dT, C218_BI82_12SS1_DTV4_dT_Z, C67_BI82_12SS1_DTV4_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 763, "name":	"BI82_12SS1_DTV7_dT",	"description":	"Сработка 12СС1-ДТВ7 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV7_dT, C122_BI82_12SS1_DTV7_dT, C218_BI82_12SS1_DTV7_dT_Z, C93_BI82_12SS1_DTV7_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 766, "name":	"BI82_12SS1_DTV8_dT",	"description":	"Сработка 12СС1-ДТВ8 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV8_dT, C122_BI82_12SS1_DTV8_dT, C218_BI82_12SS1_DTV8_dT_Z, C93_BI82_12SS1_DTV8_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 772, "name":	"BI82_12SS1_DTV9_dT",	"description":	"Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV9_dT, C122_BI82_12SS1_DTV9_dT, C218_BI82_12SS1_DTV9_dT_Z, C123_BI82_12SS1_DTV9_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 775, "name":	"BI82_12SS1_DTV10_dT",	"description":	"Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV10_dT, C122_BI82_12SS1_DTV10_dT, C218_BI82_12SS1_DTV10_dT_Z, C123_BI82_12SS1_DTV10_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 781, "name":	"BI82_12SS1_DTV11_dT",	"description":	"Сработка 12СС1-ДТВ11 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV11_dT, C122_BI82_12SS1_DTV11_dT, C218_BI82_12SS1_DTV11_dT_Z, C150_BI82_12SS1_DTV11_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 112, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 784, "name":	"BI82_12SS1_DTV12_dT",	"description":	"Сработка 12СС1-ДТВ12 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV12_dT, C122_BI82_12SS1_DTV12_dT, C218_BI82_12SS1_DTV12_dT_Z, C150_BI82_12SS1_DTV12_dT_Z,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 112, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 2406, "name":	"BI27_7SS1_DK11_dT",	"description":	"Сработка 7СС1-ДК11 изменение температуры в Пом. насос стан кран 10 гр.Ц. в мин.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK11_dT, C122_BI27_7SS1_DK11_dT,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 269, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					}
+				]
+			},
 			{"group": "Пламя", "enable":true,
 			 "signals":
 				[
@@ -5098,6 +6607,107 @@
 					 "bindings":
 						[
 							{"device": 100, "params": {"soeg_register": 112, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					}
+				]
+			},
+			{"group": "СО", "enable":true,
+			 "signals":
+				[
+					{"id": 81, "name":	"BI23_3SS1_DK11_V",	"description":	"Сработка 3СС1-ДК11 объем в Коридоре №1 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK11_V, C122_BI23_3SS1_DK11_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 148, "name":	"BI23_3SS1_DK12_V",	"description":	"Сработка 3СС1-ДК12 объем в Коридоре №2 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK12_V, C122_BI23_3SS1_DK12_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 152, "name":	"BI23_3SS1_DK13_V",	"description":	"Сработка 3СС1-ДК13 объем в Тамбуре №2 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK13_V, C122_BI23_3SS1_DK13_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 305, "name":	"BI24_4SS1_DK2_V",	"description":	"Сработка 4СС1-ДК2 объем в МО 20 мг. куб. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK2_V, C122_BI24_4SS1_DK2_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 309, "name":	"BI24_4SS1_DK9_V",	"description":	"Сработка 4СС1-ДК9 объем в МО 20 мг. куб. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK9_V, C122_BI24_4SS1_DK9_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 347, "name":	"BI24_4SS1_DK12_V",	"description":	"Сработка 4СС1-ДК12 объем в Пом. ГРЩ №1 20 мг. куб. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK12_V, C122_BI24_4SS1_DK12_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 385, "name":	"BI25_5SS1_DK2_V",	"description":	"Сработка 5СС1-ДК2 объем в ОВМ 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DK2_V, C122_BI25_5SS1_DK2_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 449, "name":	"BI26_6SS1_DK2_V",	"description":	"Сработка 6СС1-ДК2 объем в ДГО 20 мг. куб. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK2_V, C122_BI26_6SS1_DK2_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 453, "name":	"BI26_6SS1_DK8_V",	"description":	"Сработка 6СС1-ДК8 объем в ДГО 20 мг. куб. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK8_V, C122_BI26_6SS1_DK8_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 482, "name":	"BI26_6SS1_DK10_V",	"description":	"Сработка 6СС1-ДК10 объем в Помещении ГРЩ №2 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK10_V, C122_BI26_6SS1_DK10_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 93, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 605, "name":	"BI28_8SS1_DK1_V",	"description":	"Сработка 8СС1-ДК1 объем в Коридоре №6 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK1_V, C122_BI28_8SS1_DK1_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+							{"storage": 1}
+						]
+					},
+					{"id": 627, "name":	"BI28_8SS1_DK2_V",	"description":	"Сработка 8СС1-ДК2 объем в Коридоре №7 20 мг. куб.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK2_V, C122_BI28_8SS1_DK2_V,"}},
+					 "bindings":
+						[
+							{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
 							{"storage": 1}
 						]
 					}
@@ -6388,6 +7998,9 @@
 				{"storage": 1}
 			   ]
 			},
+			{"id": 915, "name":	"FI20_SS1_119",	"description":	"Информация о неисправности на линии связи СС1-119",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_FI20_SS1_119, FI20_SS1_122,"}},
+			},
 			{"id": 2426, "name":	"POMP_SS1_119_STATUS",	"description":	"Состояние лини передачи данных СС1-119",
 					 "master": {"job": 1,	"params": {"reserve_order": "C119_POMP_SS1_119_STATUS,"}},
 			}
@@ -6396,843 +8009,11 @@
 		{"group": "type_only_one_factor", "enable":false,
 		  "signals":
 		 [
-			{"id": 2, "name":	"BI21_1SS1_DK3_dT",	"description":	"Сработка 1СС1-ДК3 изменение температуры в Шкиперской кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DK3_dT, C122_BI21_1SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 63, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 5, "name":	"BI21_1SS1_DK2_dT",	"description":	"Сработка 1СС1-ДК2 изменение температуры в Такелажной кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DK2_dT, C122_BI21_1SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 63, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 9, "name":	"BI21_1SS1_DT1_dT",	"description":	"Сработка 1СС1-ДТ1 изменение температуры в Такелажной кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DT1_dT, C122_BI21_1SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 11, "name":	"BI21_1SS1_DK1_dT",	"description":	"Сработка 1СС1-ДК1 изменение температуры в Форпике 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DK1_dT, C122_BI21_1SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 14, "name":	"BI21_1SS1_DTV1_dT",	"description":	"Сработка 1СС1-ДТВ1 изменение температуры в Молярной кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DTV1_dT, C122_BI21_1SS1_DTV1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 16, "name":	"BI21_1SS1_DTV2_dT",	"description":	"Сработка 1СС1-ДТВ2 изменение температуры в Молярной кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI21_1SS1_DTV2_dT, C122_BI21_1SS1_DTV2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 64, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 26, "name":	"BI22_2SS1_DT9_dT",	"description":	"Сработка 2СС1-ДТ9 изменение температуры в Клад. сух. прод. и хлеба 10 гр.Ц. в мин.  ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT9_dT, C122_BI22_2SS1_DT9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 65, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 29, "name":	"BI22_2SS1_DT10_dT",	"description":	"Сработка 2СС1-ДТ10 изменение температуры в Клад. сух. прод. и хлеба 10 гр.Ц. в мин.  ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT10_dT, C122_BI22_2SS1_DT10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 65, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 33, "name":	"BI22_2SS1_DT13_dT",	"description":	"Сработка 2СС1-ДТ13 изменение температуры в Посту ПМО №2 10 гр.Ц. в мин. ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT13_dT, C122_BI22_2SS1_DT13_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 65, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 44, "name":	"BI22_2SS1_DT12_dT",	"description":	"Сработка 2СС1-ДТ12 изменение температуры в Помещении мороз. кафов 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT12_dT, C122_BI22_2SS1_DT12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 46, "name":	"BI22_2SS1_DK2_dT",	"description":	"Сработка 2СС1-ДК2 изменение температуры в Помещении холод. шкафов 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DK2_dT, C122_BI22_2SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 50, "name":	"BI22_2SS1_DT11_dT",	"description":	"Сработка 2СС1-ДТ11 изменение температуры в Помещении холод. шкафов 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT11_dT, C122_BI22_2SS1_DT11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 55, "name":	"BI22_2SS1_DT4_dT",	"description":	"Сработка 2СС1-ДТ4 изменение температуры в Помещении мех. ПУ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT4_dT, C122_BI22_2SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 66, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 58, "name":	"BI22_2SS1_DT5_dT",	"description":	"Сработка 2СС1-ДТ5 изменение температуры в Помещении мех. ПУ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT5_dT, C122_BI22_2SS1_DT5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 61, "name":	"BI22_2SS1_DT6_dT",	"description":	"Сработка 2СС1-ДТ6 изменение температуры в Помещении мех. ПУ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT6_dT, C122_BI22_2SS1_DT6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 63, "name":	"BI22_2SS1_DK1_dT",	"description":	"Сработка 2СС1-ДК1 изменение температуры в Кладовой ЗИП №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DK1_dT, C122_BI22_2SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 67, "name":	"BI22_2SS1_DT1_dT",	"description":	"Сработка 2СС1-ДТ1 изменение температуры в Пом. тр. ПУ и сточ. ц. №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT1_dT, C122_BI22_2SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 70, "name":	"BI22_2SS1_DT2_dT",	"description":	"Сработка 2СС1-ДТ2 изменение температуры в Пом. тр. ПУ и сточ. ц. №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT2_dT, C122_BI22_2SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 67, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 73, "name":	"BI22_2SS1_DT3_dT",	"description":	"Сработка 2СС1-ДТ3 изменение температуры в Пом. тр. ПУ и сточ. ц. №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT3_dT, C122_BI22_2SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 77, "name":	"BI22_2SS1_DT8_dT",	"description":	"Сработка 2СС1-ДТ8 изменение температуры в Агрегатной ПУС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI22_2SS1_DT8_dT, C122_BI22_2SS1_DT8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 81, "name":	"BI23_3SS1_DK11_V",	"description":	"Сработка 3СС1-ДК11 объем в Коридоре №1 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK11_V, C122_BI23_3SS1_DK11_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 83, "name":	"BI23_3SS1_DK11_dT",	"description":	"Сработка 3СС1-ДК11 изменение температуры в Коридоре №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK11_dT, C122_BI23_3SS1_DK11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 68, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 89, "name":	"BI23_3SS1_DT26_dT",	"description":	"Сработка 3СС1-ДТ26 изменение температуры в Гальюне мичманов 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT26_dT, C122_BI23_3SS1_DT26_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 69, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 95, "name":	"BI23_3SS1_DT35_dT",	"description":	"Сработка 3СС1-ДТ35 изменение температуры в Трансляционном посту 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT35_dT, C122_BI23_3SS1_DT35_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 69, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 101, "name":	"BI23_3SS1_DK9_dT",	"description":	"Сработка 3СС1-ДК9 изменение температуры в Помещении щитов №3 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK9_dT, C122_BI23_3SS1_DK9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 69, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 105, "name":	"BI23_3SS1_DT37_dT",	"description":	"Сработка 3СС1-ДТ37 изменение температуры в Каюте мичманов №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT37_dT, C122_BI23_3SS1_DT37_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 108, "name":	"BI23_3SS1_DT38_dT",	"description":	"Сработка 3СС1-ДТ38 изменение температуры в Каюте мичманов №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT38_dT, C122_BI23_3SS1_DT38_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 111, "name":	"BI23_3SS1_DT28_dT",	"description":	"Сработка 3СС1-ДТ28 изменение температуры в Рубке гидроакустики 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT28_dT, C122_BI23_3SS1_DT28_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 114, "name":	"BI23_3SS1_DT29_dT",	"description":	"Сработка 3СС1-ДТ29 изменение температуры в Рубке гидроакустики 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT29_dT, C122_BI23_3SS1_DT29_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 116, "name":	"BI23_3SS1_DK10_dT",	"description":	"Сработка 3СС1-ДК10 изменение температуры в Аппаратной АСУ Диез 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK10_dT, C122_BI23_3SS1_DK10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 70, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 122, "name":	"BI23_3SS1_DT27_dT",	"description":	"Сработка 3СС1-ДТ27 изменение температуры в Спец. архиве 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT27_dT, C122_BI23_3SS1_DT27_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 126, "name":	"BI23_3SS1_DT39_dT",	"description":	"Сработка 3СС1-ДТ39 изменение температуры в Каюте мичманов №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT39_dT, C122_BI23_3SS1_DT39_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 129, "name":	"BI23_3SS1_DT40_dT",	"description":	"Сработка 3СС1-ДТ40 изменение температуры в Каюте мичманов №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT40_dT, C122_BI23_3SS1_DT40_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 132, "name":	"BI23_3SS1_DT30_dT",	"description":	"Сработка 3СС1-ДТ30 изменение температуры в Посудомоечной 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT30_dT, C122_BI23_3SS1_DT30_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 136, "name":	"BI23_3SS1_DK8_dT",	"description":	"Сработка 3СС1-ДК8 изменение температуры в Столовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK8_dT, C122_BI23_3SS1_DK8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 71, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 140, "name":	"BI23_3SS1_DT33_dT",	"description":	"Сработка 3СС1-ДТ33 изменение температуры в Столовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT33_dT, C122_BI23_3SS1_DT33_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 143, "name":	"BI23_3SS1_DT34_dT",	"description":	"Сработка 3СС1-ДТ34 изменение температуры в Столовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT34_dT, C122_BI23_3SS1_DT34_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 148, "name":	"BI23_3SS1_DK12_V",	"description":	"Сработка 3СС1-ДК12 объем в Коридоре №2 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK12_V, C122_BI23_3SS1_DK12_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 150, "name":	"BI23_3SS1_DK12_dT",	"description":	"Сработка 3СС1-ДК12 изменение температуры в Коридоре №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK12_dT, C122_BI23_3SS1_DK12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 152, "name":	"BI23_3SS1_DK13_V",	"description":	"Сработка 3СС1-ДК13 объем в Тамбуре №2 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK13_V, C122_BI23_3SS1_DK13_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 72, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 154, "name":	"BI23_3SS1_DK13_dT",	"description":	"Сработка 3СС1-ДК13 изменение температуры в Тамбуре №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK13_dT, C122_BI23_3SS1_DK13_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 73, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 163, "name":	"BI23_3SS1_DK7_dT",	"description":	"Сработка 3СС1-ДК7 изменение температуры в Помещении щитов №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK7_dT, C122_BI23_3SS1_DK7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 73, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 166, "name":	"BI23_3SS1_DK5_dT",	"description":	"Сработка 3СС1-ДК5 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK5_dT, C122_BI23_3SS1_DK5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 73, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 169, "name":	"BI23_3SS1_DK6_dT",	"description":	"Сработка 3СС1-ДК6 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK6_dT, C122_BI23_3SS1_DK6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 172, "name":	"BI23_3SS1_DK15_dT",	"description":	"Сработка 3СС1-ДК15 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK15_dT, C122_BI23_3SS1_DK15_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 176, "name":	"BI23_3SS1_DT20_dT",	"description":	"Сработка 3СС1-ДТ20 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT20_dT, C122_BI23_3SS1_DT20_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 179, "name":	"BI23_3SS1_DT21_dT",	"description":	"Сработка 3СС1-ДТ21 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT21_dT, C122_BI23_3SS1_DT21_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 182, "name":	"BI23_3SS1_DT22_dT",	"description":	"Сработка 3СС1-ДТ22 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT22_dT, C122_BI23_3SS1_DT22_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 74, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 185, "name":	"BI23_3SS1_DT23_dT",	"description":	"Сработка 3СС1-ДТ23 изменение температуры в Кубрике №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT23_dT, C122_BI23_3SS1_DT23_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 188, "name":	"BI23_3SS1_DT24_dT",	"description":	"Сработка 3СС1-ДТ24 изменение температуры в Санузле №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT24_dT, C122_BI23_3SS1_DT24_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 191, "name":	"BI23_3SS1_DT25_dT",	"description":	"Сработка 3СС1-ДТ24 изменение температуры в Санузле №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT25_dT, C122_BI23_3SS1_DT25_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 193, "name":	"BI23_3SS1_DK2_dT",	"description":	"Сработка 3СС1-ДК2 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK2_dT, C122_BI23_3SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 196, "name":	"BI23_3SS1_DK3_dT",	"description":	"Сработка 3СС1-ДК3 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK3_dT, C122_BI23_3SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 199, "name":	"BI23_3SS1_DK4_dT",	"description":	"Сработка 3СС1-ДК4 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK4_dT, C122_BI23_3SS1_DK4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 75, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 202, "name":	"BI23_3SS1_DK14_dT",	"description":	"Сработка 3СС1-ДК14 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK14_dT, C122_BI23_3SS1_DK14_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 206, "name":	"BI23_3SS1_DT14_dT",	"description":	"Сработка 3СС1-ДТ14 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT14_dT, C122_BI23_3SS1_DT14_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 209, "name":	"BI23_3SS1_DT15_dT",	"description":	"Сработка 3СС1-ДТ15 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT15_dT, C122_BI23_3SS1_DT15_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 212, "name":	"BI23_3SS1_DT16_dT",	"description":	"Сработка 3СС1-ДТ16 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT16_dT, C122_BI23_3SS1_DT16_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 215, "name":	"BI23_3SS1_DT17_dT",	"description":	"Сработка 3СС1-ДТ17 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT17_dT, C122_BI23_3SS1_DT17_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 76, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 218, "name":	"BI23_3SS1_DT18_dT",	"description":	"Сработка 3СС1-ДТ18 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT18_dT, C122_BI23_3SS1_DT18_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 221, "name":	"BI23_3SS1_DT19_dT",	"description":	"Сработка 3СС1-ДТ19 изменение температуры в Кубрике №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT19_dT, C122_BI23_3SS1_DT19_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 224, "name":	"BI23_3SS1_DT12_dT",	"description":	"Сработка 3СС1-ДТ12 изменение температуры в Санузле №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT12_dT, C122_BI23_3SS1_DT12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 228, "name":	"BI23_3SS1_DT6_dT",	"description":	"Сработка 3СС1-ДТ6 изменение температуры в Пом. обор. сис. прес. воды 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT6_dT, C122_BI23_3SS1_DT6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 231, "name":	"BI23_3SS1_DT7_dT",	"description":	"Сработка 3СС1-ДТ7 изменение температуры в Пом. обор. сис. прес. воды 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT7_dT, C122_BI23_3SS1_DT7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 77, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 234, "name":	"BI23_3SS1_DT8_dT",	"description":	"Сработка 3СС1-ДТ8 изменение температуры в Пом. обор. сис. прес. воды 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT8_dT, C122_BI23_3SS1_DT8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 239, "name":	"BI23_3SS1_DT3_dT",	"description":	"Сработка 3СС1-ДТ3 изменение температуры в Аппаратной гидроакус. 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT3_dT, C122_BI23_3SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 242, "name":	"BI23_3SS1_DT4_dT",	"description":	"Сработка 3СС1-ДТ4 изменение температуры в Аппаратной гидроакус. 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT4_dT, C122_BI23_3SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 245, "name":	"BI23_3SS1_DT1_dT",	"description":	"Сработка 3СС1-ДТ1 изменение температуры в Агрегатная ПОУ ГАС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT1_dT, C122_BI23_3SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 247, "name":	"BI23_3SS1_DK1_dT",	"description":	"Сработка 3СС1-ДК1 изменение температуры в Химической кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DK1_dT, C122_BI23_3SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 78, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 251, "name":	"BI23_3SS1_DT9_dT",	"description":	"Сработка 3СС1-ДТ9 изменение температуры в Гиропосту 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT9_dT, C122_BI23_3SS1_DT9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 254, "name":	"BI23_3SS1_DT10_dT",	"description":	"Сработка 3СС1-ДТ10 изменение температуры в Гиропосту 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT10_dT, C122_BI23_3SS1_DT10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 258, "name":	"BI23_3SS1_DT11_dT",	"description":	"Сработка 3СС1-ДТ11 изменение температуры в Помещении сбора стоков 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI23_3SS1_DT11_dT, C122_BI23_3SS1_DT11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 261, "name":	"BI24_4SS1_DT1_dT",	"description":	"Сработка 4СС1-ДТ1 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT1_dT, C122_BI24_4SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 264, "name":	"BI24_4SS1_DT2_dT",	"description":	"Сработка 4СС1-ДТ2 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT2_dT, C122_BI24_4SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 79, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 267, "name":	"BI24_4SS1_DT3_dT",	"description":	"Сработка 4СС1-ДТ3 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT3_dT, C122_BI24_4SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 270, "name":	"BI24_4SS1_DT4_dT",	"description":	"Сработка 4СС1-ДТ4 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT4_dT, C122_BI24_4SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 273, "name":	"BI24_4SS1_DT5_dT",	"description":	"Сработка 4СС1-ДТ5 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT5_dT, C122_BI24_4SS1_DT5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 276, "name":	"BI24_4SS1_DT6_dT",	"description":	"Сработка 4СС1-ДТ6 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT6_dT, C122_BI24_4SS1_DT6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 279, "name":	"BI24_4SS1_DT7_dT",	"description":	"Сработка 4СС1-ДТ7 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT7_dT, C122_BI24_4SS1_DT7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 80, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 282, "name":	"BI24_4SS1_DT8_dT",	"description":	"Сработка 4СС1-ДТ8 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT8_dT, C122_BI24_4SS1_DT8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 285, "name":	"BI24_4SS1_DT9_dT",	"description":	"Сработка 4СС1-ДТ9 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT9_dT, C122_BI24_4SS1_DT9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 287, "name":	"BI24_4SS1_DK3_dT",	"description":	"Сработка 4СС1-ДК3 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK3_dT, C122_BI24_4SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 290, "name":	"BI24_4SS1_DK4_dT",	"description":	"Сработка 4СС1-ДК4 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK4_dT, C122_BI24_4SS1_DK4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 293, "name":	"BI24_4SS1_DK5_dT",	"description":	"Сработка 4СС1-ДК5 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK5_dT, C122_BI24_4SS1_DK5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 296, "name":	"BI24_4SS1_DK6_dT",	"description":	"Сработка 4СС1-ДК6 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK6_dT, C122_BI24_4SS1_DK6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 81, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 299, "name":	"BI24_4SS1_DK7_dT",	"description":	"Сработка 4СС1-ДК7 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK7_dT, C122_BI24_4SS1_DK7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 305, "name":	"BI24_4SS1_DK2_V",	"description":	"Сработка 4СС1-ДК2 объем в МО 20 мг. куб. ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK2_V, C122_BI24_4SS1_DK2_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 307, "name":	"BI24_4SS1_DK2_dT",	"description":	"Сработка 4СС1-ДК2 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK2_dT, C122_BI24_4SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 309, "name":	"BI24_4SS1_DK9_V",	"description":	"Сработка 4СС1-ДК9 объем в МО 20 мг. куб. ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK9_V, C122_BI24_4SS1_DK9_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 311, "name":	"BI24_4SS1_DK9_dT",	"description":	"Сработка 4СС1-ДК9 изменение температуры в МО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK9_dT, C122_BI24_4SS1_DK9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 82, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 325, "name":	"BI24_4SS1_DT11_dT",	"description":	"Сработка 4СС1-ДТ11 изменение температуры в Камбузе 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT11_dT, C122_BI24_4SS1_DT11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 83, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
 			{"id": 326, "name":	"BI24_4SS1_VTE1_T",	"description":	"Сработка 4СС1-ВТЭ1 температура в Камбузе 120 гр.Ц.",
 					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_VTE1_T, C122_BI24_4SS1_VTE1_T,"}},
 			 "bindings":
 			   [
 				{"device": 100, "params": {"soeg_register": 83, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 330, "name":	"BI24_4SS1_DK10_dT",	"description":	"Сработка 4СС1-ДК10 изменение температуры в Пом. изделия КДС-703 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK10_dT, C122_BI24_4SS1_DK10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 84, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 338, "name":	"BI24_4SS1_DT10_dT",	"description":	"Сработка 4СС1-ДТ10 изменение температуры в  Расх. клад. камбуза 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT10_dT, C122_BI24_4SS1_DT10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 84, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 347, "name":	"BI24_4SS1_DK12_V",	"description":	"Сработка 4СС1-ДК12 объем в Пом. ГРЩ №1 20 мг. куб. ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK12_V, C122_BI24_4SS1_DK12_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 349, "name":	"BI24_4SS1_DK12_dT",	"description":	"Сработка 4СС1-ДК12 изменение температуры в Пом. ГРЩ №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK12_dT, C122_BI24_4SS1_DK12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 356, "name":	"BI24_4SS1_DK11_dT",	"description":	"Сработка 4СС1-ДК11 изменение  температуры в КПЭЖ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK11_dT, C122_BI24_4SS1_DK11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 360, "name":	"BI24_4SS1_DT12_dT",	"description":	"Сработка 4СС1-ДТ12 изменение  температуры в КПЭЖ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DT12_dT, C122_BI24_4SS1_DT12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 85, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 364, "name":	"BI24_4SS1_DK13_dT",	"description":	"Сработка 4СС1-ДК13 изменение температуры в Кладовой ЗИП №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_DK13_dT, C122_BI24_4SS1_DK13_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 369, "name":	"BI25_5SS1_DT1_dT",	"description":	"Сработка 5СС1-ДТ1 изменение температуры в Помещении ППР 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT1_dT, C122_BI25_5SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 372, "name":	"BI25_5SS1_DT4_dT",	"description":	"Сработка 5СС1-ДТ4 изменение температуры в Пом. обор. сточ. сист. 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT4_dT, C122_BI25_5SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 378, "name":	"BI25_5SS1_DT2_dT",	"description":	"Сработка 5СС1-ДТ2 изменение температуры в ОВМ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT2_dT, C122_BI25_5SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 381, "name":	"BI25_5SS1_DT3_dT",	"description":	"Сработка 5СС1-ДТ3 изменение температуры в ОВМ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT3_dT, C122_BI25_5SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 385, "name":	"BI25_5SS1_DK2_V",	"description":	"Сработка 5СС1-ДК2 объем в ОВМ 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DK2_V, C122_BI25_5SS1_DK2_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 387, "name":	"BI25_5SS1_DK2_dT",	"description":	"Сработка 5СС1-ДК2 изменение температуры в ОВМ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DK2_dT, C122_BI25_5SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
 				{"storage": 1}
 			   ]
 			},
@@ -7252,662 +8033,6 @@
 				{"storage": 1}
 			   ]
 			},
-			{"id": 392, "name":	"BI25_5SS1_DK3_dT",	"description":	"Сработка 5СС1-ДК3 изменение температуры в Помещении БП РХР 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DK3_dT, C122_BI25_5SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 401, "name":	"BI25_5SS1_DT5_dT",	"description":	"Сработка 5СС1-ДТ5 изменение температуры в Санузле №3 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_DT5_dT, C122_BI25_5SS1_DT5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 88, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 408, "name":	"BI26_6SS1_DT1_dT",	"description":	"Сработка 6СС1-ДТ1 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT1_dT, C122_BI26_6SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 88, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 411, "name":	"BI26_6SS1_DT2_dT",	"description":	"Сработка 6СС1-ДТ2 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT2_dT, C122_BI26_6SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 414, "name":	"BI26_6SS1_DT3_dT",	"description":	"Сработка 6СС1-ДТ3 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT3_dT, C122_BI26_6SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 417, "name":	"BI26_6SS1_DT4_dT",	"description":	"Сработка 6СС1-ДТ4 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT4_dT, C122_BI26_6SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 420, "name":	"BI26_6SS1_DT5_dT",	"description":	"Сработка 6СС1-ДТ5 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT5_dT, C122_BI26_6SS1_DT5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 423, "name":	"BI26_6SS1_DT6_dT",	"description":	"Сработка 6СС1-ДТ6 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT6_dT, C122_BI26_6SS1_DT6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 89, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 426, "name":	"BI26_6SS1_DT7_dT",	"description":	"Сработка 6СС1-ДТ7 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT7_dT, C122_BI26_6SS1_DT7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 429, "name":	"BI26_6SS1_DT8_dT",	"description":	"Сработка 6СС1-ДТ8 изменение температура в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT8_dT, C122_BI26_6SS1_DT8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 435, "name":	"BI26_6SS1_DK3_dT",	"description":	"Сработка 6СС1-ДК3 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK3_dT, C122_BI26_6SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 438, "name":	"BI26_6SS1_DK4_dT",	"description":	"Сработка 6СС1-ДК4 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK4_dT, C122_BI26_6SS1_DK4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 90, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 441, "name":	"BI26_6SS1_DK5_dT",	"description":	"Сработка 6СС1-ДК5 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK5_dT, C122_BI26_6SS1_DK5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 444, "name":	"BI26_6SS1_DK6_dT",	"description":	"Сработка 6СС1-ДК6 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK6_dT, C122_BI26_6SS1_DK6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 447, "name":	"BI26_6SS1_DK7_dT",	"description":	"Сработка 6СС1-ДК7 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK7_dT, C122_BI26_6SS1_DK7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 449, "name":	"BI26_6SS1_DK2_V",	"description":	"Сработка 6СС1-ДК2 объем в ДГО 20 мг. куб. ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK2_V, C122_BI26_6SS1_DK2_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 451, "name":	"BI26_6SS1_DK2_dT",	"description":	"Сработка 6СС1-ДК2 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK2_dT, C122_BI26_6SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 453, "name":	"BI26_6SS1_DK8_V",	"description":	"Сработка 6СС1-ДК8 объем в ДГО 20 мг. куб. ",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK8_V, C122_BI26_6SS1_DK8_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 455, "name":	"BI26_6SS1_DK8_dT",	"description":	"Сработка 6СС1-ДК8 изменение температуры в ДГО 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK8_dT, C122_BI26_6SS1_DK8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 91, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 464, "name":	"BI26_6SS1_DT9_dT",	"description":	"Сработка 6СС1-ДТ9 изменение температуры в Пом. насос. агрегата СПА 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT9_dT, C122_BI26_6SS1_DT9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 92, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 467, "name":	"BI26_6SS1_DK9_dT",	"description":	"Сработка 6СС1-ДК9 изменение температуры в Водолазной клад. №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK9_dT, C122_BI26_6SS1_DK9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 92, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 482, "name":	"BI26_6SS1_DK10_V",	"description":	"Сработка 6СС1-ДК10 объем в Помещении ГРЩ №2 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK10_V, C122_BI26_6SS1_DK10_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 93, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 484, "name":	"BI26_6SS1_DK10_dT",	"description":	"Сработка 6СС1-ДК10 изменение температуры в Помещении ГРЩ №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK10_dT, C122_BI26_6SS1_DK10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 93, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 494, "name":	"BI26_6SS1_DK12_dT",	"description":	"Сработка 6СС1-ДК12 изменение температуры в Эллинге СПА 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK12_dT, C122_BI26_6SS1_DK12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 94, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 501, "name":	"BI26_6SS1_DT15_dT",	"description":	"Сработка 6СС1-ДТ15 изменение температуры в Помещении дежурного 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT15_dT, C122_BI26_6SS1_DT15_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 94, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 504, "name":	"BI26_6SS1_DT16_dT",	"description":	"Сработка 6СС1-ДТ16 изменение температуры в Помещении дежурного 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT16_dT, C122_BI26_6SS1_DT16_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 94, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 508, "name":	"BI26_6SS1_DT12_dT",	"description":	"Сработка 6СС1-ДТ12 изменение температуры в Прачечной (ПСО) 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT12_dT, C122_BI26_6SS1_DT12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 511, "name":	"BI26_6SS1_DT13_dT",	"description":	"Сработка 6СС1-ДТ13 изменение температуры в Прачечной (ПСО) 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT13_dT, C122_BI26_6SS1_DT13_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 514, "name":	"BI26_6SS1_DK14_dT",	"description":	"Сработка 6СС1-ДК14 изменение температуры в Эллинге БТ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK14_dT, C122_BI26_6SS1_DK14_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 519, "name":	"BI26_6SS1_DK13_dT",	"description":	"Сработка 6СС1-ДК13 изменение температуры в Сушильной 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK13_dT, C122_BI26_6SS1_DK13_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 95, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 525, "name":	"BI26_6SS1_DT17_dT",	"description":	"Сработка 6СС1-ДТ17 изменение температуры в Станции ОХТ №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT17_dT, C122_BI26_6SS1_DT17_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 529, "name":	"BI26_6SS1_DK15_dT",	"description":	"Сработка 6СС1-ДК15 изменение температуры в Агрегатной ПМО №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK15_dT, C122_BI26_6SS1_DK15_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 532, "name":	"BI26_6SS1_DK16_dT",	"description":	"Сработка 6СС1-ДК16 изменение температуры в Посту ПМО №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DK16_dT, C122_BI26_6SS1_DK16_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 536, "name":	"BI27_7SS1_DK4_dT",	"description":	"Сработка 7СС1-ДК4 изменение температуры в Тральной кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK4_dT, C122_BI27_7SS1_DK4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 539, "name":	"BI27_7SS1_DK5_dT",	"description":	"Сработка 7СС1-ДК5 изменение температуры в Тральной кладовой 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK5_dT, C122_BI27_7SS1_DK5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 542, "name":	"BI27_7SS1_DK1_dT",	"description":	"Сработка 7СС1-ДК1 изменение температуры в Агрегатной ПМО №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK1_dT, C122_BI27_7SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 546, "name":	"BI27_7SS1_DK2_dT",	"description":	"Сработка 7СС1-ДК2 изменение температуры в Пом. гидроагрегатов 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK2_dT, C122_BI27_7SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 549, "name":	"BI27_7SS1_DK3_dT",	"description":	"Сработка 7СС1-ДК3 изменение температуры в Пом. гидроагрегатов 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK3_dT, C122_BI27_7SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 97, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 553, "name":	"BI27_7SS1_DK6_dT",	"description":	"Сработка 7СС1-ДК6 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK6_dT, C122_BI27_7SS1_DK6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 556, "name":	"BI27_7SS1_DK7_dT",	"description":	"Сработка 7СС1-ДК7 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK7_dT, C122_BI27_7SS1_DK7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 559, "name":	"BI27_7SS1_DK8_dT",	"description":	"Сработка 7СС1-ДК8 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK8_dT, C122_BI27_7SS1_DK8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 562, "name":	"BI27_7SS1_DK9_dT",	"description":	"Сработка 7СС1-ДК9 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK9_dT, C122_BI27_7SS1_DK9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 565, "name":	"BI27_7SS1_DK10_dT",	"description":	"Сработка 7СС1-ДК10 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK10_dT, C122_BI27_7SS1_DK10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 98, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 569, "name":	"BI27_7SS1_DT1_dT",	"description":	"Сработка 7СС1-ДТ1 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT1_dT, C122_BI27_7SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 572, "name":	"BI27_7SS1_DT2_dT",	"description":	"Сработка 7СС1-ДТ2 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT2_dT, C122_BI27_7SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 575, "name":	"BI27_7SS1_DT3_dT",	"description":	"Сработка 7СС1-ДТ3 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT3_dT, C122_BI27_7SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 578, "name":	"BI27_7SS1_DT4_dT",	"description":	"Сработка 7СС1-ДТ4 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT4_dT, C122_BI27_7SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 581, "name":	"BI27_7SS1_DT5_dT",	"description":	"Сработка 7СС1-ДТ5 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT5_dT, C122_BI27_7SS1_DT5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 584, "name":	"BI27_7SS1_DT6_dT",	"description":	"Сработка 7СС1-ДТ6 изменение температуры в Румпельном отделении 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DT6_dT, C122_BI27_7SS1_DT6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 99, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 587, "name":	"BI28_8SS1_DT2_dT",	"description":	"Сработка 8СС1-ДТ2 изменение температуры в Каюте командира 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT2_dT, C122_BI28_8SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 590, "name":	"BI28_8SS1_DT3_dT",	"description":	"Сработка 8СС1-ДТ3 изменение температуры в Каюте командира 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT3_dT, C122_BI28_8SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 593, "name":	"BI28_8SS1_DT1_dT",	"description":	"Сработка 8СС1-ДТ3 изменение температуры в Санузле командира 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT1_dT, C122_BI28_8SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 596, "name":	"BI28_8SS1_DT4_dT",	"description":	"Сработка 8СС1-ДТ4 изменение температуры в Каюте офицеров №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT4_dT, C122_BI28_8SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 599, "name":	"BI28_8SS1_DT5_dT",	"description":	"Сработка 8СС1-ДТ5 изменение температуры в Каюте офицеров №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT5_dT, C122_BI28_8SS1_DT5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 100, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 602, "name":	"BI28_8SS1_DT6_dT",	"description":	"Сработка 8СС1-ДТ6 изменение температуры в Станции ОХТ №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT6_dT, C122_BI28_8SS1_DT6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 605, "name":	"BI28_8SS1_DK1_V",	"description":	"Сработка 8СС1-ДК1 объем в Коридоре №6 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK1_V, C122_BI28_8SS1_DK1_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 607, "name":	"BI28_8SS1_DK1_dT",	"description":	"Сработка 8СС1-ДК1 изменение температуры в Коридоре №6 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK1_dT, C122_BI28_8SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 615, "name":	"BI28_8SS1_DT7_dT",	"description":	"Сработка 8СС1-ДТ7 изменение температуры в Каюте офицеров №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT7_dT, C122_BI28_8SS1_DT7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 101, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 618, "name":	"BI28_8SS1_DT8_dT",	"description":	"Сработка 8СС1-ДТ8 изменение температуры в Каюте офицеров №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT8_dT, C122_BI28_8SS1_DT8_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 621, "name":	"BI28_8SS1_DT9_dT",	"description":	"Сработка 8СС1-ДТ9 изменение температуры в Каюте офицеров №3 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT9_dT, C122_BI28_8SS1_DT9_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 624, "name":	"BI28_8SS1_DT10_dT",	"description":	"Сработка 8СС1-ДТ10 изменение температуры в Каюте офицеров №3 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT10_dT, C122_BI28_8SS1_DT10_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 627, "name":	"BI28_8SS1_DK2_V",	"description":	"Сработка 8СС1-ДК2 объем в Коридоре №7 20 мг. куб.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK2_V, C122_BI28_8SS1_DK2_V,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 629, "name":	"BI28_8SS1_DK2_dT",	"description":	"Сработка 8СС1-ДК2 изменение температуры в Коридоре №7 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DK2_dT, C122_BI28_8SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 102, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 635, "name":	"BI28_8SS1_DT13_dT",	"description":	"Сработка 8СС1-ДТ13 изменение температуры в Кают-компании 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT13_dT, C122_BI28_8SS1_DT13_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 638, "name":	"BI28_8SS1_DT14_dT",	"description":	"Сработка 8СС1-ДТ14 изменение температуры в Кают-компании 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT14_dT, C122_BI28_8SS1_DT14_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 641, "name":	"BI28_8SS1_DT11_dT",	"description":	"Сработка 8СС1-ДТ11 изменение температуры в Радиорубке 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT11_dT, C122_BI28_8SS1_DT11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 644, "name":	"BI28_8SS1_DT12_dT",	"description":	"Сработка 8СС1-ДТ12 изменение температуры в Радиорубке 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI28_8SS1_DT12_dT, C122_BI28_8SS1_DT12_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 646, "name":	"BI29_9SS1_DK1_dT",	"description":	"Сработка 9СС1-ДК1 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK1_dT, C122_BI29_9SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 103, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 649, "name":	"BI29_9SS1_DK2_dT",	"description":	"Сработка 9СС1-ДК2 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK2_dT, C122_BI29_9SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 652, "name":	"BI29_9SS1_DK3_dT",	"description":	"Сработка 9СС1-ДК3 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK3_dT, C122_BI29_9SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 655, "name":	"BI29_9SS1_DK4_dT",	"description":	"Сработка 9СС1-ДК4 изменение температуры в ГКП-ХКП 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK4_dT, C122_BI29_9SS1_DK4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 661, "name":	"BI29_9SS1_DK7_dT",	"description":	"Сработка 9СС1-ДК7 изменение температуры в Клад. сигн. средств №1 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK7_dT, C122_BI29_9SS1_DK7_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 664, "name":	"BI29_9SS1_DK5_dT",	"description":	"Сработка 9СС1-ДК5 изменение температуры в Штурманском посту 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK5_dT, C122_BI29_9SS1_DK5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 104, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 667, "name":	"BI29_9SS1_DK6_dT",	"description":	"Сработка 9СС1-ДК6 изменение температуры в Пом. заряд. агрегата 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI29_9SS1_DK6_dT, C122_BI29_9SS1_DK6_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 105, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 685, "name":	"BI30_10SS1_DT3_dT",	"description":	"Сработка 10СС1-ДТ3 изменение температуры в Буфетной 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT3_dT, C122_BI30_10SS1_DT3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 106, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 687, "name":	"BI30_10SS1_DK2_dT",	"description":	"Сработка 10СС1-ДК2 изменение температуры в Пом. кондиционеров и ФВУ 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK2_dT, C122_BI30_10SS1_DK2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 106, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 695, "name":	"BI30_10SS1_DT1_dT",	"description":	"Сработка 10СС1-ДТ1 изменение температуры в СПС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT1_dT, C122_BI30_10SS1_DT1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 106, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 698, "name":	"BI30_10SS1_DT2_dT",	"description":	"Сработка 10СС1-ДТ2 изменение температуры в СПС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT2_dT, C122_BI30_10SS1_DT2_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 700, "name":	"BI30_10SS1_DK1_dT",	"description":	"Сработка 10СС1-ДК1 изменение температуры в СПС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK1_dT, C122_BI30_10SS1_DK1_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 704, "name":	"BI30_10SS1_DT4_dT",	"description":	"Сработка 10СС1-ДТ4 изменение температуры в Агрегатной РТС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DT4_dT, C122_BI30_10SS1_DT4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 706, "name":	"BI30_10SS1_DK3_dT",	"description":	"Сработка 10СС1-ДК3 изменение температуры в Агрегатной РТС 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK3_dT, C122_BI30_10SS1_DK3_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 712, "name":	"BI30_10SS1_DK4_dT",	"description":	"Сработка 10СС1-ДК4 изменение температуры в Помещении щитов №5 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK4_dT, C122_BI30_10SS1_DK4_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 107, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
 			{"id": 723, "name":	"BI30_10SS1_VTE1_T",	"description":	"Сработка 10СС1-ВТЭ1 температура в Шахте газоходов №3 120 гр.Ц.",
 					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_VTE1_T, C122_BI30_10SS1_VTE1_T,"}},
 			 "bindings":
@@ -7921,118 +8046,6 @@
 			 "bindings":
 			   [
 				{"device": 100, "params": {"soeg_register": 108, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 728, "name":	"BI30_10SS1_DK5_dT",	"description":	"Сработка 10СС1-ДК5 изменение температуры в Кладовой сигн. средств №2 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_DK5_dT, C122_BI30_10SS1_DK5_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 108, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 736, "name":	"BI82_12SS1_DTV1_dT",	"description":	"Сработка 12СС1-ДТВ1 изменение температура в Погребе мин-трал. б/з 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV1_dT, C122_BI82_12SS1_DTV1_dT, C218_BI82_12SS1_DTV1_dT_Z, C8_BI82_12SS1_DTV1_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 109, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 739, "name":	"BI82_12SS1_DTV2_dT",	"description":	"Сработка 12СС1-ДТВ2 изменение температура в Погребе мин-трал. б/з 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV2_dT, C122_BI82_12SS1_DTV2_dT, C218_BI82_12SS1_DTV2_dT_Z, C8_BI82_12SS1_DTV2_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 109, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 745, "name":	"BI82_12SS1_DTV5_dT",	"description":	"Сработка 12СС1-ДТВ5 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV5_dT, C122_BI82_12SS1_DTV5_dT, C218_BI82_12SS1_DTV5_dT_Z, C38_BI82_12SS1_DTV5_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 748, "name":	"BI82_12SS1_DTV6_dT",	"description":	"Сработка 12СС1-ДТВ6 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV6_dT, C122_BI82_12SS1_DTV6_dT, C218_BI82_12SS1_DTV6_dT_Z, C38_BI82_12SS1_DTV6_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 754, "name":	"BI82_12SS1_DTV3_dT",	"description":	"Сработка 12СС1-ДТВ3 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV3_dT, C122_BI82_12SS1_DTV3_dT, C218_BI82_12SS1_DTV3_dT_Z, C67_BI82_12SS1_DTV3_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 757, "name":	"BI82_12SS1_DTV4_dT",	"description":	"Сработка 12СС1-ДТВ4 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV4_dT, C122_BI82_12SS1_DTV4_dT, C218_BI82_12SS1_DTV4_dT_Z, C67_BI82_12SS1_DTV4_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 110, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 763, "name":	"BI82_12SS1_DTV7_dT",	"description":	"Сработка 12СС1-ДТВ7 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV7_dT, C122_BI82_12SS1_DTV7_dT, C218_BI82_12SS1_DTV7_dT_Z, C93_BI82_12SS1_DTV7_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 766, "name":	"BI82_12SS1_DTV8_dT",	"description":	"Сработка 12СС1-ДТВ8 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV8_dT, C122_BI82_12SS1_DTV8_dT, C218_BI82_12SS1_DTV8_dT_Z, C93_BI82_12SS1_DTV8_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 772, "name":	"BI82_12SS1_DTV9_dT",	"description":	"Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV9_dT, C122_BI82_12SS1_DTV9_dT, C218_BI82_12SS1_DTV9_dT_Z, C123_BI82_12SS1_DTV9_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 775, "name":	"BI82_12SS1_DTV10_dT",	"description":	"Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV10_dT, C122_BI82_12SS1_DTV10_dT, C218_BI82_12SS1_DTV10_dT_Z, C123_BI82_12SS1_DTV10_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 111, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 781, "name":	"BI82_12SS1_DTV11_dT",	"description":	"Сработка 12СС1-ДТВ11 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV11_dT, C122_BI82_12SS1_DTV11_dT, C218_BI82_12SS1_DTV11_dT_Z, C150_BI82_12SS1_DTV11_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 112, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 784, "name":	"BI82_12SS1_DTV12_dT",	"description":	"Сработка 12СС1-ДТВ12 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI82_12SS1_DTV12_dT, C122_BI82_12SS1_DTV12_dT, C218_BI82_12SS1_DTV12_dT_Z, C150_BI82_12SS1_DTV12_dT_Z,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 112, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
-				{"storage": 1}
-			   ]
-			},
-			{"id": 2406, "name":	"BI27_7SS1_DK11_dT",	"description":	"Сработка 7СС1-ДК11 изменение температуры в Пом. насос стан кран 10 гр.Ц. в мин.",
-					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI27_7SS1_DK11_dT, C122_BI27_7SS1_DK11_dT,"}},
-			 "bindings":
-			   [
-				{"device": 100, "params": {"soeg_register": 269, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
 				{"storage": 1}
 			   ]
 			}

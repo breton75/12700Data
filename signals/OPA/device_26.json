@@ -4,6 +4,17 @@
 		{"group": "type_0x02", "enable":true,
 		  "signals":
 		 [
+			{"group": "Дифф. температуры", "enable":true,
+			 "signals":
+				[
+					{"id": 5302, "name":	"C93_BI82_12SS1_DTV7_dT_Z",	"description":	"Сработка 12СС1-ДТВ7 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 346, "factor": "0x03"}}
+					},
+					{"id": 5305, "name":	"C93_BI82_12SS1_DTV8_dT_Z",	"description":	"Сработка 12СС1-ДТВ8 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
+					 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 349, "factor": "0x03"}}
+					}
+				]
+			},
 			{"group": "Пламя", "enable":true,
 			 "signals":
 				[
@@ -58,17 +69,6 @@
 			},
 			{"id": 2425, "name":	"POMP_SS1_93_STATUS",	"description":	"Состояние лини передачи данных 12СС1-93",
 			 "master": {"device": 26,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
-			}
-		 ]
-		},
-		{"group": "type_only_one_factor", "enable":false,
-		  "signals":
-		 [
-			{"id": 5302, "name":	"C93_BI82_12SS1_DTV7_dT_Z",	"description":	"Сработка 12СС1-ДТВ7 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
-			 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 346,"factor": "0x03"}}
-			},
-			{"id": 5305, "name":	"C93_BI82_12SS1_DTV8_dT_Z",	"description":	"Сработка 12СС1-ДТВ8 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
-			 "master": {"device": 26,	"params": {"data_type": "0x02", "sensor_number": 349,"factor": "0x03"}}
 			}
 		 ]
 		}
