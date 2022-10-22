@@ -1,96 +1,96 @@
 {
        "signals":
         [
-          {"id": 301, "name":  "BI24_4SS1_DK1_f1",  "description":  "Сработка 4СС1-ДК1 дым в МО меньше или равно 2%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK1_f1, C122_BI24_4SS1_DK1_f1,"}},
+          {"id": 301, "name": "BI24_4SS1_DK1_f1", "description":  "Сработка 4СС1-ДК1 дым в МО меньше или равно 2%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK1_f1; C122_BI24_4SS1_DK1_f1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 82, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 302, "name":  "BI24_4SS1_DK1_f2",  "description":  "Сработка 4СС1-ДК1 дым в МО больше 4%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK1_f2, C122_BI24_4SS1_DK1_f2,"}},
+          {"id": 302, "name": "BI24_4SS1_DK1_f2", "description":  "Сработка 4СС1-ДК1 дым в МО больше 4%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK1_f2; C122_BI24_4SS1_DK1_f2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 82, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 303, "name":  "BI24_4SS1_DK8_f1",  "description":  "Сработка 4СС1-ДК8 дым в МО меньше или равно 2%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK8_f1, C122_BI24_4SS1_DK8_f1,"}},
+          {"id": 303, "name": "BI24_4SS1_DK8_f1", "description":  "Сработка 4СС1-ДК8 дым в МО меньше или равно 2%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK8_f1; C122_BI24_4SS1_DK8_f1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 82, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 304, "name":  "BI24_4SS1_DK8_f2",  "description":  "Сработка 4СС1-ДК8 дым в МО больше 4%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK8_f2, C122_BI24_4SS1_DK8_f2,"}},
+          {"id": 304, "name": "BI24_4SS1_DK8_f2", "description":  "Сработка 4СС1-ДК8 дым в МО больше 4%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK8_f2; C122_BI24_4SS1_DK8_f2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 82, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 351, "name":  "BI24_4SS1_DK14_f1",  "description":  "Сработка 4СС1-ДК14 дым в Пом. ГРЩ №1 меньше или равно 2%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK14_f1, C122_BI24_4SS1_DK14_f1,"}},
+          {"id": 351, "name": "BI24_4SS1_DK14_f1",  "description":  "Сработка 4СС1-ДК14 дым в Пом. ГРЩ №1 меньше или равно 2%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK14_f1; C122_BI24_4SS1_DK14_f1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 85, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 352, "name":  "BI24_4SS1_DK14_f2",  "description":  "Сработка 4СС1-ДК14 дым в Пом. ГРЩ №1 больше 4%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK14_f2, C122_BI24_4SS1_DK14_f2,"}},
+          {"id": 352, "name": "BI24_4SS1_DK14_f2",  "description":  "Сработка 4СС1-ДК14 дым в Пом. ГРЩ №1 больше 4%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK14_f2; C122_BI24_4SS1_DK14_f2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 85, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 374, "name":  "BI25_5SS1_DK1_f1",  "description":  "Сработка 5СС1-ДК1 дым в ОВМ меньше или равна 2%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI25_5SS1_DK1_f1, C122_BI25_5SS1_DK1_f1,"}},
+          {"id": 374, "name": "BI25_5SS1_DK1_f1", "description":  "Сработка 5СС1-ДК1 дым в ОВМ меньше или равна 2%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI25_5SS1_DK1_f1; C122_BI25_5SS1_DK1_f1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 86, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 375, "name":  "BI25_5SS1_DK1_f2",  "description":  "Сработка 5СС1-ДК1 дым в ОВМ больше 4%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI25_5SS1_DK1_f2, C122_BI25_5SS1_DK1_f2,"}},
+          {"id": 375, "name": "BI25_5SS1_DK1_f2", "description":  "Сработка 5СС1-ДК1 дым в ОВМ больше 4%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI25_5SS1_DK1_f2; C122_BI25_5SS1_DK1_f2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 86, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 457, "name":  "BI26_6SS1_DK1_f1",  "description":  "Сработка 6СС1-ДК1 дым в ДГО меньше или равна 2%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK1_f1, C122_BI26_6SS1_DK1_f1,"}},
+          {"id": 457, "name": "BI26_6SS1_DK1_f1", "description":  "Сработка 6СС1-ДК1 дым в ДГО меньше или равна 2%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK1_f1; C122_BI26_6SS1_DK1_f1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 92, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 458, "name":  "BI26_6SS1_DK1_f2",  "description":  "Сработка 6СС1-ДК1 дым в ДГО больше 4%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK1_f2, C122_BI26_6SS1_DK1_f2,"}},
+          {"id": 458, "name": "BI26_6SS1_DK1_f2", "description":  "Сработка 6СС1-ДК1 дым в ДГО больше 4%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK1_f2; C122_BI26_6SS1_DK1_f2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 92, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 486, "name":  "BI26_6SS1_DK11_f1",  "description":  "Сработка 6СС1-ДК11 дым в Помещении ГРЩ №2 меньше или равна 2%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK11_f1, C122_BI26_6SS1_DK11_f1,"}},
+          {"id": 486, "name": "BI26_6SS1_DK11_f1",  "description":  "Сработка 6СС1-ДК11 дым в Помещении ГРЩ №2 меньше или равна 2%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK11_f1; C122_BI26_6SS1_DK11_f1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 93, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 487, "name":  "BI26_6SS1_DK11_f2",  "description":  "Сработка 6СС1-ДК11 дым в Помещении ГРЩ №2 больше 4%",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK11_f2, C122_BI26_6SS1_DK11_f2,"}},
+          {"id": 487, "name": "BI26_6SS1_DK11_f2",  "description":  "Сработка 6СС1-ДК11 дым в Помещении ГРЩ №2 больше 4%",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK11_f2; C122_BI26_6SS1_DK11_f2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 93, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},

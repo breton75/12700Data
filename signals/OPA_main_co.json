@@ -1,96 +1,96 @@
 {
        "signals":
         [
-          {"id": 81, "name":  "BI23_3SS1_DK11_V",  "description":  "Сработка 3СС1-ДК11 объем в Коридоре №1 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI23_3SS1_DK11_V, C122_BI23_3SS1_DK11_V,"}},
+          {"id": 81, "name":  "BI23_3SS1_DK11_V", "description":  "Сработка 3СС1-ДК11 объем в Коридоре №1 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI23_3SS1_DK11_V; C122_BI23_3SS1_DK11_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 68, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 148, "name":  "BI23_3SS1_DK12_V",  "description":  "Сработка 3СС1-ДК12 объем в Коридоре №2 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI23_3SS1_DK12_V, C122_BI23_3SS1_DK12_V,"}},
+          {"id": 148, "name": "BI23_3SS1_DK12_V", "description":  "Сработка 3СС1-ДК12 объем в Коридоре №2 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI23_3SS1_DK12_V; C122_BI23_3SS1_DK12_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 72, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 152, "name":  "BI23_3SS1_DK13_V",  "description":  "Сработка 3СС1-ДК13 объем в Тамбуре №2 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI23_3SS1_DK13_V, C122_BI23_3SS1_DK13_V,"}},
+          {"id": 152, "name": "BI23_3SS1_DK13_V", "description":  "Сработка 3СС1-ДК13 объем в Тамбуре №2 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI23_3SS1_DK13_V; C122_BI23_3SS1_DK13_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 72, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 305, "name":  "BI24_4SS1_DK2_V",  "description":  "Сработка 4СС1-ДК2 объем в МО 20 мг. куб. ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK2_V, C122_BI24_4SS1_DK2_V,"}},
+          {"id": 305, "name": "BI24_4SS1_DK2_V",  "description":  "Сработка 4СС1-ДК2 объем в МО 20 мг. куб. ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK2_V; C122_BI24_4SS1_DK2_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 82, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 309, "name":  "BI24_4SS1_DK9_V",  "description":  "Сработка 4СС1-ДК9 объем в МО 20 мг. куб. ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK9_V, C122_BI24_4SS1_DK9_V,"}},
+          {"id": 309, "name": "BI24_4SS1_DK9_V",  "description":  "Сработка 4СС1-ДК9 объем в МО 20 мг. куб. ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK9_V; C122_BI24_4SS1_DK9_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 82, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 347, "name":  "BI24_4SS1_DK12_V",  "description":  "Сработка 4СС1-ДК12 объем в Пом. ГРЩ №1 20 мг. куб. ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DK12_V, C122_BI24_4SS1_DK12_V,"}},
+          {"id": 347, "name": "BI24_4SS1_DK12_V", "description":  "Сработка 4СС1-ДК12 объем в Пом. ГРЩ №1 20 мг. куб. ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DK12_V; C122_BI24_4SS1_DK12_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 85, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 385, "name":  "BI25_5SS1_DK2_V",  "description":  "Сработка 5СС1-ДК2 объем в ОВМ 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI25_5SS1_DK2_V, C122_BI25_5SS1_DK2_V,"}},
+          {"id": 385, "name": "BI25_5SS1_DK2_V",  "description":  "Сработка 5СС1-ДК2 объем в ОВМ 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI25_5SS1_DK2_V; C122_BI25_5SS1_DK2_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 87, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 449, "name":  "BI26_6SS1_DK2_V",  "description":  "Сработка 6СС1-ДК2 объем в ДГО 20 мг. куб. ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK2_V, C122_BI26_6SS1_DK2_V,"}},
+          {"id": 449, "name": "BI26_6SS1_DK2_V",  "description":  "Сработка 6СС1-ДК2 объем в ДГО 20 мг. куб. ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK2_V; C122_BI26_6SS1_DK2_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 91, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 453, "name":  "BI26_6SS1_DK8_V",  "description":  "Сработка 6СС1-ДК8 объем в ДГО 20 мг. куб. ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK8_V, C122_BI26_6SS1_DK8_V,"}},
+          {"id": 453, "name": "BI26_6SS1_DK8_V",  "description":  "Сработка 6СС1-ДК8 объем в ДГО 20 мг. куб. ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK8_V; C122_BI26_6SS1_DK8_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 91, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 482, "name":  "BI26_6SS1_DK10_V",  "description":  "Сработка 6СС1-ДК10 объем в Помещении ГРЩ №2 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DK10_V, C122_BI26_6SS1_DK10_V,"}},
+          {"id": 482, "name": "BI26_6SS1_DK10_V", "description":  "Сработка 6СС1-ДК10 объем в Помещении ГРЩ №2 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DK10_V; C122_BI26_6SS1_DK10_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 93, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 605, "name":  "BI28_8SS1_DK1_V",  "description":  "Сработка 8СС1-ДК1 объем в Коридоре №6 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI28_8SS1_DK1_V, C122_BI28_8SS1_DK1_V,"}},
+          {"id": 605, "name": "BI28_8SS1_DK1_V",  "description":  "Сработка 8СС1-ДК1 объем в Коридоре №6 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI28_8SS1_DK1_V; C122_BI28_8SS1_DK1_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 101, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 627, "name":  "BI28_8SS1_DK2_V",  "description":  "Сработка 8СС1-ДК2 объем в Коридоре №7 20 мг. куб.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI28_8SS1_DK2_V, C122_BI28_8SS1_DK2_V,"}},
+          {"id": 627, "name": "BI28_8SS1_DK2_V",  "description":  "Сработка 8СС1-ДК2 объем в Коридоре №7 20 мг. куб.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI28_8SS1_DK2_V; C122_BI28_8SS1_DK2_V"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 102, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},

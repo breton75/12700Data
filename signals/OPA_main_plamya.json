@@ -2,7 +2,7 @@
        "signals":
         [
           {"id": 19, "name":  "BI21_1SS1_DP1",  "description":  "Сработка 1СС1-ДП1 в Молярной кладовой",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI21_1SS1_DP1, C122_BI21_1SS1_DP1,"}},
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI21_1SS1_DP1; C122_BI21_1SS1_DP1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 64, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
@@ -10,223 +10,223 @@
             ]
           },
           {"id": 20, "name":  "BI21_1SS1_DP2",  "description":  "Сработка 1СС1-ДП2 в Молярной кладовой",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI21_1SS1_DP2, C122_BI21_1SS1_DP2,"}},
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI21_1SS1_DP2; C122_BI21_1SS1_DP2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 64, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 313, "name":  "BI24_4SS1_DP1",  "description":  "Сработка 4СС1-ДП1 в МО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DP1, C122_BI24_4SS1_DP1,"}},
+          {"id": 313, "name": "BI24_4SS1_DP1",  "description":  "Сработка 4СС1-ДП1 в МО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DP1; C122_BI24_4SS1_DP1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 83, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 314, "name":  "BI24_4SS1_DP2",  "description":  "Сработка 4СС1-ДП2 в МО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DP2, C122_BI24_4SS1_DP2,"}},
+          {"id": 314, "name": "BI24_4SS1_DP2",  "description":  "Сработка 4СС1-ДП2 в МО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DP2; C122_BI24_4SS1_DP2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 83, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 315, "name":  "BI24_4SS1_DP3",  "description":  "Сработка 4СС1-ДП3 в МО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DP3, C122_BI24_4SS1_DP3,"}},
+          {"id": 315, "name": "BI24_4SS1_DP3",  "description":  "Сработка 4СС1-ДП3 в МО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DP3; C122_BI24_4SS1_DP3"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 83, "soeg_offset": 2, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 316, "name":  "BI24_4SS1_DP4",  "description":  "Сработка 4СС1-ДП4 в МО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DP4, C122_BI24_4SS1_DP4,"}},
+          {"id": 316, "name": "BI24_4SS1_DP4",  "description":  "Сработка 4СС1-ДП4 в МО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DP4; C122_BI24_4SS1_DP4"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 83, "soeg_offset": 3, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 353, "name":  "BI24_4SS1_DP5",  "description":  "Сработка 4СС1-ДП5 в Пом. ГРЩ №1",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DP5, C122_BI24_4SS1_DP5,"}},
+          {"id": 353, "name": "BI24_4SS1_DP5",  "description":  "Сработка 4СС1-ДП5 в Пом. ГРЩ №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DP5; C122_BI24_4SS1_DP5"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 85, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 354, "name":  "BI24_4SS1_DP6",  "description":  "Сработка 4СС1-ДП6 в Пом. ГРЩ №1",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI24_4SS1_DP6, C122_BI24_4SS1_DP6,"}},
+          {"id": 354, "name": "BI24_4SS1_DP6",  "description":  "Сработка 4СС1-ДП6 в Пом. ГРЩ №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI24_4SS1_DP6; C122_BI24_4SS1_DP6"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 85, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 382, "name":  "BI25_5SS1_DP1",  "description":  "Сработка 5СС1-ДП1 в ОВМ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI25_5SS1_DP1, C122_BI25_5SS1_DP1,"}},
+          {"id": 382, "name": "BI25_5SS1_DP1",  "description":  "Сработка 5СС1-ДП1 в ОВМ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI25_5SS1_DP1; C122_BI25_5SS1_DP1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 87, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 383, "name":  "BI25_5SS1_DP2",  "description":  "Сработка 5СС1-ДП2 в ОВМ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI25_5SS1_DP2, C122_BI25_5SS1_DP2,"}},
+          {"id": 383, "name": "BI25_5SS1_DP2",  "description":  "Сработка 5СС1-ДП2 в ОВМ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI25_5SS1_DP2; C122_BI25_5SS1_DP2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 87, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 430, "name":  "BI26_6SS1_DP1",  "description":  "Сработка 6СС1-ДП1 в ДГО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP1, C122_BI26_6SS1_DP1,"}},
+          {"id": 430, "name": "BI26_6SS1_DP1",  "description":  "Сработка 6СС1-ДП1 в ДГО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP1; C122_BI26_6SS1_DP1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 90, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 431, "name":  "BI26_6SS1_DP2",  "description":  "Сработка 6СС1-ДП2 в ДГО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP2, C122_BI26_6SS1_DP2,"}},
+          {"id": 431, "name": "BI26_6SS1_DP2",  "description":  "Сработка 6СС1-ДП2 в ДГО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP2; C122_BI26_6SS1_DP2"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 90, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 432, "name":  "BI26_6SS1_DP3",  "description":  "Сработка 6СС1-ДП3 в ДГО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP3, C122_BI26_6SS1_DP3,"}},
+          {"id": 432, "name": "BI26_6SS1_DP3",  "description":  "Сработка 6СС1-ДП3 в ДГО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP3; C122_BI26_6SS1_DP3"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 90, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 433, "name":  "BI26_6SS1_DP4",  "description":  "Сработка 6СС1-ДП4 в ДГО",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP4, C122_BI26_6SS1_DP4,"}},
+          {"id": 433, "name": "BI26_6SS1_DP4",  "description":  "Сработка 6СС1-ДП4 в ДГО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP4; C122_BI26_6SS1_DP4"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 90, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 465, "name":  "BI26_6SS1_DP5",  "description":  "Сработка 6СС1-ДП5  в Пом. насос. агрегата СПА ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP5, C122_BI26_6SS1_DP5,"}},
+          {"id": 465, "name": "BI26_6SS1_DP5",  "description":  "Сработка 6СС1-ДП5  в Пом. насос. агрегата СПА ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP5; C122_BI26_6SS1_DP5"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 92, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 480, "name":  "BI26_6SS1_DP6",  "description":  "Сработка 6СС1-ДП6 в Помещении ГРЩ №2",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP6, C122_BI26_6SS1_DP6,"}},
+          {"id": 480, "name": "BI26_6SS1_DP6",  "description":  "Сработка 6СС1-ДП6 в Помещении ГРЩ №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP6; C122_BI26_6SS1_DP6"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 93, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 481, "name":  "BI26_6SS1_DP7",  "description":  "Сработка 6СС1-ДП7 в Помещении ГРЩ №2",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI26_6SS1_DP7, C122_BI26_6SS1_DP7,"}},
+          {"id": 481, "name": "BI26_6SS1_DP7",  "description":  "Сработка 6СС1-ДП7 в Помещении ГРЩ №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI26_6SS1_DP7; C122_BI26_6SS1_DP7"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 93, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 741, "name":  "BI82_12SS1_DP1",  "description":  "Сработка 12СС1-ДП1 в Погребе мин-трал. б/з ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP1, C122_BI82_12SS1_DP1, C218_BI82_12SS1_DP1_Z, C8_BI82_12SS1_DP1_Z,"}},
+          {"id": 741, "name": "BI82_12SS1_DP1", "description":  "Сработка 12СС1-ДП1 в Погребе мин-трал. б/з ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP1; C122_BI82_12SS1_DP1; C218_BI82_12SS1_DP1_Z; C8_BI82_12SS1_DP1_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 109, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 742, "name":  "BI82_12SS1_DP2",  "description":  "Сработка 12СС1-ДП2 в Погребе мин-трал. б/з ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP2, C122_BI82_12SS1_DP2, C218_BI82_12SS1_DP2_Z, C8_BI82_12SS1_DP2_Z,"}},
+          {"id": 742, "name": "BI82_12SS1_DP2", "description":  "Сработка 12СС1-ДП2 в Погребе мин-трал. б/з ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP2; C122_BI82_12SS1_DP2; C218_BI82_12SS1_DP2_Z; C8_BI82_12SS1_DP2_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 109, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 750, "name":  "BI82_12SS1_DP5",  "description":  "Сработка 12СС1-ДП5 в Пом. стрелк. оружия",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP5, C122_BI82_12SS1_DP5, C218_BI82_12SS1_DP5_Z, C38_BI82_12SS1_DP5_Z,"}},
+          {"id": 750, "name": "BI82_12SS1_DP5", "description":  "Сработка 12СС1-ДП5 в Пом. стрелк. оружия",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP5; C122_BI82_12SS1_DP5; C218_BI82_12SS1_DP5_Z; C38_BI82_12SS1_DP5_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 110, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 751, "name":  "BI82_12SS1_DP6",  "description":  "Сработка 12СС1-ДП6 в Пом. стрелк. оружия",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP6, C122_BI82_12SS1_DP6, C218_BI82_12SS1_DP6_Z, C38_BI82_12SS1_DP6_Z,"}},
+          {"id": 751, "name": "BI82_12SS1_DP6", "description":  "Сработка 12СС1-ДП6 в Пом. стрелк. оружия",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP6; C122_BI82_12SS1_DP6; C218_BI82_12SS1_DP6_Z; C38_BI82_12SS1_DP6_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 110, "soeg_offset": 6, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 759, "name":  "BI82_12SS1_DP3",  "description":  "Сработка 12СС1-ДП3 в Пом. б/з стр. ор. ДП-64",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP3, C122_BI82_12SS1_DP3, C218_BI82_12SS1_DP3_Z, C67_BI82_12SS1_DP3_Z,"}},
+          {"id": 759, "name": "BI82_12SS1_DP3", "description":  "Сработка 12СС1-ДП3 в Пом. б/з стр. ор. ДП-64",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP3; C122_BI82_12SS1_DP3; C218_BI82_12SS1_DP3_Z; C67_BI82_12SS1_DP3_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 110, "soeg_offset": 14, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 760, "name":  "BI82_12SS1_DP4",  "description":  "Сработка 12СС1-ДП4 в Пом. б/з стр. ор. ДП-64",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP4, C122_BI82_12SS1_DP4, C218_BI82_12SS1_DP4_Z, C67_BI82_12SS1_DP4_Z,"}},
+          {"id": 760, "name": "BI82_12SS1_DP4", "description":  "Сработка 12СС1-ДП4 в Пом. б/з стр. ор. ДП-64",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP4; C122_BI82_12SS1_DP4; C218_BI82_12SS1_DP4_Z; C67_BI82_12SS1_DP4_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 110, "soeg_offset": 15, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 768, "name":  "BI82_12SS1_DP7",  "description":  "Сработка 12СС1-ДП7 в Подбашенном отд.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP7, C122_BI82_12SS1_DP7, C218_BI82_12SS1_DP7_Z, C93_BI82_12SS1_DP7_Z,"}},
+          {"id": 768, "name": "BI82_12SS1_DP7", "description":  "Сработка 12СС1-ДП7 в Подбашенном отд.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP7; C122_BI82_12SS1_DP7; C218_BI82_12SS1_DP7_Z; C93_BI82_12SS1_DP7_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 111, "soeg_offset": 7, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 769, "name":  "BI82_12SS1_DP8",  "description":  "Сработка 12СС1-ДП8 в Подбашенном отд.",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP8, C122_BI82_12SS1_DP8, C218_BI82_12SS1_DP8_Z, C93_BI82_12SS1_DP8_Z,"}},
+          {"id": 769, "name": "BI82_12SS1_DP8", "description":  "Сработка 12СС1-ДП8 в Подбашенном отд.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP8; C122_BI82_12SS1_DP8; C218_BI82_12SS1_DP8_Z; C93_BI82_12SS1_DP8_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 111, "soeg_offset": 8, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 777, "name":  "BI82_12SS1_DP9",  "description":  "Сработка 12СС1-ДП9 в Пом. б/з АК-306 ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP9, C122_BI82_12SS1_DP9, C218_BI82_12SS1_DP9_Z, C123_BI82_12SS1_DP9_Z,"}},
+          {"id": 777, "name": "BI82_12SS1_DP9", "description":  "Сработка 12СС1-ДП9 в Пом. б/з АК-306 ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP9; C122_BI82_12SS1_DP9; C218_BI82_12SS1_DP9_Z; C123_BI82_12SS1_DP9_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 112, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 778, "name":  "BI82_12SS1_DP10",  "description":  "Сработка 12СС1-ДП10 в Пом. б/з АК-306 ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP10, C122_BI82_12SS1_DP10, C218_BI82_12SS1_DP10_Z, C123_BI82_12SS1_DP10_Z,"}},
+          {"id": 778, "name": "BI82_12SS1_DP10",  "description":  "Сработка 12СС1-ДП10 в Пом. б/з АК-306 ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP10; C122_BI82_12SS1_DP10; C218_BI82_12SS1_DP10_Z; C123_BI82_12SS1_DP10_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 112, "soeg_offset": 1, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 786, "name":  "BI82_12SS1_DP11",  "description":  "Сработка 12СС1-ДП11 в Помещение изд. 9К38",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP11, C122_BI82_12SS1_DP11, C218_BI82_12SS1_DP11_Z, C150_BI82_12SS1_DP11_Z,"}},
+          {"id": 786, "name": "BI82_12SS1_DP11",  "description":  "Сработка 12СС1-ДП11 в Помещение изд. 9К38",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP11; C122_BI82_12SS1_DP11; C218_BI82_12SS1_DP11_Z; C150_BI82_12SS1_DP11_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 112, "soeg_offset": 9, "soeg_data_len": 1, "soeg_data_type": "b"}},
               {"storage": 1}
             ]
           },
-          {"id": 787, "name":  "BI82_12SS1_DP12",  "description":  "Сработка 12СС1-ДП12 в Помещение изд. 9К38",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI82_12SS1_DP12, C122_BI82_12SS1_DP12, C218_BI82_12SS1_DP12_Z, C150_BI82_12SS1_DP12_Z,"}},
+          {"id": 787, "name": "BI82_12SS1_DP12",  "description":  "Сработка 12СС1-ДП12 в Помещение изд. 9К38",
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI82_12SS1_DP12; C122_BI82_12SS1_DP12; C218_BI82_12SS1_DP12_Z; C150_BI82_12SS1_DP12_Z"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 112, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
@@ -234,7 +234,7 @@
             ]
           },
           {"id": 2408, "name":  "BI27_7SS1_DP1",  "description":  "Сработка 7СС1-ДП1 в Пом. насос стан кран ",
-           "master": {"job": 1,  "params": {"reserve_order": "C119_BI27_7SS1_DP1, C122_BI27_7SS1_DP1,"}},
+           "master": {"job": 1, "params": {"reserve_order": "C119_BI27_7SS1_DP1; C122_BI27_7SS1_DP1"}},
            "bindings":
             [
               {"device": 100, "params": {"soeg_register": 269, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},

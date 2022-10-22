@@ -1,0 +1,226 @@
+{
+	"signals":
+	[
+		{"group": "type_0x02", "enable":true,
+		  "signals":
+		 [
+			{"group": "Дифф. температуры", "enable":true,
+			 "signals":
+				[
+					{"id": 1303, "name":	"BI82_12SS1_DTV1_dT_Z",	"description":	"Сработка 12СС1-ДТВ1 изменение температура в Погребе мин-трал. б/з 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 331, "factor": "0x03"}}
+					},
+					{"id": 1306, "name":	"BI82_12SS1_DTV2_dT_Z",	"description":	"Сработка 12СС1-ДТВ2 изменение температура в Погребе мин-трал. б/з 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 334, "factor": "0x03"}}
+					},
+					{"id": 1312, "name":	"BI82_12SS1_DTV5_dT_Z",	"description":	"Сработка 12СС1-ДТВ5 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 336, "factor": "0x03"}}
+					},
+					{"id": 1315, "name":	"BI82_12SS1_DTV6_dT_Z",	"description":	"Сработка 12СС1-ДТВ6 изменение температура в Пом. стрелк. оружия 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 339, "factor": "0x03"}}
+					},
+					{"id": 1321, "name":	"BI82_12SS1_DTV3_dT_Z",	"description":	"Сработка 12СС1-ДТВ3 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 344, "factor": "0x03"}}
+					},
+					{"id": 1324, "name":	"BI82_12SS1_DTV4_dT_Z",	"description":	"Сработка 12СС1-ДТВ4 изменение температуры в  Пом. б/з стр. ор. ДП-64 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 341, "factor": "0x03"}}
+					},
+					{"id": 1330, "name":	"BI82_12SS1_DTV7_dT_Z",	"description":	"Сработка 12СС1-ДТВ7 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 346, "factor": "0x03"}}
+					},
+					{"id": 1333, "name":	"BI82_12SS1_DTV8_dT_Z",	"description":	"Сработка 12СС1-ДТВ8 изменение температуры в  Подбашенном отд. 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 349, "factor": "0x03"}}
+					},
+					{"id": 1339, "name":	"BI82_12SS1_DTV9_dT_Z",	"description":	"Сработка 12СС1-ДТВ9 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 351, "factor": "0x03"}}
+					},
+					{"id": 1342, "name":	"BI82_12SS1_DTV10_dT_Z",	"description":	"Сработка 12СС1-ДТВ10 изменение температуры в  Пом. б/з АК-306 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 354, "factor": "0x03"}}
+					},
+					{"id": 1348, "name":	"BI82_12SS1_DTV11_dT_Z",	"description":	"Сработка 12СС1-ДТВ11 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 356, "factor": "0x03"}}
+					},
+					{"id": 1351, "name":	"BI82_12SS1_DTV12_dT_Z",	"description":	"Сработка 12СС1-ДТВ12 изменение температуры в  Помещение изд. 9К38 10 гр.Ц. в мин.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 359, "factor": "0x03"}}
+					}
+				]
+			},
+			{"group": "Пламя", "enable":true,
+			 "signals":
+				[
+					{"id": 1308, "name":	"BI82_12SS1_DP1_Z",	"description":	"Сработка 12СС1-ДП1 в Погребе мин-трал. б/з ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 332, "factor": "0x04"}}
+					},
+					{"id": 1309, "name":	"BI82_12SS1_DP2_Z",	"description":	"Сработка 12СС1-ДП2 в Погребе мин-трал. б/з ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 335, "factor": "0x04"}}
+					},
+					{"id": 1317, "name":	"BI82_12SS1_DP5_Z",	"description":	"Сработка 12СС1-ДП5 в Пом. стрелк. оружия",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 337, "factor": "0x04"}}
+					},
+					{"id": 1318, "name":	"BI82_12SS1_DP6_Z",	"description":	"Сработка 12СС1-ДП6 в Пом. стрелк. оружия",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 340, "factor": "0x04"}}
+					},
+					{"id": 1326, "name":	"BI82_12SS1_DP3_Z",	"description":	"Сработка 12СС1-ДП3 в Пом. б/з стр. ор. ДП-64",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 345, "factor": "0x04"}}
+					},
+					{"id": 1327, "name":	"BI82_12SS1_DP4_Z",	"description":	"Сработка 12СС1-ДП4 в Пом. б/з стр. ор. ДП-64",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 342, "factor": "0x04"}}
+					},
+					{"id": 1335, "name":	"BI82_12SS1_DP7_Z",	"description":	"Сработка 12СС1-ДП7 в Подбашенном отд.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 347, "factor": "0x04"}}
+					},
+					{"id": 1336, "name":	"BI82_12SS1_DP8_Z",	"description":	"Сработка 12СС1-ДП8 в Подбашенном отд.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 350, "factor": "0x04"}}
+					},
+					{"id": 1344, "name":	"BI82_12SS1_DP9_Z",	"description":	"Сработка 12СС1-ДП9 в Пом. б/з АК-306 ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 352, "factor": "0x04"}}
+					},
+					{"id": 1345, "name":	"BI82_12SS1_DP10_Z",	"description":	"Сработка 12СС1-ДП10 в Пом. б/з АК-306 ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 355, "factor": "0x04"}}
+					},
+					{"id": 1353, "name":	"BI82_12SS1_DP11_Z",	"description":	"Сработка 12СС1-ДП11 в Помещение изд. 9К38",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 357, "factor": "0x04"}}
+					},
+					{"id": 1354, "name":	"BI82_12SS1_DP12_Z",	"description":	"Сработка 12СС1-ДП12 в Помещение изд. 9К38",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 360, "factor": "0x04"}}
+					}
+				]
+			},
+			{"group": "Температура на повышение (ТТС)", "enable":true,
+			 "signals":
+				[
+					{"id": 1301, "name":	"BI82_12SS1_DTV1_T1_Z",	"description":	"Сработка 12СС1-ДТВ1 температура в Погребе мин-трал. б/з 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 331, "factor": "0x07"}}
+					},
+					{"id": 1302, "name":	"BI82_12SS1_DTV1_T2_Z",	"description":	"Сработка 12СС1-ДТВ1 температура в Погребе мин-трал. б/з 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 331, "factor": "0x87"}}
+					},
+					{"id": 1304, "name":	"BI82_12SS1_DTV2_T1_Z",	"description":	"Сработка 12СС1-ДТВ2 температура в Погребе мин-трал. б/з 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 334, "factor": "0x07"}}
+					},
+					{"id": 1305, "name":	"BI82_12SS1_DTV2_T2_Z",	"description":	"Сработка 12СС1-ДТВ2 температура в Погребе мин-трал. б/з 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 334, "factor": "0x87"}}
+					},
+					{"id": 1310, "name":	"BI82_12SS1_DTV5_T1_Z",	"description":	"Сработка 12СС1-ДТВ5 температура в Пом. стрелк. оружия 12 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 336, "factor": "0x07"}}
+					},
+					{"id": 1311, "name":	"BI82_12SS1_DTV5_T2_Z",	"description":	"Сработка 12СС1-ДТВ5 температура в Пом. стрелк. оружия 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 336, "factor": "0x87"}}
+					},
+					{"id": 1313, "name":	"BI82_12SS1_DTV6_T1_Z",	"description":	"Сработка 12СС1-ДТВ6 температура в Пом. стрелк. оружия 12 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 339, "factor": "0x07"}}
+					},
+					{"id": 1314, "name":	"BI82_12SS1_DTV6_T2_Z",	"description":	"Сработка 12СС1-ДТВ6 температура в Пом. стрелк. оружия 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 339, "factor": "0x87"}}
+					},
+					{"id": 1319, "name":	"BI82_12SS1_DTV3_T1_Z",	"description":	"Сработка 12СС1-ДТВ3 температура в  Пом. б/з стр. ор. ДП-64 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 344, "factor": "0x07"}}
+					},
+					{"id": 1320, "name":	"BI82_12SS1_DTV3_T2_Z",	"description":	"Сработка 12СС1-ДТВ3 температура в  Пом. б/з стр. ор. ДП-64 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 344, "factor": "0x87"}}
+					},
+					{"id": 1322, "name":	"BI82_12SS1_DTV4_T1_Z",	"description":	"Сработка 12СС1-ДТВ4 температура в  Пом. б/з стр. ор. ДП-64 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 341, "factor": "0x07"}}
+					},
+					{"id": 1323, "name":	"BI82_12SS1_DTV4_T2_Z",	"description":	"Сработка 12СС1-ДТВ4 температура в  Пом. б/з стр. ор. ДП-64 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 341, "factor": "0x87"}}
+					},
+					{"id": 1328, "name":	"BI82_12SS1_DTV7_T1_Z",	"description":	"Сработка 12СС1-ДТВ7 температура в  Подбашенном отд. 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 346, "factor": "0x07"}}
+					},
+					{"id": 1329, "name":	"BI82_12SS1_DTV7_T2_Z",	"description":	"Сработка 12СС1-ДТВ7 температура в  Подбашенном отд. 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 346, "factor": "0x87"}}
+					},
+					{"id": 1331, "name":	"BI82_12SS1_DTV8_T1_Z",	"description":	"Сработка 12СС1-ДТВ8 температура в  Подбашенном отд. 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 349, "factor": "0x07"}}
+					},
+					{"id": 1332, "name":	"BI82_12SS1_DTV8_T2_Z",	"description":	"Сработка 12СС1-ДТВ8 температура в  Подбашенном отд. 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 349, "factor": "0x87"}}
+					},
+					{"id": 1337, "name":	"BI82_12SS1_DTV9_T1_Z",	"description":	"Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 351, "factor": "0x07"}}
+					},
+					{"id": 1338, "name":	"BI82_12SS1_DTV9_T2_Z",	"description":	"Сработка 12СС1-ДТВ9 температура в  Пом. б/з АК-306 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 351, "factor": "0x87"}}
+					},
+					{"id": 1340, "name":	"BI82_12SS1_DTV10_T1_Z",	"description":	"Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 354, "factor": "0x07"}}
+					},
+					{"id": 1341, "name":	"BI82_12SS1_DTV10_T2_Z",	"description":	"Сработка 12СС1-ДТВ10 температура в  Пом. б/з АК-306 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 354, "factor": "0x87"}}
+					},
+					{"id": 1346, "name":	"BI82_12SS1_DTV11_T1_Z",	"description":	"Сработка 12СС1-ДТВ11 температура в  Помещение изд. 9К38 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 356, "factor": "0x07"}}
+					},
+					{"id": 1347, "name":	"BI82_12SS1_DTV11_T2_Z",	"description":	"Сработка 12СС1-ДТВ11 температура в  Помещение изд. 9К38 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 356, "factor": "0x87"}}
+					},
+					{"id": 1349, "name":	"BI82_12SS1_DTV12_T1_Z",	"description":	"Сработка 12СС1-ДТВ12 температура в  Помещение изд. 9К38 30 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 359, "factor": "0x07"}}
+					},
+					{"id": 1350, "name":	"BI82_12SS1_DTV12_T2_Z",	"description":	"Сработка 12СС1-ДТВ12 температура в  Помещение изд. 9К38 70 гр.Ц.",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 359, "factor": "0x87"}}
+					}
+				]
+			},
+			{"group": "Ручной извещатель", "enable":true,
+			 "signals":
+				[
+					{"id": 1307, "name":	"BI82_12SS1_RV1_Z",	"description":	"Сработка 12СС1-РВ1 в Погребе мин-трал. б/з ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 333, "factor": "0xFF"}}
+					},
+					{"id": 1316, "name":	"BI82_12SS1_RV3_Z",	"description":	"Сработка 12СС1-РВ3 в Пом. стрелк. оружия",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 338, "factor": "0xFF"}}
+					},
+					{"id": 1325, "name":	"BI82_12SS1_RV2_Z",	"description":	"Сработка 12СС1-РВ2 в Пом. б/з стр. ор. ДП-64",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 343, "factor": "0xFF"}}
+					},
+					{"id": 1334, "name":	"BI82_12SS1_RV4_Z",	"description":	"Сработка 12СС1-РВ4 в Подбашенном отд. ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 348, "factor": "0xFF"}}
+					},
+					{"id": 1343, "name":	"BI82_12SS1_RV5_Z",	"description":	"Сработка 12СС1-РВ5 в Пом. б/з АК-306 ",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 353, "factor": "0xFF"}}
+					},
+					{"id": 1352, "name":	"BI82_12SS1_RV6_Z",	"description":	"Сработка 12СС1-РВ6 в Помещение изд. 9К38",
+					 "master": {"device": 22,	"params": {"data_type": "0x02", "sensor_number": 358, "factor": "0xFF"}}
+					}
+				]
+			}
+		 ]
+		},
+		{"group": "type_0x03", "enable":true,
+		  "signals":
+		 [
+			{"id": 1355, "name":	"FI20_POGREB_MIN_TRAL_BZ_122_Z",	"description":	"Пожарная опасность в Погребе мин-трал. б/з",
+			 "master": {"device": 22,	"params": {"data_type": "0x03", "room": 140}}
+			},
+			{"id": 1356, "name":	"FI20_POM_STRELKORUZ_123_Z",	"description":	"Пожарная опасность в Пом. стрелк. оружия",
+			 "master": {"device": 22,	"params": {"data_type": "0x03", "room": 142}}
+			},
+			{"id": 1357, "name":	"FI20_POM_BZ_STR_DP64_124_Z",	"description":	"Пожарная опасность в Пом. б/з стр. ор. ДП-64",
+			 "master": {"device": 22,	"params": {"data_type": "0x03", "room": 144}}
+			},
+			{"id": 1358, "name":	"FI20_PODBASH_OTD_125_Z",	"description":	"Пожарная опасность в Подбашенном отд.",
+			 "master": {"device": 22,	"params": {"data_type": "0x03", "room": 146}}
+			},
+			{"id": 1359, "name":	"FI20_POM_BZ_AK306_126_Z",	"description":	"Пожарная опасность в Пом. б/з АК-306",
+			 "master": {"device": 22,	"params": {"data_type": "0x03", "room": 148}}
+			},
+			{"id": 1360, "name":	"FI20_POM_IZD_9K38_127_Z",	"description":	"Пожарная опасность в Помещении изд. 9К38",
+			 "master": {"device": 22,	"params": {"data_type": "0x03", "room": 150}}
+			}
+		 ]
+		},
+		{"group": "type_unknown", "enable":false,
+		  "signals":
+		 [
+			{"id": 917, "name":	"FI82_12SS1_218",	"description":	"Информация о неисправности на линии связи 12СС1-218",
+			 "master": {"device": 22,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
+			},
+			{"id": 2430, "name":	"POMP_SS1_218_STATUS",	"description":	"Состояние лини передачи данных 12СС1-218",
+			 "master": {"device": 22,	"params": {"data_type": "none", "sensor_number": -1,"factor": "0x00"}}
+			}
+		 ]
+		}
+	]
+}

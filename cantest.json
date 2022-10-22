@@ -64,27 +64,17 @@
     {
       "group": "12700", "enable": true,
       "signals": [
-        {
-          "group": "Данные шины CAN. Входящие сигналы", "enable": true, "file": "signals/CAN.json", "timeout": 3000
-        },
-
-        {
-          "group": "CAN. Исходящие сигналы", "enable": true, "file": "signals/CAN_OUT.json", "timeout": 0
-        },
-
-        {
-          "group": "SKM", "enable": true, "file": "signals/SKM.json", "timeout": 3000
-        },
-
-        {
-          "group": "OHT", "enable": true, "file": "signals/OHT.json", "timeout": 3000
-        },
-
-        {
-          "group": "OPA119", "enable": true, "file": "signals/OPA/device_20.json", "timeout": 3000
-        },
-        {
-          "group": "OPA122", "enable": false, "file": "signals/OPA/device_21.json", "timeout": 3000
+        { "group": "Данные шины CAN. Входящие сигналы", "enable": true, "file": "signals/CAN.json", "timeout": 3000 },
+        { "group": "CAN. Исходящие сигналы", "enable": true, "file": "signals/CAN_OUT.json", "timeout": 0 },
+        { "group": "SKM", "enable": true, "file": "signals/SKM.json", "timeout": 3000 },
+        { "group": "OHT", "enable": true, "file": "signals/OHT.json", "timeout": 3000 },
+        { "group": "OPA", "enable": true, "tag": "opa", "timeout": 3000,
+          "signals":
+          [
+            { "group": "OPA_Main", "enable": true, "file": "signals/new_OPA_main.json"      },
+            { "group": "OPA119",   "enable": true, "file": "signals/OPA/new_device_20.json" },
+            { "group": "OPA122",   "enable": true, "file": "signals/OPA/new_device_21.json" }
+          ]
         }
       ]
     }
