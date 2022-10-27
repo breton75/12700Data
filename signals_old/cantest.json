@@ -39,14 +39,14 @@
     },
 
     {
-      "id": 40, "name": "OHT", "enable": true, "description": "OHT", "buffer_size": 1024,
+      "id": 40, "name": "OHT", "enable": false, "description": "OHT", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "recv_port": 502 }},
       "protocol": { "lib": "libksuts_oht.so", "params": { "start_register": "0x0A00", "last_register": "0x0AFF", "fmt": "hex" }}
     },
 
     {
       "id": 20, "name": "OPA", "enable": true, "description": "OPA", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "recv_port": 502 }},
+      "interface": { "lib": "libudp.so", "params": { "forwarding": {"host": "localhost", "port": 6014} }},
       "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0400", "last_register": "0x049F", "fmt": "hex" }}
     }
   ],
@@ -68,17 +68,19 @@
         { "group": "CAN. Исходящие сигналы", "enable": true, "file": "signals/CAN_OUT.json", "timeout": 0 },
         { "group": "SKM", "enable": true, "file": "signals/SKM.json", "timeout": 3000 },
         { "group": "OHT", "enable": true, "file": "signals/OHT.json", "timeout": 3000 },
-        { "group": "OPA", "enable": true, "tag": "opa", "timeout": 3000,
+        { "group": "OPA", "enable": true, "tag": "opa",
           "signals":
           [
-            { "group": "OPA_Main", "enable": true, "file": "signals/new_OPA_main.json"      },
-            { "group": "OPA119",   "enable": true, "file": "signals/OPA/new_device_20.json" },
-            { "group": "OPA122",   "enable": true, "file": "signals/OPA/new_device_21.json" }
+            { "group": "OPA_Main", "enable": true, "timeout": 3000, "file": "signals/new_OPA_main.json"      },
+            { "group": "OPA119",   "enable": true, "timeout": 0,    "file": "signals/OPA/new_device_20.json" },
+            { "group": "OPA122",   "enable": true, "timeout": 0,    "file": "signals/OPA/new_device_21.json" }
           ]
         }
       ]
     }
   ],
-  "storages": [],
+  "storages": [
+    { "id": 1, "name": "pomp cms_db", "description": "", "lib": "libksuts_pgdb.so", "params": {"host": "localhost", "db": "cms_db", "interval": 1000}}
+  ],
   "version": "1.0"
 }

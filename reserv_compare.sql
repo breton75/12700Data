@@ -1,4 +1,4 @@
-with s8 as (
+﻿with s8 as (
 SELECT signal_index i, signal_name n from signals where device_index = 23
 ),
 s38 as (
@@ -57,5 +57,5 @@ s122.i150, s122.n150
 FROM signals
 left join s122 on timeout_signal_index = s122.i122
 --left join s218 on s122.t122 = s218.i218
-where device_index = 20
+where signal_index = 2
 order by signal_index asc
