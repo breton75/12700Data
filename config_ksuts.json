@@ -29,9 +29,10 @@
 
     {
       "id": 1, "name": "can0A8", "enable": true, "description": "can0 A8", "buffer_size": 1024, 
-      "interface": { "lib": "libtcp_client_multi.so", "params": { "servers": 
+      "interface": { "lib": "libtcp_client_multi.so", "params": { "connections": 
                                                             [
-                                                                { "can_entry": 0, "port": 10003, "host": "192.168.0.100" },
+                                                                { "can_entry": 0, "port": 8000, "host": "localhost" },
+                                                                { "enable": false, "can_entry": 0, "port": 10003, "host": "192.168.0.100" },
                                                                 { "can_entry": 1, "port": 10003, "host": "192.168.0.111" },
                                                                 { "can_entry": 2, "port": 10003, "host": "192.168.1.100" },
                                                                 { "can_entry": 3, "port": 10003, "host": "192.168.1.111" }
@@ -39,23 +40,23 @@
                                                           }
                     },
 
-      "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }},
+      "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
         
     {
-      "id": 2, "name": "can1A9", "enable": true, "description": "can1 A9", "buffer_size": 1024, 
+      "id": 2, "name": "can1A9", "enable": false, "description": "can1 A9", "buffer_size": 1024, 
       "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.0.111" }},
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
 
     {
-      "id": 3, "name": "can0A10", "enable": true, "description": "can0 A10", "buffer_size": 1024, 
+      "id": 3, "name": "can0A10", "enable": false, "description": "can0 A10", "buffer_size": 1024, 
       "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.1.100" }},
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
 
     {
-      "id": 4, "name": "can1A11", "enable": true, "description": "can0 A11", "buffer_size": 1024, 
+      "id": 4, "name": "can1A11", "enable": false, "description": "can0 A11", "buffer_size": 1024, 
       "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.1.111" }},
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
@@ -158,8 +159,28 @@
     {
       "group": "12700", "enable": true,
       "signals": [
-        { "group": "Данные шины CAN. Входящие сигналы", "enable": false, "file": "signals/CAN.json", "timeout": 3000 },
+        { "group": "Данные шины CAN. Входящие сигналы", "enable": true, "file": "signals_old/CAN.json", "timeout": 3000 },
         { "group": "CAN. Исходящие сигналы", "enable": true, "file": "signals_old/CAN_OUT.json", "timeout": 0 },
+
+        { "group": "can states", "enable": true, "type": "state",
+          "signals":
+          [
+           { "id": 80000, "name": "CAN0_A8",  "description": "",
+             "master":   {"device": 1, "params": {  "can_entry": 0 }}
+           },
+           { "id": 90000, "name": "CAN1_A9",  "description": "",
+             "master":   {"device": 1, "params": {  "can_entry": 1 }}
+           },
+           { "id": 100000, "name": "CAN0_A10",  "description": "",
+             "master":   {"device": 1, "params": {  "can_entry": 2 }}
+           },
+           { "id": 110000, "name": "CAN1_A11",  "description": "",
+             "master":   {"device": 1, "params": {  "can_entry": 3 }}
+           }
+         ]
+         },
+
+
         { "group": "SKM", "enable": false, "file": "signals/SKM.json", "timeout": 3000 },
         { "group": "KTV", "enable": false, "file": "signals/KTV.json", "timeout": 3000 },
         { "group": "OHT", "enable": false, "file": "signals/OHT.json", "timeout": 3000 },
