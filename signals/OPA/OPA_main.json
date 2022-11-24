@@ -1,0 +1,127 @@
+{
+	"signals":
+	[
+    {"group": "type_0x02", "enable":true,
+      "signals":
+     [
+      {"group": "Дым",                            "enable":true, "file": "signals/OPA/OPA_main_dym.json"     },
+      {"group": "Температура",                    "enable":true, "file": "signals/OPA/OPA_main_temp.json"    },
+      {"group": "Дифф. температуры",              "enable":true, "file": "signals/OPA/OPA_main_dt.json"      },
+      {"group": "Пламя",                          "enable":true, "file": "signals/OPA/OPA_main_plamya.json"  },
+      {"group": "ГОТВ",                           "enable":true, "file": "signals/OPA/OPA_main_gotv.json"    },
+      {"group": "Температура на повышение (ТТС)", "enable":true, "file": "signals/OPA/OPA_main_temp_up.json" },
+      {"group": "Ручной извещатель",              "enable":true, "file": "signals/OPA/OPA_main_R.json"       },
+      {"group": "СО",                             "enable":true, "file": "signals/OPA/OPA_main_co.json"      },
+      {"group": "Влажность",                      "enable":true, "file": "signals/OPA/OPA_main_vlag.json"    }
+     ]
+    },
+    
+    {"group": "type_0x03",                        "enable":true, "file": "signals/OPA/OPA_main_0x03.json"    },
+    
+		{"group": "type_unknown", "enable":false,
+		  "signals":
+		 [
+			{"id": 366, "name":	"BI25_5SS1_VD2",	"description":	"Сработка 5СС1-ВД2 в Помещении ППР",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_VD2; C122_BI25_5SS1_VD2"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 86, "soeg_offset": 5, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 373, "name":	"BI25_5SS1_VD1",	"description":	"Сработка 5СС1-ВД1 в Пом. обор. сточ. сист. ",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_VD1; C122_BI25_5SS1_VD1"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 86, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 86, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 461, "name":	"BI26_6SS1_VD1",	"description":	"Сработка 6СС1-ВД1 в ДГО",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_VD1; C122_BI26_6SS1_VD1"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 92, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 92, "soeg_offset": 4, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 521, "name":	"BI26_6SS1_DT18",	"description":	"Сработка 6СС1-ДТ18 в Помещении щитов №4",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI26_6SS1_DT18; C122_BI26_6SS1_DT18"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 96, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 96, "soeg_offset": 0, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 915, "name":	"FI20_SS1_119",	"description":	"Информация о неисправности на линии связи СС1-119",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_FI20_SS1_119; FI20_SS1_122"}},
+           "bindings":
+            [
+              {"storage": 1}
+            ]
+          },
+			{"id": 2426, "name":	"POMP_SS1_119_STATUS",	"description":	"Состояние лини передачи данных СС1-119",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_POMP_SS1_119_STATUS"}},
+           "bindings":
+            [
+              {"storage": 1}
+            ]
+          }
+		 ]
+		},
+		{"group": "type_only_one_factor", "enable":false,
+		  "signals":
+		 [
+			{"id": 326, "name":	"BI24_4SS1_VTE1_T",	"description":	"Сработка 4СС1-ВТЭ1 температура в Камбузе 120 гр.Ц.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI24_4SS1_VTE1_T; C122_BI24_4SS1_VTE1_T"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 83, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 83, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 389, "name":	"BI25_5SS1_VTE1_T",	"description":	"Сработка 5СС1-ВТЭ1 температура в Шахте газоходов №1 120 гр.Ц.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_VTE1_T; C122_BI25_5SS1_VTE1_T"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 87, "soeg_offset": 12, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 390, "name":	"BI25_5SS1_VTE2_T",	"description":	"Сработка 5СС1-ВТЭ2 температура в Шахте газоходов №2 120 гр.Ц.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI25_5SS1_VTE2_T; C122_BI25_5SS1_VTE2_T"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 87, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 87, "soeg_offset": 13, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 723, "name":	"BI30_10SS1_VTE1_T",	"description":	"Сработка 10СС1-ВТЭ1 температура в Шахте газоходов №3 120 гр.Ц.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_VTE1_T; C122_BI30_10SS1_VTE1_T"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 108, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 108, "soeg_offset": 10, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			},
+			{"id": 724, "name":	"BI30_10SS1_VTE2_T",	"description":	"Сработка 10СС1-ВТЭ2 температура в Шахте газоходов №3 120 гр.Ц.",
+					 "master": {"job": 1,	"params": {"reserve_order": "C119_BI30_10SS1_VTE2_T; C122_BI30_10SS1_VTE2_T"}},
+			 "bindings":
+			   [
+				{"device": 100, "params": {"soeg_register": 108, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"device": 101, "params": {"soeg_register": 108, "soeg_offset": 11, "soeg_data_len": 1, "soeg_data_type": "b"}},
+				{"storage": 1}
+			   ]
+			}
+		 ]
+		}
+	]
+}

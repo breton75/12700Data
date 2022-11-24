@@ -26,117 +26,121 @@
   },
 
   "devices": [
-
     {
       "id": 1, "name": "can0A8", "enable": true, "description": "can0 A8", "buffer_size": 1024, 
-      "interface": { "lib": "libtcp_client_multi.so", "params": { "connections": 
+      "interface": { "lib": "libtcp_client_multi.so", "params": { "connections":
                                                             [
-                                                                { "can_entry": 0, "port": 8000, "host": "localhost" },
-                                                                { "enable": false, "can_entry": 0, "port": 10003, "host": "192.168.0.100" },
-                                                                { "can_entry": 1, "port": 10003, "host": "192.168.0.111" },
-                                                                { "can_entry": 2, "port": 10003, "host": "192.168.1.100" },
-                                                                { "can_entry": 3, "port": 10003, "host": "192.168.1.111" }
+                                                                { "enable": true, "can_entry": 0, "port": 10003, "host": "192.168.0.100" },
+                                                                { "enable": true, "can_entry": 1, "port": 10003, "host": "192.168.0.111" },
+                                                                { "enable": true, "can_entry": 2, "port": 10003, "host": "192.168.1.100" },
+                                                                { "enable": true, "can_entry": 3, "port": 10003, "host": "192.168.1.111" }
                                                             ]
                                                           }
                     },
 
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
-        
+    
     {
       "id": 2, "name": "can1A9", "enable": false, "description": "can1 A9", "buffer_size": 1024, 
-      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.0.111" }},
+      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "server_address": "192.168.0.111" }},
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
 
     {
       "id": 3, "name": "can0A10", "enable": false, "description": "can0 A10", "buffer_size": 1024, 
-      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.1.100" }},
+      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "server_address": "192.168.1.100" }},
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
 
     {
       "id": 4, "name": "can1A11", "enable": false, "description": "can0 A11", "buffer_size": 1024, 
-      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "host": "192.168.1.111" }},
+      "interface": { "lib": "libtcp_client.so", "params": { "port": 10003, "server_address": "192.168.1.111" }},
       "protocol":  { "lib": "libksuts_can_prtcl.so", "params": { "interval": 1000, "fmt": "ascii" }}
     },
 
     {
-      "id": 100, "name": "soeg test", "enable": false, "description": "soeg test", "buffer_size": 1024,
-      "interface": { "lib": "libtcp_server.so", "params": { "port": 502 }},
-      "protocol":  { "lib": "libksuts_soeg.so", "params": {  }}
+      "id": 100, "name": "soeg server eth0", "enable": true, "description": "soeg test", "buffer_size": 1024,
+      "interface": { "lib": "libtcp_server_m.so", "params": { "ifc": "eth0", "port": 502 }},
+      "protocol": { "lib": "libksuts_soeg.so", "params": {  }}
+    },
+
+    {
+      "id": 101, "name": "soeg server eth1", "enable": false, "description": "soeg test", "buffer_size": 1024,
+      "interface": { "lib": "libtcp_server_m.so", "params": { "ifc": "eth1", "port": 502 }},
+      "protocol": { "lib": "libksuts_soeg.so", "params": {  }}
     },
 
     {
       "id": 39, "name": "SKM", "enable": false, "description": "SKM", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.16.0.20", "recv_port": 6113, "send_port": 5113}},
-      "protocol":  { "lib": "libksuts_skm.so", "params": { "src": 1, "dst": 2 }}
+      "interface": { "lib": "libudp.so", "params": { "host": "192.16.0.20", "recv_port": 6013, "send_port": 5013}},
+      "protocol": { "lib": "libksuts_skm.so", "params": { "src": 1, "dst": 2 }}
     },
 
     {
       "id": 40, "name": "OHT", "enable": true, "description": "OHT", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.16.0.20", "recv_port": 6132, "send_port": 5132, "grain_gap": 10}},
+      "interface": { "lib": "libudp.so", "params": { "host": "192.16.0.20", "recv_port": 6032, "send_port": 5032, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_oht.so", "params": { "start_register": "0x0A00", "last_register": "0x0AFF" }}
     },
 
     {
       "id": 99, "name": "KTV", "enable": true, "description": "KTV", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6112, "send_port": 5112, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_ktv.so", "params": { "dst": 9, "src": 1 }}
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6012, "send_port": 5012, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_ktv.so", "params": { "dst": 9, "src": 1 }}
     },
     
     {
-      "id": 20, "name": "OPA119", "enable": false, "description": "119", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6114, "send_port": 5114, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": { "start_register": "0x0400", "last_register": "0x049F" }}
+      "id": 20, "name": "OPA119", "enable": true, "description": "119", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6014, "send_port": 5014, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0400", "last_register": "0x049F" }}
     },
     
     {
-      "id": 21, "name": "OPA122", "enable": false, "description": "122", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6131, "send_port": 5131, "grain_gap": 10}},
+      "id": 21, "name": "OPA122", "enable": true, "description": "122", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6031, "send_port": 5031, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x04A0", "last_register": "0x0530"}}
     },
 
    {
-      "id": 22, "name": "OPA218", "enable": false, "description": "218", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6111, "send_port": 5111, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": { "start_register": "0x0540","last_register": "0x05D0"}}
+      "id": 22, "name": "OPA218", "enable": true, "description": "218", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6011, "send_port": 5011, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0540","last_register": "0x05D0"}}
     },
 
    {
-      "id": 23, "name": "OPA8", "enable": false, "description": "8", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6124, "send_port": 5124, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": {"start_register": "0x05e0","last_register": "0x0670"}}
+      "id": 23, "name": "OPA8", "enable": true, "description": "8", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6024, "send_port": 5024, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x05e0","last_register": "0x0670"}}
     },
 
    {
-      "id": 24, "name": "OPA38", "enable": false, "description": "38", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6123, "send_port": 5123, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": {"start_register": "0x0680","last_register": "0x0710"}}
+      "id": 24, "name": "OPA38", "enable": true, "description": "38", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6023, "send_port": 5023, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x0680","last_register": "0x0710"}}
     },
 
    {
-      "id": 25, "name": "OPA67", "enable": false, "description": "67", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6122, "send_port": 5122, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": { "start_register": "0x0720","last_register": "0x07b0"}}
+      "id": 25, "name": "OPA67", "enable": true, "description": "67", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6022, "send_port": 5022, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0720","last_register": "0x07b0"}}
     },
 
    {
-      "id": 26, "name": "OPA93", "enable": false, "description": "93", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6121, "send_port": 5121, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": {"start_register": "0x07c0","last_register": "0x0850"}}
+      "id": 26, "name": "OPA93", "enable": true, "description": "93", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6021, "send_port": 5021, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x07c0","last_register": "0x0850"}}
     },
 
     {
-      "id": 27, "name": "OPA123", "enable": false, "description": "123", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6134, "send_port": 5134, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": {"start_register": "0x0860","last_register": "0x08F0"}}
+      "id": 27, "name": "OPA123", "enable": true, "description": "123", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6034, "send_port": 5034, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x0860","last_register": "0x08F0"}}
     },
 
     {
-      "id": 28, "name": "OPA150", "enable": false, "description": "150", "buffer_size": 1024,
-      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6133, "send_port": 5133, "grain_gap": 10}},
-      "protocol":  { "lib": "libksuts_opa.so", "params": {"start_register": "0x0900","last_register": "0x09A0"}}
+      "id": 28, "name": "OPA150", "enable": true, "description": "150", "buffer_size": 1024,
+      "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6033, "send_port": 5033, "grain_gap": 10}},
+      "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x0900","last_register": "0x09A0"}}
     }
 
   ],
@@ -144,11 +148,6 @@
   "jobs": [
     {
       "id": 1, "name": "OPA signal reserve", "enable": true, "description": "OPA signal reserve",
-      "lib": "libksuts_opa_reserv.so", "params": { "interval": 1000 }
-    },
-
-    {
-      "id": 2, "name": "CAN signal reserve", "enable": true, "description": "CAN signal reserve",
       "lib": "libksuts_opa_reserv.so", "params": { "interval": 1000 }
     }
   ],
@@ -159,45 +158,48 @@
     {
       "group": "12700", "enable": true,
       "signals": [
-        { "group": "Данные шины CAN. Входящие сигналы", "enable": true, "file": "signals_old/CAN.json", "timeout": 3000 },
-        { "group": "CAN. Исходящие сигналы", "enable": true, "file": "signals_old/CAN_OUT.json", "timeout": 0 },
+        { "group": "CAN", "enable": true, 
+          "signals": [
+            { "group": "Входящие сигналы Общие",    "tag": "can", "enable": true, "file": "signals/CAN/CAN.json",         "timeout": 3000 },
+            { "group": "Исходящие сигналы",                       "enable": true, "file": "signals/CAN/new_CAN_OUT.json", "timeout": 0 },
 
-        { "group": "can states", "enable": true, "type": "state",
-          "signals":
-          [
-           { "id": 80000, "name": "CAN0_A8",  "description": "",
-             "master":   {"device": 1, "params": {  "can_entry": 0 }}
-           },
-           { "id": 90000, "name": "CAN1_A9",  "description": "",
-             "master":   {"device": 1, "params": {  "can_entry": 1 }}
-           },
-           { "id": 100000, "name": "CAN0_A10",  "description": "",
-             "master":   {"device": 1, "params": {  "can_entry": 2 }}
-           },
-           { "id": 110000, "name": "CAN1_A11",  "description": "",
-             "master":   {"device": 1, "params": {  "can_entry": 3 }}
-           }
-         ]
-         },
-
+            { "group": "состояния подключений CAN", "enable": true, "type": "state",
+              "signals":
+              [
+                { "id": 80000,  "name": "can_to_lan_7540_A3",  "description": "состояние подключения к преобразователю 7540 A3",
+                  "master":  {"device": 1, "params": {  "can_entry": 0 }}
+                },
+                { "id": 90000,  "name": "can_to_lan_7540_A4",  "description": "состояние подключения к преобразователю 7540 A4",
+                  "master":  {"device": 1, "params": {  "can_entry": 1 }}
+                },
+                { "id": 100000,  "name": "can_to_lan_7540_A5",  "description": "состояние подключения к преобразователю 7540 A5",
+                  "master":  {"device": 1, "params": {  "can_entry": 2 }}
+                },
+                { "id": 110000,  "name": "can_to_lan_7540_A6",  "description": "состояние подключения к преобразователю 7540 A6",
+                  "master":  {"device": 1, "params": {  "can_entry": 3 }}
+                }
+              ]
+            }
+          ]
+        },
 
         { "group": "SKM", "enable": false, "file": "signals/SKM.json", "timeout": 3000 },
-        { "group": "KTV", "enable": false, "file": "signals/KTV.json", "timeout": 3000 },
-        { "group": "OHT", "enable": false, "file": "signals/OHT.json", "timeout": 3000 },
+        { "group": "KTV", "enable": true, "file": "signals/KTV.json", "timeout": 3000 },
+        { "group": "OHT", "enable": true, "file": "signals/OHT.json", "timeout": 3000 },
 
-        { "group": "OPA", "enable": false, "tag": "opa",
+        { "group": "OPA", "enable": true, "tag": "opa",
           "signals":
           [
-            { "group": "OPA_Main", "enable": false,  "timeout": 3000, "file": "signals/OPA/OPA_main.json"  },
-            { "group": "OPA119",   "enable": false,  "timeout": 0,    "file": "signals/OPA/lines/new_119.json" },
-            { "group": "OPA122",   "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_122.json" },
-            { "group": "OPA218",   "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_218.json" },
-            { "group": "OPA8",     "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_8.json"   },
-            { "group": "OPA38",    "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_38.json"  },
-            { "group": "OPA67",    "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_67.json"  },
-            { "group": "OPA93",    "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_93.json"  },
-            { "group": "OPA123",   "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_123.json" },
-            { "group": "OPA150",   "enable": false, "timeout": 0,    "file": "signals/OPA/lines/new_150.json" }
+            { "group": "OPA_Main", "enable": true,  "timeout": 3000, "file": "signals/OPA/OPA_main.json"  },
+            { "group": "OPA119",   "enable": true,  "timeout": 0,    "file": "signals/OPA/lines/new_119.json" },
+            { "group": "OPA122",   "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_122.json" },
+            { "group": "OPA218",   "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_218.json" },
+            { "group": "OPA8",     "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_8.json"   },
+            { "group": "OPA38",    "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_38.json"  },
+            { "group": "OPA67",    "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_67.json"  },
+            { "group": "OPA93",    "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_93.json"  },
+            { "group": "OPA123",   "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_123.json" },
+            { "group": "OPA150",   "enable": true, "timeout": 0,    "file": "signals/OPA/lines/new_150.json" }
           ]
         }
       ]

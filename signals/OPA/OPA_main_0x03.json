@@ -1,0 +1,1157 @@
+{
+    "signals":
+     [
+      {"id": 788, "name": "FI20_MALJAR_KLAD_001", "description":  "Пожарная опасность в Молярной кладовой",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_MALJAR_KLAD_001; C122_FI20_MALJAR_KLAD_001"}},
+       "bindings":
+      [
+        {"device": 100, "params": {"soeg_register": 113, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 113, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 789, "name": "FI20_TAKEL_KLAD_002",  "description":  "Пожарная опасность в Такелажной кладовой",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAKEL_KLAD_002; C122_FI20_TAKEL_KLAD_002"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 114, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 114, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 790, "name": "FI20_FORPIK_003",  "description":  "Пожарная опасность в Форпике",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_FORPIK_003; C122_FI20_FORPIK_003"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 115, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 115, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 791, "name": "FI20_SHKIP_KLAD_004",  "description":  "Пожарная опасность в Шкиперской кладовой",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SHKIP_KLAD_004; C122_FI20_SHKIP_KLAD_004"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 116, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 116, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 792, "name": "FI20_KLAD_SUH_PR_005", "description":  "Пожарная опасность в Клад. сух. пр. и хлеба",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KLAD_SUH_PR_005; C122_FI20_KLAD_SUH_PR_005"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 117, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 117, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 793, "name": "FI20_POM_MOROZ_006", "description":  "Пожарная опасность в Пом. мороз. шкафов",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_MOROZ_006; C122_FI20_POM_MOROZ_006"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 118, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 118, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 794, "name": "FI20_POM_HOLOD_007", "description":  "Пожарная опасность Пом. холод. шкафов",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_HOLOD_007; C122_FI20_POM_HOLOD_007"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 119, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 119, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 795, "name": "FI20_POM_SHHITOV_2_008", "description":  "Пожарная опасность в Помещении щитов №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SHHITOV_2_008; C122_FI20_POM_SHHITOV_2_008"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 120, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 120, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 796, "name": "FI20_POST_PMO_2_009",  "description":  "Пожарная опасность в Посту ПМО №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POST_PMO_2_009; C122_FI20_POST_PMO_2_009"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 121, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 121, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 797, "name": "FI20_TAMBUR_4_010",  "description":  "Пожарная опасность в Тамбуре №4",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_4_010; C122_FI20_TAMBUR_4_010"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 122, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 122, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 798, "name": "FI20_TAMBUR_5_011",  "description":  "Пожарная опасность в Тамбуре №5",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_5_011; C122_FI20_TAMBUR_5_011"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 123, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 123, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 799, "name": "FI20_AGREGAT_PUS_012", "description":  "Пожарная опасность в Агрегатной ПУС",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_AGREGAT_PUS_012; C122_FI20_AGREGAT_PUS_012"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 124, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 124, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 800, "name": "FI20_KLAD_ZIP_1_013",  "description":  "Поажрная опасность в Кладовой ЗИП №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KLAD_ZIP_1_013; C122_FI20_KLAD_ZIP_1_013"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 125, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 125, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 801, "name": "FI20_POM_MEHAN_014", "description":  "Пожарная опасность в Пом. механизмов ПУ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_MEHAN_014; C122_FI20_POM_MEHAN_014"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 126, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 126, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 802, "name": "FI20_POM_TR_PU_015", "description":  "Пожарная опасность в Пом. тр. ПУ и сточ. ц. 1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_TR_PU_015; C122_FI20_POM_TR_PU_015"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 127, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 127, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 803, "name": "FI20_TAMBUR_1_016",  "description":  "Пожарная опасность в Тамбуре №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_1_016; C122_FI20_TAMBUR_1_016"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 128, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 128, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 804, "name": "FI20_ASU_DIEZ_017",  "description":  "Пожарная опасность в АСУ Диез",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_ASU_DIEZ_017; C122_FI20_ASU_DIEZ_017"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 129, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 129, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 805, "name": "FI20_GALUN_MICHM_018", "description":  "Пожарная опасность в Гальюне мичманов",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_GALUN_MICHM_018; C122_FI20_GALUN_MICHM_018"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 130, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 130, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 806, "name": "FI20_KAJUTA_MICHM_1_019",  "description":  "Пожарная опасность в Каюте мичманов №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUTA_MICHM_1_019; C122_FI20_KAJUTA_MICHM_1_019"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 131, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 131, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 807, "name": "FI20_KAJUTA_MICHM_2_020",  "description":  "Пожарная опасность в Каюте мичманов №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUTA_MICHM_2_020; C122_FI20_KAJUTA_MICHM_2_020"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 132, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 132, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 808, "name": "FI20_KORIDOR_1_021", "description":  "Пожарная опасность в Коридоре №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_1_021; C122_FI20_KORIDOR_1_021"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 133, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 133, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 809, "name": "FI20_KORIDOR_2_022", "description":  "Пожарная опасность в Коридоре №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_2_022; C122_FI20_KORIDOR_2_022"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 134, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 134, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 810, "name": "FI20_POM_SHHITOV_3_023", "description":  "Пожарная опасность в Помещении щитов №3",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SHHITOV_3_023; C122_FI20_POM_SHHITOV_3_023"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 135, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 135, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 811, "name": "FI20_POSUDOMOECH_024", "description":  "Пожарная опасность в Посудомоечной",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POSUDOMOECH_024; C122_FI20_POSUDOMOECH_024"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 136, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 136, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 812, "name": "FI20_RAZD_MICHMAN_025",  "description":  "Пожарная опасность в Раздевал. мичманов",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RAZD_MICHMAN_025; C122_FI20_RAZD_MICHMAN_025"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 137, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 137, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 813, "name": "FI20_RUBKA_GIDROAK_026", "description":  "Пожарная опасность в Рубке гидроакустики",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RUBKA_GIDROAK_026; C122_FI20_RUBKA_GIDROAK_026"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 138, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 138, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 814, "name": "FI20_SPEC_ARHIV_027",  "description":  "Пожарная опасность в Спец. архиве",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SPEC_ARHIV_027; C122_FI20_SPEC_ARHIV_027"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 139, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 139, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 815, "name": "FI20_STOLOVAJA_028", "description":  "Пожарная опасность в Столовой",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_STOLOVAJA_028; C122_FI20_STOLOVAJA_028"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 140, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 140, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 816, "name": "FI20_TAMBUR_6_029",  "description":  "Пожарная опасность в Тамбуре №6",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_6_029; C122_FI20_TAMBUR_6_029"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 141, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 141, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 817, "name": "FI20_TAMBUR_7_030",  "description":  "Пожарная опасность в Тамбуре №7",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_7_030; C122_FI20_TAMBUR_7_030"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 142, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 142, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 818, "name": "FI20_TAMBUR_8_031",  "description":  "Пожарная опасность в Тамбуре №8",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_8_031; C122_FI20_TAMBUR_8_031"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 143, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 143, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 819, "name": "FI20_TAMBUR_9_032",  "description":  "Пожарная опасность в Тамбуре №9",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_9_032; C122_FI20_TAMBUR_9_032"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 144, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 144, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 820, "name": "FI20_TP_033",  "description":  "Пожарная опасность в ТП",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TP_033; C122_FI20_TP_033"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 145, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 145, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 821, "name": "FI20_KUBRIK_1_034",  "description":  "Пожарная опасность в Кубрике №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KUBRIK_1_034; C122_FI20_KUBRIK_1_034"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 146, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 146, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 822, "name": "FI20_KUBRIK_2_035",  "description":  "Пожарная опасность в Кубрике №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KUBRIK_2_035; C122_FI20_KUBRIK_2_035"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 147, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 147, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 823, "name": "FI20_POM_SHHITOV_1_036", "description":  "Пожарная опасность в Помещении щитов №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SHHITOV_1_036; C122_FI20_POM_SHHITOV_1_036"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 148, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 148, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 824, "name": "FI20_SANUZEL_1_037", "description":  "Пожарная опасность в Санузле №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SANUZEL_1_037; C122_FI20_SANUZEL_1_037"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 149, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 149, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 825, "name": "FI20_SANUZEL_2_038", "description":  "Пожарная опасность в Санузле №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SANUZEL_2_038; C122_FI20_SANUZEL_2_038"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 150, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 150, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 826, "name": "FI20_TAMBUR_2_039",  "description":  "Пожарная опасность в Тамбуре №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_2_039; C122_FI20_TAMBUR_2_039"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 151, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 151, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 827, "name": "FI20_SHAHTA_GAS_1_040",  "description":  "Пожарная опасность в Шахте ГАС №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SHAHTA_GAS_1_040; C122_FI20_SHAHTA_GAS_1_040"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 152, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 152, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 828, "name": "FI20_AGREG_POU_GAS_041", "description":  "Пожарная опасность в Агрег. ПОУ ГАС",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_AGREG_POU_GAS_041; C122_FI20_AGREG_POU_GAS_041"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 153, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 153, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 829, "name": "FI20_APPARAT_GIDROAK_042", "description":  "Пожарная опасность в Аппарат. гидроакус.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_APPARAT_GIDROAK_042; C122_FI20_APPARAT_GIDROAK_042"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 154, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 154, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 830, "name": "FI20_GIROPOST_043",  "description":  "Пожарная опасновть в Гиропосту",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_GIROPOST_043; C122_FI20_GIROPOST_043"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 155, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 155, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 831, "name": "FI20_P_OBOR_SIS_PRES_044", "description":  "Пожарная опасность в П. обор. сис. прес. воды",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_P_OBOR_SIS_PRES_044; C122_FI20_P_OBOR_SIS_PRES_044"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 156, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 156, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 832, "name": "FI20_POM_SBORA_STOK_045",  "description":  "Пожарная опасновть в Пом. сбора стоков",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SBORA_STOK_045; C122_FI20_POM_SBORA_STOK_045"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 157, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 157, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 833, "name": "FI20_HIMICH_KLAD_046", "description":  "Пожарная опасность в химической кладовой",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_HIMICH_KLAD_046; C122_FI20_HIMICH_KLAD_046"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 158, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 158, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 834, "name": "FI20_KAMBUZ_047",  "description":  "Пожарная опасность в Камбузе",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAMBUZ_047; C122_FI20_KAMBUZ_047"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 159, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 159, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 835, "name": "FI20_KLAD_ZIP_2_048",  "description":  "Пожарная опасность в Кладовой ЗИП №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KLAD_ZIP_2_048; C122_FI20_KLAD_ZIP_2_048"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 160, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 160, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 836, "name": "FI20_KORIDOR_3_049", "description":  "Пожарная опасность в Коридоре №3",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_3_049; C122_FI20_KORIDOR_3_049"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 161, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 161, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 837, "name": "FI20_KPEZH_050", "description":  "Пожарная опасность в КПЭЖе",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KPEZH_050; C122_FI20_KPEZH_050"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 162, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 162, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 838, "name": "FI20_POM_IZD_KDS703_051",  "description":  "Пожарная опасность в Пом. изделия КДС-703",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_IZD_KDS703_051; C122_FI20_POM_IZD_KDS703_051"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 163, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 163, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 839, "name": "FI20_POM_GRSHH_1_052", "description":  "Пожарная опасность в Помещении ГРЩ №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_GRSHH_1_052; C122_FI20_POM_GRSHH_1_052"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 164, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 164, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 840, "name": "FI20_RASH_KLAD_053", "description":  "Пожарная опасность в Расх. клад. камбуза",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RASH_KLAD_053; C122_FI20_RASH_KLAD_053"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 165, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 165, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 841, "name": "FI20_TAMBUR_10_054", "description":  "Пожарная опасность в Тамбуре №10",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_10_054; C122_FI20_TAMBUR_10_054"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 166, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 166, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 842, "name": "FI20_TAMBUR_11_055", "description":  "Пожарная опасность в Тамбуре №11",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_11_055; C122_FI20_TAMBUR_11_055"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 167, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 167, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 843, "name": "FI20_MO_056",  "description":  "Пожарная опасность в МО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_MO_056; C122_FI20_MO_056"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 168, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 168, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 844, "name": "FI20_AGREG_PMO_2_057", "description":  "Пожарная опасность в Агрегатной ПМО №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_AGREG_PMO_2_057; C122_FI20_AGREG_PMO_2_057"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 169, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 169, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 845, "name": "FI20_KORIDOR_5_058", "description":  "Пожарная опасность в Коридоре №5",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_5_058; C122_FI20_KORIDOR_5_058"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 170, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 170, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 846, "name": "FI20_POM_SHHITOV_4_059", "description":  "Пожарная опасность в Помещении щитов №4",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SHHITOV_4_059; C122_FI20_POM_SHHITOV_4_059"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 171, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 171, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 847, "name": "FI20_POST_PMO_1_060",  "description":  "Пожарная опасность в Посту ПМО №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POST_PMO_1_060; C122_FI20_POST_PMO_1_060"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 172, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 172, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 848, "name": "FI20_PRACHECH_061",  "description":  "Пожарная опасность в Прачечной",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_PRACHECH_061; C122_FI20_PRACHECH_061"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 173, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 173, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 849, "name": "FI20_STAN_OHT_1_062",  "description":  "Пожарная опасность в Станции ОХТ №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_STAN_OHT_1_062; C122_FI20_STAN_OHT_1_062"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 174, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 174, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 850, "name": "FI20_SUSHILNAJA_063",  "description":  "Пожарная опасность в Сушильной",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SUSHILNAJA_063; C122_FI20_SUSHILNAJA_063"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 175, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 175, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 851, "name": "FI20_TAMBUR_16_064", "description":  "Пожарная опасность в Тамбуре №16",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_16_064; C122_FI20_TAMBUR_16_064"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 176, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 176, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 852, "name": "FI20_TAMBUR_SHLJUZ_15_065",  "description":  "Пожарная опасность в Тамбур-шлюзе №15",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_SHLJUZ_15_065; C122_FI20_TAMBUR_SHLJUZ_15_065"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 177, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 177, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 853, "name": "FI20_ELLING_BT_066", "description":  "Пожарная опасность в Эллинге БТ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_ELLING_BT_066; C122_FI20_ELLING_BT_066"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 178, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 178, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 854, "name": "FI20_VODOLAZ_KLAD_2_067",  "description":  "Пожарная опасность в Водолазной кладовой №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_VODOLAZ_KLAD_2_067; C122_FI20_VODOLAZ_KLAD_2_067"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 179, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 179, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 855, "name": "FI20_POM_DEZHURNOGO_068",  "description":  "Пожарная опасность в Помещении дежурного",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_DEZHURNOGO_068; C122_FI20_POM_DEZHURNOGO_068"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 180, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 180, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 856, "name": "FI20_TAMBUR_14_69",  "description":  "Пожарная опасность в Тамбуре №14",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_14_69; C122_FI20_TAMBUR_14_69"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 181, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 181, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 857, "name": "FI20_ELLING_SPA_070",  "description":  "Пожарная опасность в Эллинге СПА",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_ELLING_SPA_070; C122_FI20_ELLING_SPA_070"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 182, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 182, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 858, "name": "FI20_VODOLAZ_KLAD_1_071",  "description":  "Пожарная опасность в Водолазной кладовой №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_VODOLAZ_KLAD_1_071; C122_FI20_VODOLAZ_KLAD_1_071"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 183, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 183, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 859, "name": "FI20_POM_NAS_AGREG_072", "description":  "Пожарная опасность в Пом. насос. агрегата",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_NAS_AGREG_072; C122_FI20_POM_NAS_AGREG_072"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 184, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 184, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 860, "name": "FI20_POM_GRSHH_2_073", "description":  "Пожарная опасность в Помещении ГРЩ №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_GRSHH_2_073; C122_FI20_POM_GRSHH_2_073"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 185, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 185, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 861, "name": "FI20_TAMBUR_3_074",  "description":  "Пожарная опасность в Тамбуре №3",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_3_074; C122_FI20_TAMBUR_3_074"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 186, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 186, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 862, "name": "FI20_DGO_075", "description":  "Пожарная опасность в ДГО",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_DGO_075; C122_FI20_DGO_075"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 187, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 187, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 863, "name": "FI20_KORIDOR_4_076", "description":  "Пожарная опасность в Коридоре №4",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_4_076; C122_FI20_KORIDOR_4_076"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 188, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 188, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 864, "name": "FI20_POM_BP_RHR_077",  "description":  "Пожарная опасность в Помещении БП РХР",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_BP_RHR_077; C122_FI20_POM_BP_RHR_077"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 189, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 189, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 865, "name": "FI20_RAZDEV_KOMAND_078", "description":  "Пожарная опасность в Раздев. команды",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RAZDEV_KOMAND_078; C122_FI20_RAZDEV_KOMAND_078"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 190, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 190, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 866, "name": "FI20_SANUZEL_3_079", "description":  "Пожарная опасность в Санузле №3",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SANUZEL_3_079; C122_FI20_SANUZEL_3_079"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 191, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 191, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 867, "name": "FI20_TAMBUR_12_80",  "description":  "Пожарная опасность в Тамбуре №12",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_12_80; C122_FI20_TAMBUR_12_80"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 192, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 192, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 868, "name": "FI20_TAMBUR_13_81",  "description":  "Пожарная опасность в Тамбуре №13",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_13_81; C122_FI20_TAMBUR_13_81"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 193, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 193, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 869, "name": "FI20_SHAHTA_GAZOH_1_082",  "description":  "Пожарная опасность в Шахте газоходов №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SHAHTA_GAZOH_1_082; C122_FI20_SHAHTA_GAZOH_1_082"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 194, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 194, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 870, "name": "FI20_SHAHTA_GAZOH_2_083",  "description":  "Пожарная опасность в Шахте газоходов №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SHAHTA_GAZOH_2_083; C122_FI20_SHAHTA_GAZOH_2_083"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 195, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 195, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 871, "name": "FI20_OVM_084", "description":  "Пожарная опасность в ОВМ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_OVM_084; C122_FI20_OVM_084"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 196, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 196, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 872, "name": "FI20_POM_PPR_085", "description":  "Пожарная опасность в Помещении ППР",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_PPR_085; C122_FI20_POM_PPR_085"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 197, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 197, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 873, "name": "FI20_POM_OBOR_STOCH_SIS_086",  "description":  "Пожарная опасность в П. оборуд. сточ. сист.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_OBOR_STOCH_SIS_086; C122_FI20_POM_OBOR_STOCH_SIS_086"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 198, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 198, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 874, "name": "FI20_AGREGAT_PMO_1_087", "description":  "Пожарная опасность в Агрегатной ПМО №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_AGREGAT_PMO_1_087; C122_FI20_AGREGAT_PMO_1_087"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 199, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 199, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 875, "name": "FI20_KLAD_ASI_088",  "description":  "Пожарная опасность в Кладовой АСИ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KLAD_ASI_088; C122_FI20_KLAD_ASI_088"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 200, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 200, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 876, "name": "FI20_POM_GIDROAGR_089",  "description":  "Пожарная опасность в Пом. гидроагрегатов",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_GIDROAGR_089; C122_FI20_POM_GIDROAGR_089"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 201, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 201, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 877, "name": "FI20_RUMP_OTDEL_090",  "description":  "Пожарная опасность в Румпельном отделении",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RUMP_OTDEL_090; C122_FI20_RUMP_OTDEL_090"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 202, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 202, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 878, "name": "FI20_TRAL_KLAD_091", "description":  "Пожарная опасность в Тральной кладовой",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TRAL_KLAD_091; C122_FI20_TRAL_KLAD_091"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 203, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 203, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 879, "name": "FI20_KAJUTA_KOMAND_092", "description":  "Пожарная опасность в Каюте командира",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUTA_KOMAND_092; C122_FI20_KAJUTA_KOMAND_092"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 204, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 204, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 880, "name": "FI20_KAJUTA_OFICEROV_1_093", "description":  "Пожарная опасность в Каюте офицеров №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUTA_OFICEROV_1_093; C122_FI20_KAJUTA_OFICEROV_1_093"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 205, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 205, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 881, "name": "FI20_KAJUTA_OFICEROV_2_094", "description":  "Пожарная опасность в Каюте офицеров №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUTA_OFICEROV_2_094; C122_FI20_KAJUTA_OFICEROV_2_094"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 206, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 206, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 882, "name": "FI20_KAJUTA_OFICEROV_3_095", "description":  "Пожарная опасность в Каюте офицеров №3",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUTA_OFICEROV_3_095; C122_FI20_KAJUTA_OFICEROV_3_095"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 207, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 207, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 883, "name": "FI20_KAJUT_KOMP_096",  "description":  "Пожарная опасность в Кают-компании",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KAJUT_KOMP_096; C122_FI20_KAJUT_KOMP_096"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 208, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 208, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 884, "name": "FI20_KORIDOR_6_097", "description":  "Пожарная опасность в Коридоре №6",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_6_097; C122_FI20_KORIDOR_6_097"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 209, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 209, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 885, "name": "FI20_KORIDOR_7_098", "description":  "Пожарная опасность в Коридоре №7",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_7_098; C122_FI20_KORIDOR_7_098"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 210, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 210, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 886, "name": "FI20_RADIORUBKA_099",  "description":  "Пожарная опасность в Радиорубке",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RADIORUBKA_099; C122_FI20_RADIORUBKA_099"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 211, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 211, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 887, "name": "FI20_SANUZEL_KOMAND_100",  "description":  "Пожарная опасность в Санузле командира",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SANUZEL_KOMAND_100; C122_FI20_SANUZEL_KOMAND_100"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 212, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 212, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 888, "name": "FI20_STAN_OHT_2_101",  "description":  "Пожарная опасность в Станции ОХТ №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_STAN_OHT_2_101; C122_FI20_STAN_OHT_2_101"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 213, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 213, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 889, "name": "FI20_TAMBUR_17_102", "description":  "Пожарная опасность в Тамбуре №17",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_17_102; C122_FI20_TAMBUR_17_102"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 214, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 214, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 890, "name": "FI20_AKKUMUL_SUD_BAT_103", "description":  "Пожарная опасность в Аккумул. суд. батарей",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_AKKUMUL_SUD_BAT_103; C122_FI20_AKKUMUL_SUD_BAT_103"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 215, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 215, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 891, "name": "FI20_GKP_HKP_104", "description":  "Пожарная опасность в ГКП-ХКП",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_GKP_HKP_104; C122_FI20_GKP_HKP_104"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 216, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 216, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 892, "name": "FI20_KLAD_SIGN_SR_1_105",  "description":  "Пожарная опасность в Клад. сигн. средств №1",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KLAD_SIGN_SR_1_105; C122_FI20_KLAD_SIGN_SR_1_105"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 217, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 217, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 893, "name": "FI20_POM_ZAR_AGREG_106", "description":  "Пожарная опасность в Пом. заряд. агрегата",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_ZAR_AGREG_106; C122_FI20_POM_ZAR_AGREG_106"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 218, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 218, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 894, "name": "FI20_SHTURMAN_POST_107", "description":  "Пожарная опасность в Штурманском посту",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SHTURMAN_POST_107; C122_FI20_SHTURMAN_POST_107"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 219, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 219, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 895, "name": "FI20_AGREGAT_RTS_108", "description":  "Пожарная опасность в Агрегатной РТС",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_AGREGAT_RTS_108; C122_FI20_AGREGAT_RTS_108"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 220, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 220, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 896, "name": "FI20_BUFETNAJA_109", "description":  "Пожарная опасность в Буфетной",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_BUFETNAJA_109; C122_FI20_BUFETNAJA_109"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 221, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 221, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 897, "name": "FI20_GALJUN_OFICEROV_110", "description":  "Пожарная опасность в Гальюне офицеров",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_GALJUN_OFICEROV_110; C122_FI20_GALJUN_OFICEROV_110"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 222, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 222, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 898, "name": "FI20_KORIDOR_8_111", "description":  "Пожарная опасность в Коридоре №8",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KORIDOR_8_111; C122_FI20_KORIDOR_8_111"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 223, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 223, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 899, "name": "FI20_POM_KONDIC_FVU_112",  "description":  "Пожарная опасность в П. кондицион. и ФВУ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_KONDIC_FVU_112; C122_FI20_POM_KONDIC_FVU_112"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 224, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 224, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 900, "name": "FI20_POM_IZD_67_113",  "description":  "Пожарная опасность в Помещении изд. 67",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_IZD_67_113; C122_FI20_POM_IZD_67_113"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 225, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 225, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 901, "name": "FI20_POM_SHHITOV_5_114", "description":  "Пожарная опасность в Помещении щитов №5",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SHHITOV_5_114; C122_FI20_POM_SHHITOV_5_114"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 226, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 226, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 902, "name": "FI20_RAZDEV_OFICEROV_115", "description":  "Пожарная опасность в Раздевал. офицеров",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_RAZDEV_OFICEROV_115; C122_FI20_RAZDEV_OFICEROV_115"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 227, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 227, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 903, "name": "FI20_SPS_116", "description":  "Пожарная опасность в СПС",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SPS_116; C122_FI20_SPS_116"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 228, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 228, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 904, "name": "FI20_TAMBUR_18_117", "description":  "Пожарная опасность в Тамбуре №18",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_18_117; C122_FI20_TAMBUR_18_117"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 229, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 229, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 905, "name": "FI20_TAMBUR_19_118", "description":  "Пожарная опасность в Тамбуре №19",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_TAMBUR_19_118; C122_FI20_TAMBUR_19_118"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 230, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 230, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 906, "name": "FI20_KLAD_SIGN_SR_2_119",  "description":  "Пожарная опасность в Клад. сигн. средств №2",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_KLAD_SIGN_SR_2_119; C122_FI20_KLAD_SIGN_SR_2_119"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 231, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 231, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 907, "name": "FI20_POM_SBORA_TV_OTHOD_120",  "description":  "Пожарная опасность в Пом. сбора тв. отходов",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_SBORA_TV_OTHOD_120; C122_FI20_POM_SBORA_TV_OTHOD_120"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 232, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 232, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 908, "name": "FI20_SHAHTA_GAZOH_3_121",  "description":  "Пожарная опасность в Шахте газоходов №3",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_SHAHTA_GAZOH_3_121; C122_FI20_SHAHTA_GAZOH_3_121"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 233, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 233, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 909, "name": "FI20_POGREB_MIN_TRAL_BZ_122",  "description":  "Пожарная опасность в Погребе мин-трал. б/з",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POGREB_MIN_TRAL_BZ_122; C122_FI20_POGREB_MIN_TRAL_BZ_122; C218_FI20_POGREB_MIN_TRAL_BZ_122_Z; C8_FI20_POGREB_MIN_TRAL_BZ_122_Z"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 234, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 234, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 910, "name": "FI20_POM_STRELKORUZ_123",  "description":  "Пожарная опасность в Пом. стрелк. оружия",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_STRELKORUZ_123; C122_FI20_POM_STRELKORUZ_123; C218_FI20_POM_STRELKORUZ_123_Z; C38_FI20_POM_STRELKORUZ_123_Z"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 235, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 235, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 911, "name": "FI20_POM_BZ_STR_DP64_124", "description":  "Пожарная опасность в Пом. б/з стр. ор. ДП-64",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_BZ_STR_DP64_124; C122_FI20_POM_BZ_STR_DP64_124; C218_FI20_POM_BZ_STR_DP64_124_Z; C67_FI20_POM_BZ_STR_DP64_124_Z"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 236, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 236, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 912, "name": "FI20_PODBASH_OTD_125", "description":  "Пожарная опасность в Подбашенном отд.",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_PODBASH_OTD_125; C122_FI20_PODBASH_OTD_125; C218_FI20_PODBASH_OTD_125_Z; C93_FI20_PODBASH_OTD_125_Z"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 237, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 237, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 913, "name": "FI20_POM_BZ_AK306_126",  "description":  "Пожарная опасность в Пом. б/з АК-306",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_BZ_AK306_126; C122_FI20_POM_BZ_AK306_126; C218_FI20_POM_BZ_AK306_126_Z; C123_FI20_POM_BZ_AK306_126_Z"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 238, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 238, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 914, "name": "FI20_POM_IZD_9K38_127",  "description":  "Пожарная опасность в Помещении изд. 9К38",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_IZD_9K38_127; C122_FI20_POM_IZD_9K38_127; C218_FI20_POM_IZD_9K38_127_Z; C150_FI20_POM_IZD_9K38_127_Z"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 239, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 239, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      },
+      {"id": 2409, "name":  "FI20_POM_NASOS_STAN_KRAN", "description":  "Пожарная опасность в Пом. насос стан кран ",
+           "master": {"job": 1, "params": {"reserve_order": "C119_FI20_POM_NASOS_STAN_KRAN; C122_FI20_POM_NASOS_STAN_KRAN"}},
+       "bindings":
+         [
+        {"device": 100, "params": {"soeg_register": 270, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"device": 101, "params": {"soeg_register": 270, "soeg_offset": 0, "soeg_data_len": 16, "soeg_data_type": "w"}},
+        {"storage": 1}
+         ]
+      }
+     ]
+}
