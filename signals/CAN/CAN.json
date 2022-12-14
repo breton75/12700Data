@@ -1,7 +1,7 @@
 {
 	"signals":
 	[
-		{ "group": "0", "enable": true,
+		{ "group": "0", "enable": false,
 		  "signals":
 		 [
 			{"id": 915,	"name": "FI20_SS1_119",	"description": "Информация о неисправности на линии связи СС1-119",

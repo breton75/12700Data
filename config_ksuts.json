@@ -1,9 +1,12 @@
 {
   "comment for devices": "",
+
   "control": {
-    "index": "test.html",
-    "path": "/home/user/ProjectData/APAK/html",
-    "port": 8000,
+    
+    "port"          : 8000,
+    "applets"       : "lib/applets",
+    "html"          : { "root" : "/home/user/ProjectData/APAK/html",  "index" : "test.html" },
+
     "users": [
       {
         "name": "user",
@@ -20,9 +23,9 @@
 
   "libpath": {
     "interfaces": "lib/interfaces",
-    "jobs": "lib/jobs",
-    "protocols": "lib/protocols",
-    "providers": "lib/providers"
+    "jobs"      : "lib/jobs",
+    "protocols" : "lib/protocols",
+    "providers" : "lib/providers"
   },
 
   "devices": [
@@ -158,7 +161,7 @@
     {
       "group": "12700", "enable": true,
       "signals": [
-        { "group": "CAN", "enable": true, 
+        { "group": "CAN", "enable": false, 
           "signals": [
             { "group": "Входящие сигналы Общие",    "tag": "can", "enable": true, "file": "signals/CAN/CAN.json",         "timeout": 3000 },
             { "group": "Исходящие сигналы",                       "enable": true, "file": "signals/CAN/new_CAN_OUT.json", "timeout": 0 },
@@ -185,7 +188,7 @@
 
         { "group": "SKM", "enable": false, "file": "signals/SKM.json", "timeout": 3000 },
         { "group": "KTV", "enable": true, "file": "signals/KTV.json", "timeout": 3000 },
-        { "group": "OHT", "enable": true, "file": "signals/OHT.json", "timeout": 3000 },
+        { "group": "OHT", "enable": false, "file": "signals/OHT.json", "timeout": 3000 },
 
         { "group": "OPA", "enable": true, "tag": "opa",
           "signals":
