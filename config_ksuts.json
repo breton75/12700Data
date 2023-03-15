@@ -30,7 +30,7 @@
 
   "devices": [
     {
-      "id": 1, "name": "can0A8", "enable": true, "description": "can0 A8", "buffer_size": 1024, 
+      "id": 1, "name": "can0A8", "enable": false, "description": "can0 A8", "buffer_size": 1024, 
       "interface": { "lib": "libtcp_client_multi.so", "params": { "connections":
                                                             [
                                                                 { "enable": true, "can_entry": 0, "port": 10003, "host": "192.168.0.100" },
@@ -81,67 +81,67 @@
     },
 
     {
-      "id": 40, "name": "OHT", "enable": true, "description": "OHT", "buffer_size": 1024,
+      "id": 40, "name": "OHT", "enable": false, "description": "OHT", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.16.0.20", "recv_port": 6032, "send_port": 5032, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_oht.so", "params": { "start_register": "0x0A00", "last_register": "0x0AFF" }}
     },
 
     {
-      "id": 99, "name": "KTV", "enable": true, "description": "KTV", "buffer_size": 1024,
+      "id": 99, "name": "KTV", "enable": false, "description": "KTV", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6012, "send_port": 5012, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_ktv.so", "params": { "dst": 9, "src": 1 }}
     },
     
     {
-      "id": 20, "name": "OPA119", "enable": true, "description": "119", "buffer_size": 1024,
+      "id": 20, "name": "OPA119", "enable": false, "description": "119", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6014, "send_port": 5014, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0400", "last_register": "0x049F" }}
     },
     
     {
-      "id": 21, "name": "OPA122", "enable": true, "description": "122", "buffer_size": 1024,
+      "id": 21, "name": "OPA122", "enable": false, "description": "122", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6031, "send_port": 5031, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x04A0", "last_register": "0x0530"}}
     },
 
    {
-      "id": 22, "name": "OPA218", "enable": true, "description": "218", "buffer_size": 1024,
+      "id": 22, "name": "OPA218", "enable": false, "description": "218", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6011, "send_port": 5011, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0540","last_register": "0x05D0"}}
     },
 
    {
-      "id": 23, "name": "OPA8", "enable": true, "description": "8", "buffer_size": 1024,
+      "id": 23, "name": "OPA8", "enable": false, "description": "8", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6024, "send_port": 5024, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x05e0","last_register": "0x0670"}}
     },
 
    {
-      "id": 24, "name": "OPA38", "enable": true, "description": "38", "buffer_size": 1024,
+      "id": 24, "name": "OPA38", "enable": false, "description": "38", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6023, "send_port": 5023, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x0680","last_register": "0x0710"}}
     },
 
    {
-      "id": 25, "name": "OPA67", "enable": true, "description": "67", "buffer_size": 1024,
+      "id": 25, "name": "OPA67", "enable": false, "description": "67", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6022, "send_port": 5022, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": { "start_register": "0x0720","last_register": "0x07b0"}}
     },
 
    {
-      "id": 26, "name": "OPA93", "enable": true, "description": "93", "buffer_size": 1024,
+      "id": 26, "name": "OPA93", "enable": false, "description": "93", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6021, "send_port": 5021, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x07c0","last_register": "0x0850"}}
     },
 
     {
-      "id": 27, "name": "OPA123", "enable": true, "description": "123", "buffer_size": 1024,
+      "id": 27, "name": "OPA123", "enable": false, "description": "123", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6034, "send_port": 5034, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x0860","last_register": "0x08F0"}}
     },
 
     {
-      "id": 28, "name": "OPA150", "enable": true, "description": "150", "buffer_size": 1024,
+      "id": 28, "name": "OPA150", "enable": false, "description": "150", "buffer_size": 1024,
       "interface": { "lib": "libudp.so", "params": { "host": "192.168.0.20", "recv_port": 6033, "send_port": 5033, "grain_gap": 10}},
       "protocol": { "lib": "libksuts_opa.so", "params": {"start_register": "0x0900","last_register": "0x09A0"}}
     }
@@ -158,8 +158,9 @@
   "providers": [],
 
   "signals": [
-    {
-      "group": "12700", "enable": true,
+    { "group": "SKM", "enable": false, "file": "signals/SKM.json", "timeout": 3000 },
+    
+    { "group": "12700", "enable": true,
       "signals": [
         { "group": "CAN", "enable": false, 
           "signals": [
@@ -186,7 +187,7 @@
           ]
         },
 
-        { "group": "SKM", "enable": false, "file": "signals/SKM.json", "timeout": 3000 },
+        
         { "group": "KTV", "enable": true, "file": "signals/KTV.json", "timeout": 3000 },
         { "group": "OHT", "enable": false, "file": "signals/OHT.json", "timeout": 3000 },
 

@@ -1,0 +1,35 @@
+{
+  "signals": 
+  [
+    { "group": "SKM", "enable": false, "file": "signals/SKM.json", "timeout": 3000 },
+    
+    { "group": "12700", "enable": true,
+      "signals": [
+        { "group": "CAN", "enable": false, 
+          "signals": [
+            { "group": "Входящие сигналы Общие",    "tag": "can", "enable": true, "file": "signals/CAN/CAN.json",         "timeout": 3000 },
+            { "group": "Исходящие сигналы",                       "enable": true, "file": "signals/CAN/new_CAN_OUT.json", "timeout": 0 },
+
+            { "group": "состояния подключений CAN", "enable": true, "type": "state",
+              "signals":
+              [
+                { "id": 80000,  "name": "can_to_lan_7540_A3",  "description": "состояние подключения к преобразователю 7540 A3",
+                  "master":  {"device": 1, "params": {  "can_entry": 0 }}
+                },
+                { "id": 90000,  "name": "can_to_lan_7540_A4",  "description": "состояние подключения к преобразователю 7540 A4",
+                  "master":  {"device": 1, "params": {  "can_entry": 1 }}
+                },
+                { "id": 100000,  "name": "can_to_lan_7540_A5",  "description": "состояние подключения к преобразователю 7540 A5",
+                  "master":  {"device": 1, "params": {  "can_entry": 2 }}
+                },
+                { "id": 110000,  "name": "can_to_lan_7540_A6",  "description": "состояние подключения к преобразователю 7540 A6",
+                  "master":  {"device": 1, "params": {  "can_entry": 3 }}
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
